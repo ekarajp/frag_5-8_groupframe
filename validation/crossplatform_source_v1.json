@@ -1,6 +1,6 @@
 {
   "scope": "Windows source distribution verification; Linux/Windows CI results are separate in GitHub Actions",
-  "unit_tests": 17,
+  "unit_tests": 18,
   "unit_failures": 0,
   "queue_worker": "fake_worker.py only",
   "scientific_source_files_byte_preserved": 107,
@@ -11,6 +11,7 @@
   "legacy_reuse_probe_accepted_points": 3,
   "source_routing_and_unicode_relocation_passed": true,
   "external_interpreter_environment_recording_passed": true,
+  "real_HTTP_idle_startup_and_unauthorized_start_rejection": true,
   "dependency_import_check": "OpenSeesPy 3.5.1.3 / native engine version 3.5.1",
   "analysis_calls": 0,
   "population_started": false,
