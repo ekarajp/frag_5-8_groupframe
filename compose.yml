@@ -1,0 +1,10 @@
+services:
+  fragility:
+    platform: linux/amd64
+    build: .
+    ports:
+      - "127.0.0.1:8788:8788"
+    volumes:
+      - ./state:/app/state
+      - ./runtime_storage:/app/runtime_storage
+    stop_grace_period: 30s

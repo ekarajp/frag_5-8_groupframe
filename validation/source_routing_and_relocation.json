@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "original_location": [
+    {
+      "stories": 5,
+      "source": "C:\\Users\\user\\Documents\\Thesis\\.codex_work\\github_frag_5_8\\src_variants\\5storey",
+      "structural_sha256": "9301314c87717612f04ce09d9bd25cc5807b45be38aed578c7d9395efa96140d",
+      "runtime_storage": "C:\\Users\\user\\Documents\\Thesis\\.codex_work\\github_frag_5_8\\runtime_storage",
+      "root": "C:\\Users\\user\\Documents\\Thesis\\.codex_work\\github_frag_5_8",
+      "solver_imported": false,
+      "native_analyses": 0
+    },
+    {
+      "stories": 6,
+      "source": "C:\\Users\\user\\Documents\\Thesis\\.codex_work\\github_frag_5_8\\src",
+      "structural_sha256": "d7c0563ba8cedfa0ae052d4c38c60338ba934c5b110bb2e91a9188665b1bcf65",
+      "runtime_storage": "C:\\Users\\user\\Documents\\Thesis\\.codex_work\\github_frag_5_8\\runtime_storage",
+      "root": "C:\\Users\\user\\Documents\\Thesis\\.codex_work\\github_frag_5_8",
+      "solver_imported": false,
+      "native_analyses": 0
+    },
+    {
+      "stories": 7,
+      "source": "C:\\Users\\user\\Documents\\Thesis\\.codex_work\\github_frag_5_8\\src",
+      "structural_sha256": "d7c0563ba8cedfa0ae052d4c38c60338ba934c5b110bb2e91a9188665b1bcf65",
+      "runtime_storage": "C:\\Users\\user\\Documents\\Thesis\\.codex_work\\github_frag_5_8\\runtime_storage",
+      "root": "C:\\Users\\user\\Documents\\Thesis\\.codex_work\\github_frag_5_8",
+      "solver_imported": false,
+      "native_analyses": 0
+    },
+    {
+      "stories": 8,
+      "source": "C:\\Users\\user\\Documents\\Thesis\\.codex_work\\github_frag_5_8\\src",
+      "structural_sha256": "d7c0563ba8cedfa0ae052d4c38c60338ba934c5b110bb2e91a9188665b1bcf65",
+      "runtime_storage": "C:\\Users\\user\\Documents\\Thesis\\.codex_work\\github_frag_5_8\\runtime_storage",
+      "root": "C:\\Users\\user\\Documents\\Thesis\\.codex_work\\github_frag_5_8",
+      "solver_imported": false,
+      "native_analyses": 0
+    }
+  ],
+  "relocated_C_drive_Unicode": [
+    {
+      "stories": 5,
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\component58_IO_\u0e44\u0e17\u0e22_5xct4x9c\\src_variants\\5storey",
+      "structural_sha256": "9301314c87717612f04ce09d9bd25cc5807b45be38aed578c7d9395efa96140d",
+      "runtime_storage": "C:\\Users\\user\\AppData\\Local\\Temp\\component58_IO_\u0e44\u0e17\u0e22_5xct4x9c\\runtime_storage",
+      "root": "C:\\Users\\user\\AppData\\Local\\Temp\\component58_IO_\u0e44\u0e17\u0e22_5xct4x9c",
+      "solver_imported": false,
+      "native_analyses": 0
+    },
+    {
+      "stories": 6,
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\component58_IO_\u0e44\u0e17\u0e22_5xct4x9c\\src",
+      "structural_sha256": "d7c0563ba8cedfa0ae052d4c38c60338ba934c5b110bb2e91a9188665b1bcf65",
+      "runtime_storage": "C:\\Users\\user\\AppData\\Local\\Temp\\component58_IO_\u0e44\u0e17\u0e22_5xct4x9c\\runtime_storage",
+      "root": "C:\\Users\\user\\AppData\\Local\\Temp\\component58_IO_\u0e44\u0e17\u0e22_5xct4x9c",
+      "solver_imported": false,
+      "native_analyses": 0
+    }
+  ],
+  "native_analyses": 0,
+  "scope": "Source imports and runtime/cache location only; no solver/analyses"
+}

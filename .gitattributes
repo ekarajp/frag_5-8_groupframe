@@ -1,0 +1,5 @@
+# Preserve frozen scientific/model/GM hashes on every OS, including Windows.
+* -text
+*.sh text eol=lf
+Dockerfile text eol=lf
+*.yml text eol=lf

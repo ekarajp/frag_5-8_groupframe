@@ -1,0 +1,26 @@
+{
+  "QA_only": true,
+  "production_results": false,
+  "relocated_root": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Demo Program 5\\component-ida-v1-2026-10-15\\runner-mesh16\\validation\\component relocation \u0e44\u0e17\u0e22 1792047312675819700",
+  "duration_s": 0.2,
+  "results": [
+    {
+      "stories": 5,
+      "axis": "X",
+      "scale_factor": 1.0,
+      "unscaled_component_sa_g": 2.4245237217969e-05,
+      "raw_global_arrays_bit_exact": true,
+      "no_other_component_run": true,
+      "exit_code": 0
+    },
+    {
+      "stories": 5,
+      "axis": "Y",
+      "scale_factor": 0.5,
+      "unscaled_component_sa_g": 4.849334983520846e-05,
+      "raw_global_arrays_bit_exact": true,
+      "no_other_component_run": true,
+      "exit_code": 0
+    }
+  ]
+}

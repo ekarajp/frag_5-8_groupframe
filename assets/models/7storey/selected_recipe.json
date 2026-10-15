@@ -1,0 +1,493 @@
+{
+  "stories": 7,
+  "variant": "mesh16",
+  "development_variant": "reference_mesh",
+  "candidate_hash": "6a6eefcf3bf6ecfb23c21b1336e417c3fa3a8211178b69dd3cfd27b0015878ac",
+  "model_config": {
+    "damping_ratio": 0.05,
+    "damping_model": "modal",
+    "eigen_solver": "fullGenLapack",
+    "modal_mode_count": 21,
+    "modal_identification_method": "directional_effective_modal_mass_distinct_assignment_v1",
+    "minimum_cumulative_translational_mass_ratio": 0.9,
+    "beam_section_model": "rectangular_no_effective_flange_conservative",
+    "collapse_scope": "flexure_axial_material_and_global_instability_only_excludes_shear_joint_bond_bar_buckling_splice_and_torsional_failure",
+    "fiber_mesh": {
+      "core_y": 16,
+      "core_z": 16,
+      "cover_thickness": 4,
+      "cover_length_y": 16,
+      "cover_length_z": 16,
+      "baseline_id": "baseline_16x16_core"
+    },
+    "gravity_m_s2": 9.80665,
+    "concrete_density_kn_m3": 24.0,
+    "concrete_material": "Concrete01-Hognestad-cover + Concrete04-Mander-confined-core",
+    "hognestad": {
+      "peak_strain": 0.002,
+      "ultimate_strain": 0.0038,
+      "ultimate_strength_ratio": 0.85
+    },
+    "mander_confinement": {
+      "unequal_pressure_rule": "conservative_minimum_effective_lateral_pressure",
+      "transverse_ultimate_strain": 0.12,
+      "minimum_ultimate_strain": 0.0038,
+      "maximum_ultimate_strain": 0.03
+    },
+    "material_detailing": {
+      "clear_cover_m": 0.04,
+      "beam_minimum_clear_bar_spacing_m": 0.025,
+      "nominal_maximum_coarse_aggregate_size_m": 0.02,
+      "beam_clear_spacing_rule": "ACI_CODE_318_25_max_25mm_db_and_4over3_nominal_maximum_aggregate",
+      "beam_maximum_side_bar_spacing_m": 0.3,
+      "beam_hoop_diameter_m": 0.009,
+      "beam_hoop_spacing_m": 0.1,
+      "beam_hoop_legs_each_axis": 2,
+      "column_minimum_clear_bar_spacing_m": 0.04,
+      "column_hoop_diameter_m": 0.009,
+      "column_hoop_spacing_m": 0.1,
+      "column_hoop_legs_x": 2,
+      "column_hoop_legs_y": 2
+    },
+    "concrete_failure_at_epsilon_cu": true,
+    "steel_material": "Hysteretic-trilinear-postpeak-MinMax",
+    "steel_hysteretic": {
+      "elastic_modulus_mpa": 200000.0,
+      "peak_strength_ratio": 1.05,
+      "peak_strain": 0.015,
+      "residual_strength_ratio": 0.2,
+      "residual_strain": 0.08,
+      "failure_strain": 0.1,
+      "pinch_x": 1.0,
+      "pinch_y": 1.0,
+      "damage_ductility": 0.0,
+      "damage_energy": 0.0,
+      "unloading_stiffness_beta": 0.0
+    },
+    "beam_integration": "HingeMidpoint",
+    "beam_integration_rationale": "HingeMidpoint uses the specified physical plastic-hinge length directly and avoids the zero/negative elastic-interior weights produced by HingeRadau when 4(LpI+LpJ)>=L.",
+    "plastic_hinge_length_method": "priestley_1996_contraflexure_expected_strength",
+    "plastic_hinge_shear_span_method": "elastic_reference_m_over_v",
+    "plastic_hinge_reference_load_pattern": "inverted_triangular",
+    "plastic_hinge_minimum_shear_span_ratio": 0.05,
+    "plastic_hinge_maximum_shear_span_ratio": 1.0,
+    "plastic_hinge_column_bidirectional_combination": "geometric_mean",
+    "plastic_hinge_length_factor": 1.0,
+    "plastic_hinge_length_scale_factor": 1.0,
+    "plastic_hinge_expected_strength_factor": 1.25,
+    "element_formulation": "forceBeamColumn",
+    "force_beam_column_max_iterations": 200,
+    "force_beam_column_tolerance": 1e-08,
+    "live_load_mass_fraction": 0.25,
+    "spo_displacement_step_m": 0.005,
+    "spo_min_displacement_step_m": 7.8125e-05,
+    "spo_analysis_guard_max_steps": 10000,
+    "spo_analysis_guard_max_runtime_s": 600.0,
+    "spo_energy_tolerance": 0.05,
+    "spo_pre_capping_energy_tolerance": 0.1,
+    "spo_post_capping_energy_tolerance": 0.1,
+    "spo_normalized_rmse_tolerance": 0.1,
+    "mechanism_sampling_interval_steps": 10,
+    "mechanism_yield_strain_ratio": 1.0,
+    "mechanism_story_column_fraction_threshold": 0.75,
+    "dynamic_instability_drift": 0.04,
+    "dynamic_instability_interpretation": "model-computed drift endpoint; not a complete physical-collapse claim",
+    "midr_combination": "max_component",
+    "research_endpoint_policy": {
+      "policy": "baseline-physics-first-committed-cp-004-v1",
+      "cp_threshold": 0.04,
+      "baseline_transient_source_sha256": "29fc60bb11b2cf2d9fbad9314418f665592cd042a77129da82641265abea38da",
+      "amended_transient_source_sha256": "58c06864ddddb0dfb06bda75194a99c9f5dba8407f01411f896d7991c9396391",
+      "nominal_chunk_steps": 1,
+      "physical_model_changes": false,
+      "study_id": "baseline-physics-cp-first-passage-2026-09-30"
+    }
+  },
+  "building_config": {
+    "stories": 7,
+    "story_height_m": 3.0,
+    "fc_ksc": [
+      240,
+      280,
+      320,
+      360,
+      400
+    ],
+    "number_of_bays": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "bay_width_m": [
+      4.0,
+      6.0,
+      8.0
+    ],
+    "sdl_kg_m2": [
+      0.0,
+      100.0,
+      200.0,
+      300.0
+    ],
+    "ll_kg_m2": [
+      0.0,
+      100.0,
+      200.0,
+      300.0,
+      400.0
+    ],
+    "strength_multipliers": [
+      1.0,
+      1.2,
+      1.4,
+      1.6
+    ],
+    "slab_design": {
+      "system": "regular_square_two_way_panels_supported_by_frame_beams_no_direct_slab_column_transfer",
+      "code_reference": "ACI CODE-318-25 Chapters 8 and 22",
+      "selection_rule": "max_of_aci_minimum_and_one_way_shear_required_thickness",
+      "minimum_thickness": {
+        "method": "ACI_318_25_two_way_exterior_panel_without_drop_panel",
+        "clear_span_basis": "full_centerline_bay_width_used_conservatively",
+        "span_divisor": 30.0,
+        "steel_yield_modifier_denominator_mpa": 1400.0,
+        "absolute_minimum_m": 0.125
+      },
+      "one_way_shear": {
+        "method": "ACI_318_25_member_without_shear_reinforcement_size_effect_SI",
+        "reaction_model": "equal_four_edge_support_reaction_for_square_two_way_panel",
+        "two_way_directional_load_fraction": 0.5,
+        "strength_reduction_factor": 0.75,
+        "normalweight_lambda": 1.0,
+        "assumed_longitudinal_reinforcement_ratio": 0.0018,
+        "strip_width_m": 1.0,
+        "clear_cover_m": 0.02,
+        "assumed_bar_diameter_m": 0.012,
+        "minimum_support_width_m": 0.15,
+        "critical_section": "distance_d_from_face_of_minimum_width_support",
+        "slab_shear_reinforcement": "none"
+      },
+      "construction_increment_m": 0.01,
+      "computational_maximum_thickness_m": 1.0
+    },
+    "beam_section_search": {
+      "method": "adaptive_discrete_expansion_without_physical_maximum",
+      "minimum_width_m": 0.15,
+      "minimum_depth_m": 0.2,
+      "maximum_depth_to_width_ratio": 4.0,
+      "width_increment_m": 0.05,
+      "depth_increment_m": 0.05,
+      "initial_search_width_m": 0.5,
+      "initial_search_depth_m": 1.0,
+      "expansion_width_m": 0.1,
+      "expansion_depth_m": 0.2,
+      "computational_guard_expansions": 25,
+      "bar_diameters_m": [
+        0.012,
+        0.016,
+        0.02,
+        0.025,
+        0.028,
+        0.032
+      ],
+      "maximum_longitudinal_layers_per_face": 3,
+      "minimum_bars_per_layer": 2,
+      "three_layer_minimum_depth_m": 0.5,
+      "longitudinal_diameter_rule": "one_common_diameter_for_top_bottom_and_side_bars",
+      "stirrup_diameters_m": [
+        0.006,
+        0.009,
+        0.012
+      ],
+      "stirrup_spacings_m": [
+        0.075,
+        0.1,
+        0.125,
+        0.15,
+        0.175,
+        0.2,
+        0.25
+      ],
+      "stirrup_leg_options": [
+        2,
+        4
+      ],
+      "transverse_fy_ksc_by_diameter_mm": {
+        "6": 2400.0,
+        "9": 2400.0,
+        "12": 4000.0
+      }
+    },
+    "column_section_search": {
+      "method": "adaptive_discrete_expansion_without_physical_maximum",
+      "shape_constraint": "square_b_equals_h_for_xy_symmetric_archetype",
+      "minimum_size_m": 0.35,
+      "size_increment_m": 0.05,
+      "initial_search_maximum_m": 0.7,
+      "expansion_size_m": 0.1,
+      "computational_guard_expansions": 20,
+      "bar_diameters_m": [
+        0.012,
+        0.016,
+        0.02,
+        0.025,
+        0.028,
+        0.032
+      ],
+      "minimum_bar_count": 8,
+      "bar_count_increment": 4,
+      "hoop_diameters_m": [
+        0.006,
+        0.009,
+        0.012
+      ],
+      "hoop_spacings_m": [
+        0.075,
+        0.1,
+        0.125,
+        0.15,
+        0.175,
+        0.2
+      ],
+      "additional_hoop_leg_options": [
+        0,
+        1,
+        2
+      ],
+      "maximum_lateral_support_spacing_m": 0.15,
+      "transverse_fy_ksc_by_diameter_mm": {
+        "6": 2400.0,
+        "9": 2400.0,
+        "12": 4000.0
+      }
+    },
+    "beam_serviceability": {
+      "method": "Branson_effective_inertia_simply_supported_uniform_load",
+      "immediate_live_deflection_limit_ratio": 360.0,
+      "total_long_term_deflection_limit_ratio": 240.0,
+      "sustained_live_load_fraction": 0.25,
+      "long_term_deflection_multiplier": 2.0
+    },
+    "beam_gravity_moment_coefficients": {
+      "negative_support_wl2": 0.08333333333333333,
+      "positive_midspan_wl2": 0.041666666666666664,
+      "analysis_model": "fixed_fixed_uniform_load",
+      "tributary_width_rule": "equal_panel_edge_reactions_perimeter_bay_over_4_interior_bay_over_2"
+    },
+    "firefly_optimization": {
+      "enabled": true,
+      "population_size": 24,
+      "maximum_iterations": 80,
+      "stall_iterations": 20,
+      "maximum_search_candidates": 128,
+      "beta_zero": 1.0,
+      "gamma": 1.0,
+      "alpha_initial": 0.25,
+      "alpha_decay": 0.97,
+      "multi_start_runs": 5,
+      "exact_optimality_audit": true,
+      "unit_cost_basis": "TPSO_Thai_central_construction_material_cash_prices_June_2569_excluding_VAT_and_transport; Draft5_fc_grid_piecewise_linear_interpolation_or_extrapolation; formwork_research_assumption",
+      "price_snapshot": {
+        "agency": "Trade Policy and Strategy Office, Ministry of Commerce, Thailand",
+        "region_code": "10",
+        "region_name": "ส่วนกลาง (กรุงเทพฯ นนทบุรี ปทุมธานี สมุทรปราการ)",
+        "year_be": 2569,
+        "month": 6,
+        "retrieved_date": "2026-07-24",
+        "price_definition": "cash price excluding VAT and transport",
+        "portal_url": "https://index.tpso.go.th/construction-material-prices/prices-building-materials/10",
+        "api_master_url": "https://index.tpso.go.th/api/cmip/master",
+        "api_filter_url": "https://index.tpso.go.th/api/cmip/filter",
+        "draft5_fc_grid_method": "240 ksc interpolated between official 210 and 280 ksc prices; 280 ksc is official; 320 ksc interpolated between official 280 and 350 ksc prices; 360 and 400 ksc extrapolated using the 280-to-350 slope. Derived prices are fixed research inputs, not directly published items.",
+        "formwork_method": "500 THB/m2 retained as a transparent research assumption because the TPSO material table does not provide a directly comparable reusable RC formwork system cost per contact-area square metre"
+      },
+      "unit_costs": {
+        "concrete_per_m3_by_fc_ksc": {
+          "240": 3075.714285714286,
+          "280": 3190.0,
+          "320": 3338.5714285714284,
+          "360": 3487.1428571428573,
+          "400": 3635.714285714286
+        },
+        "concrete_product_code_by_fc_ksc": {
+          "240": "DERIVED-LINEAR-210-280",
+          "280": "0101010108500000",
+          "320": "DERIVED-LINEAR-280-350",
+          "360": "DERIVED-EXTRAP-280-350",
+          "400": "DERIVED-EXTRAP-280-350"
+        },
+        "longitudinal_steel_per_kg_by_diameter_mm": {
+          "12": 19.3,
+          "16": 19.1,
+          "20": 19.1,
+          "25": 19.1,
+          "28": 19.2,
+          "32": 19.2
+        },
+        "longitudinal_product_code_by_diameter_mm": {
+          "12": "0401020203000000",
+          "16": "0401020203100000",
+          "20": "0401020203200000",
+          "25": "0401020203300000",
+          "28": "0401020203400000",
+          "32": "0401020203500000"
+        },
+        "transverse_steel_per_kg_by_diameter_mm": {
+          "6": 19.95,
+          "9": 19.2,
+          "12": 19.3
+        },
+        "transverse_product_code_by_diameter_mm": {
+          "6": "0401010101500000",
+          "9": "0401010101600000",
+          "12": "0401020203000000"
+        },
+        "formwork_per_m2": 500.0,
+        "steel_density_kg_m3": 7850.0,
+        "transverse_hook_length_bar_diameters": 10.0
+      }
+    },
+    "gravity_strength_combination": {
+      "dead_load_factor": 1.4,
+      "live_load_factor": 1.7,
+      "method": "strength_design",
+      "standard_reference": "Thai DPT Standard มยผ. 1301/1302-61, Revision 1"
+    },
+    "capacity_design_shear": {
+      "enabled": true,
+      "probable_steel_strength_factor": 1.25,
+      "strength_reduction_factor": 0.75,
+      "column_candidate_axial_variation_margin": 1.1,
+      "beam_preselection_clear_span_ratio": 0.85,
+      "beam_demand_rule": "max(tier_factored_gravity_shear, factored_gravity_shear + (Mpr_negative + Mpr_positive)/(bay_width-column_width)); candidate preselection uses 0.85 bay width and every full model is rechecked with its actual clear span",
+      "column_demand_rule": "candidate transverse reinforcement is screened at 1.10x(2Mpr_at_conservative_design_axial/member_length), followed by exact paired-model recheck at the actual factored axial load",
+      "purpose": "screen_flexure_controlled_research_archetypes_before_nonlinear_analysis"
+    },
+    "scwb_research_database": {
+      "acceptance_rule": "minimum non-roof joint sum(Mnc_column)/sum(Mnb_beam) > 1.00",
+      "minimum_ratio": 1.0,
+      "strictly_greater_than_minimum": true,
+      "medium_margin_ratio": 1.5,
+      "high_margin_ratio": 3.0,
+      "code_compliance_claim": false
+    },
+    "steel_fy_ksc": 4000.0,
+    "transverse_steel_fy_ksc": 2400.0,
+    "queue_size": 500
+  },
+  "ida_config": {
+    "analysis_engine": "full3d",
+    "initial_im_g": 0.05,
+    "minimum_im_g": 0.001,
+    "hunt_multiplier": 1.5,
+    "cp_hunt_soft_warning_im_g": 4.0,
+    "maximum_hunt_steps": 40,
+    "scale_factor_review_threshold": 20.0,
+    "maximum_scale_factor_guard": 10000.0,
+    "enforce_maximum_scale_factor_guard": false,
+    "continue_scaling_until_cp": true,
+    "maximum_unresolved_failure_targets": 6,
+    "require_cp_crossing": true,
+    "scaling_policy": "Accuracy-driven hybrid active IDA uses the frozen RF plus SPO only to select IM levels. CMS pairs continue upward until CP=4% MIDR is bracketed; PWSA is a separate as-recorded SF=1 sensitivity and is excluded from primary fragility. A complete successful NLTHA may close an upper bracket. On nonconvergence, the model and completed record history are retained while smaller local steps and alternative algorithms are attempted only at the failing time. A direct drift-limit instability or strict exhausted local-recovery consensus may close only an upper bracket; generic numerical failure is guidance only. IO/LS require a nearby successful lower point, every capacity bracket must be within 5%, and there is no hard point-count cap. Only recovery-level-zero checkpoints from an older recovery policy are reusable.",
+    "bracket_tolerance": 0.05,
+    "component_response_recording": {
+      "enabled": false,
+      "backfill_existing_checkpoints": false,
+      "storage_mode": "compiled_envelope_every_member_end_every_fixed_im",
+      "fema_scope": "FEMA 356 Tables 6-7 and 6-8 flexural primary-component diagnostic within the modeled flexure-controlled RC-frame scope",
+      "full_time_history_policy": "not retained; min, max, and absolute-max envelopes are retained for every member end at every IDA IM"
+    },
+    "controller": {
+      "mode": "hybrid_active_v1",
+      "model_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\6-7 floor\\models\\active_ida_controller_v1.joblib",
+      "model_sha256": "154725ad03dfd7148cc1051dae4f31863740cc37baacc2e9bdbd4e3aaa2c72b8",
+      "use_frozen_surrogate": true,
+      "require_frozen_surrogate": true,
+      "surrogate_blend_weight": 0.65,
+      "prediction_clamp_ratio": [
+        0.5,
+        2.0
+      ],
+      "spo_capacity_ratio_seed": {
+        "IO": 1.2,
+        "LS": 1.56,
+        "CP": 2.55
+      },
+      "seed_lower_io_factor": 0.65,
+      "seed_upper_cp_factor": 1.4,
+      "refinement_strategy": "minimax_log_bisection",
+      "minimum_refinements_per_limit_state": 0,
+      "transition_lower_response_ratio": 0.9,
+      "soft_review_point_count": 18
+    },
+    "limit_state_midr": {
+      "IO": 0.01,
+      "LS": 0.02,
+      "CP": 0.04
+    },
+    "workers": 2,
+    "native_worker_restart_limit": 2,
+    "local_recovery_chunk_steps": 200,
+    "compute_days": 14,
+    "runtime_safety_factor": 1.25,
+    "target_buildings": 50,
+    "planned_full_ida_buildings": 500,
+    "current_target_is_pipeline_only": false,
+    "minimum_pairs_for_fragility": 4
+  },
+  "candidate_definition": {
+    "engine": "fishbone_v5_grouped_2n_batched_recorder",
+    "fishbone_model_overrides": {
+      "fiber_mesh": {
+        "core_y": 16,
+        "core_z": 16,
+        "cover_thickness": 4,
+        "cover_length_y": 16,
+        "cover_length_z": 16,
+        "baseline_id": "baseline_16x16_core"
+      },
+      "force_beam_column_max_iterations": 200
+    },
+    "endpoint_policy": {
+      "cp_threshold": 0.04,
+      "crossing_rule": "first accepted analysis state with max_abs_MIDR >= 0.04",
+      "dynamic_action_at_crossing": "intentional_successful_termination",
+      "dynamic_status_at_crossing": "cp_endpoint_reached",
+      "io_ls_full_record_rule": "If CP is not reached, the complete ground-motion duration must solve for IO/LS capacity use.",
+      "physical_collapse_inference": false,
+      "post_cp_numerical_failure": "post_cp_unloading_unresolved",
+      "pre_cp_numerical_failure": "invalid_numerical_case_not_cp",
+      "response_measure": "maximum absolute interstory drift ratio",
+      "schema_version": "fishbone-first-passage-cp-endpoint-v1",
+      "story_isolation_endpoint_gate": "maximum_selected_story_drift_ratio >= 0.04; completing the subsequent reversal or return-to-zero is not required"
+    },
+    "freeze_hash": "6a6eefcf3bf6ecfb23c21b1336e417c3fa3a8211178b69dd3cfd27b0015878ac",
+    "candidate_model_definition_hash": "6a6eefcf3bf6ecfb23c21b1336e417c3fa3a8211178b69dd3cfd27b0015878ac",
+    "candidate_definition_hash": "6a6eefcf3bf6ecfb23c21b1336e417c3fa3a8211178b69dd3cfd27b0015878ac"
+  },
+  "source_hashes": {
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\consistent-selected-v1\\preregistration.json": "485b046186a851e4b0e1119226f1c3cd58b6b4df6a4c5a67db214ef47cc6d9b2",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\consistent_selected_development_v1.py": "f2f717c6e72767afc89fc4cfc23be5f2de3c43df3e587b007f38bbbed99bdd68",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\runtime-completion-v9\\amendment.json": "80f39be5c5608b6a08e28da197d2483672f236f9132422059bec00ce0275be53",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\runtime_completion_v1.py": "2d4e63d5f5d2918d7303c596bfaaeb27746a1ab25b8182589ebe538bd9063642",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\resume-selected-6-8-v1-2026-10-13\\amendment.json": "67a28b8a52456719c0a19aa42963fbb103bad55a7970a157202bf5132c799411",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\resume_selected_6_8_v1.py": "0afa887225f41e2151ca4c003dcabc8fa8408a30c732adfc3a4bebeab8c63f6b",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\resume68-runtime-completion-v1\\amendment.json": "ee1cd15019c78585619d9a5f71537f70930dc2c80d90f850b4b417ba6e6cca71",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\resume68_runtime_review_overlay_v2.py": "53fff8f3b69006ce8ec067ee259befd3e8dd694baa656629c4c3fb86af14062f"
+  },
+  "build_only": true,
+  "operational_threshold": 0.8,
+  "scientific_qualification_passed": false,
+  "runtime_completion_amendment": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\runtime-completion-v9\\amendment.json",
+  "runtime_completion_amendment_sha256": "80f39be5c5608b6a08e28da197d2483672f236f9132422059bec00ce0275be53",
+  "original_failures_preserved": true,
+  "resumption_scope": [
+    6,
+    7,
+    8
+  ],
+  "human_stop_resumption_amendment": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\resume-selected-6-8-v1-2026-10-13\\amendment.json",
+  "bounded_runtime_completion_amendment": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\resume68-runtime-completion-v1\\amendment.json"
+}

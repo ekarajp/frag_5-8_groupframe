@@ -1,0 +1,180 @@
+{
+  "results": [
+    {
+      "key": "B-4d99932d16812dee--CMS-T3.0-P04-X",
+      "sources": 3,
+      "accepted": 3,
+      "excluded": 0,
+      "population_member": true
+    },
+    {
+      "key": "B-4d99932d16812dee--CMS-T3.0-P04-Y",
+      "sources": 3,
+      "accepted": 3,
+      "excluded": 0,
+      "population_member": true
+    },
+    {
+      "key": "B-4d99932d16812dee--CMS-T0.5-P01-X",
+      "sources": 3,
+      "accepted": 3,
+      "excluded": 0,
+      "population_member": true
+    },
+    {
+      "key": "B-4d99932d16812dee--CMS-T0.5-P01-Y",
+      "sources": 3,
+      "accepted": 3,
+      "excluded": 0,
+      "population_member": true
+    },
+    {
+      "key": "B-dfb5d651ce8fef8c--CMS-T1.0-P01-X",
+      "sources": 3,
+      "accepted": 3,
+      "excluded": 0,
+      "population_member": true
+    },
+    {
+      "key": "B-dfb5d651ce8fef8c--CMS-T1.0-P01-Y",
+      "sources": 3,
+      "accepted": 3,
+      "excluded": 0,
+      "population_member": true
+    },
+    {
+      "key": "B-dfb5d651ce8fef8c--CMS-T3.0-P04-X",
+      "sources": 3,
+      "accepted": 3,
+      "excluded": 0,
+      "population_member": true
+    },
+    {
+      "key": "B-dfb5d651ce8fef8c--CMS-T3.0-P04-Y",
+      "sources": 3,
+      "accepted": 3,
+      "excluded": 0,
+      "population_member": true
+    },
+    {
+      "key": "B-dfb5d651ce8fef8c--CMS-T0.5-P01-X",
+      "sources": 3,
+      "accepted": 3,
+      "excluded": 0,
+      "population_member": true
+    },
+    {
+      "key": "B-dfb5d651ce8fef8c--CMS-T0.5-P01-Y",
+      "sources": 3,
+      "accepted": 3,
+      "excluded": 0,
+      "population_member": true
+    },
+    {
+      "key": "B-4d99932d16812dee--CMS-T1.0-P01-X",
+      "sources": 3,
+      "accepted": 3,
+      "excluded": 0,
+      "population_member": true
+    },
+    {
+      "key": "B-4d99932d16812dee--CMS-T1.0-P01-Y",
+      "sources": 3,
+      "accepted": 3,
+      "excluded": 0,
+      "population_member": true
+    },
+    {
+      "key": "B-e35df7801d1070bd--CMS-T3.0-P04-X",
+      "sources": 3,
+      "accepted": 3,
+      "excluded": 0,
+      "population_member": true
+    },
+    {
+      "key": "B-e35df7801d1070bd--CMS-T3.0-P04-Y",
+      "sources": 3,
+      "accepted": 3,
+      "excluded": 0,
+      "population_member": true
+    },
+    {
+      "key": "B-e35df7801d1070bd--CMS-T1.0-P01-X",
+      "sources": 3,
+      "accepted": 3,
+      "excluded": 0,
+      "population_member": true
+    },
+    {
+      "key": "B-e35df7801d1070bd--CMS-T1.0-P01-Y",
+      "sources": 3,
+      "accepted": 3,
+      "excluded": 0,
+      "population_member": true
+    },
+    {
+      "key": "B-e35df7801d1070bd--CMS-T0.5-P01-X",
+      "sources": 3,
+      "accepted": 3,
+      "excluded": 0,
+      "population_member": true
+    },
+    {
+      "key": "B-e35df7801d1070bd--CMS-T0.5-P01-Y",
+      "sources": 3,
+      "accepted": 3,
+      "excluded": 0,
+      "population_member": true
+    },
+    {
+      "key": "B-e35df7801d1070bd--CMS-T0.2-P04-X",
+      "sources": 3,
+      "accepted": 3,
+      "excluded": 0,
+      "population_member": true
+    },
+    {
+      "key": "B-e35df7801d1070bd--CMS-T0.2-P04-Y",
+      "sources": 3,
+      "accepted": 3,
+      "excluded": 0,
+      "population_member": true
+    },
+    {
+      "key": "B-4d99932d16812dee--CMS-T0.2-P04-X",
+      "sources": 3,
+      "accepted": 3,
+      "excluded": 0,
+      "population_member": true
+    },
+    {
+      "key": "B-4d99932d16812dee--CMS-T0.2-P04-Y",
+      "sources": 3,
+      "accepted": 3,
+      "excluded": 0,
+      "population_member": true
+    },
+    {
+      "key": "B-dfb5d651ce8fef8c--CMS-T0.2-P04-X",
+      "sources": 3,
+      "accepted": 3,
+      "excluded": 0,
+      "population_member": true
+    },
+    {
+      "key": "B-dfb5d651ce8fef8c--CMS-T0.2-P04-Y",
+      "sources": 3,
+      "accepted": 3,
+      "excluded": 0,
+      "population_member": true
+    }
+  ],
+  "groups": 24,
+  "sources": 72,
+  "accepted": 72,
+  "native_analyses": 0,
+  "original_files_edited": 0,
+  "hashes_preserved": true,
+  "component_IM_recomputed": true,
+  "idempotency_passed": true
+}

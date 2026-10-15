@@ -1,0 +1,42 @@
+[
+  {
+    "original": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\.build\\development-tuning-2026-10-11\\consistent-selected-v1\\preregistration.json",
+    "portable": "assets/provenance/6/485b046186a8-preregistration.json",
+    "sha256": "485b046186a851e4b0e1119226f1c3cd58b6b4df6a4c5a67db214ef47cc6d9b2"
+  },
+  {
+    "original": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\.build\\consistent_selected_development_v1.py",
+    "portable": "assets/provenance/6/f2f717c6e727-consistent_selected_development_v1.py",
+    "sha256": "f2f717c6e72767afc89fc4cfc23be5f2de3c43df3e587b007f38bbbed99bdd68"
+  },
+  {
+    "original": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\.build\\development-tuning-2026-10-11\\runtime-completion-v9\\amendment.json",
+    "portable": "assets/provenance/6/80f39be5c560-amendment.json",
+    "sha256": "80f39be5c5608b6a08e28da197d2483672f236f9132422059bec00ce0275be53"
+  },
+  {
+    "original": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\.build\\runtime_completion_v1.py",
+    "portable": "assets/provenance/6/2d4e63d5f5d2-runtime_completion_v1.py",
+    "sha256": "2d4e63d5f5d2918d7303c596bfaaeb27746a1ab25b8182589ebe538bd9063642"
+  },
+  {
+    "original": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\.build\\development-tuning-2026-10-11\\resume-selected-6-8-v1-2026-10-13\\amendment.json",
+    "portable": "assets/provenance/6/67a28b8a5245-amendment.json",
+    "sha256": "67a28b8a52456719c0a19aa42963fbb103bad55a7970a157202bf5132c799411"
+  },
+  {
+    "original": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\.build\\resume_selected_6_8_v1.py",
+    "portable": "assets/provenance/6/0afa887225f4-resume_selected_6_8_v1.py",
+    "sha256": "0afa887225f41e2151ca4c003dcabc8fa8408a30c732adfc3a4bebeab8c63f6b"
+  },
+  {
+    "original": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\.build\\development-tuning-2026-10-11\\resume68-runtime-completion-v1\\amendment.json",
+    "portable": "assets/provenance/6/ee1cd15019c7-amendment.json",
+    "sha256": "ee1cd15019c78585619d9a5f71537f70930dc2c80d90f850b4b417ba6e6cca71"
+  },
+  {
+    "original": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\.build\\resume68_runtime_review_overlay_v2.py",
+    "portable": "assets/provenance/6/53fff8f3b690-resume68_runtime_review_overlay_v2.py",
+    "sha256": "53fff8f3b69006ce8ec067ee259befd3e8dd694baa656629c4c3fb86af14062f"
+  }
+]

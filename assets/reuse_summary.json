@@ -1,0 +1,8 @@
+{
+  "floor5_primary": "latest mesh16",
+  "all_source_observations": 192,
+  "matching_population_observations_before_family_selection": 72,
+  "matching_population_buildings": 3,
+  "committed_historical_cohorts_included": 225,
+  "historical_summaries_are_not_population_results": true
+}

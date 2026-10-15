@@ -1,0 +1,24 @@
+{
+  "schema": "portable-component-5-8-v3",
+  "heights": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "models_per_height": 500,
+  "total_models": 2000,
+  "primary_floor5": "latest mesh16 c270e092a4cda7aed2eeffc3f4b03b177df75ecf47a1a5711f38e00ceb9609da",
+  "curves": "3 pairs -> 6 individual-component IDAs; 4 pairs -> 8",
+  "IM": "Sa_component(T1_direction,5%)",
+  "original_CMS_pairs": 23,
+  "GM_selection": "nearest one installed family including 3.0 sec; no midpoint blend; unfinished Fig5 set not substituted",
+  "legacy_floor5_direction_observations": 192,
+  "compatible_population_buildings": 3,
+  "compatible_observations_before_family_selection": 72,
+  "compatibility": "Exact candidate/building/component/GM/period/hash, full own history or raw own CP endpoint; no unchanged signed failure retry",
+  "no_local_analysis_requested": true,
+  "automatic_start": false,
+  "scientific_recalibration": false,
+  "physical_collapse_claim": false
+}

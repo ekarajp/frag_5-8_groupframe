@@ -1,0 +1,2916 @@
+{
+  "stories": 5,
+  "state": "operational_pass",
+  "development_complete": true,
+  "development_ids": [
+    "B-152d973978be37c8",
+    "B-3161933ddde12cdd",
+    "B-4d99932d16812dee",
+    "B-ca7da63e6c956b1c",
+    "B-dfb5d651ce8fef8c",
+    "B-e168b46de26f1cab",
+    "B-e35df7801d1070bd",
+    "B-fdf078c4d689d4b0"
+  ],
+  "candidate_hash": "c270e092a4cda7aed2eeffc3f4b03b177df75ecf47a1a5711f38e00ceb9609da",
+  "variant": "mesh16",
+  "coverage": {
+    "static": {
+      "expected": 48,
+      "results": 48
+    },
+    "cyclic": {
+      "expected": 32,
+      "results": 32
+    },
+    "dynamic_direction": {
+      "expected": 192,
+      "results": 192
+    }
+  },
+  "cross_match": {
+    "IO": {
+      "matched": 30,
+      "total": 32,
+      "expected": 32,
+      "terminal": 32,
+      "invalid_terminal": 0,
+      "match_rate": 0.9375,
+      "match_over_expected": 0.9375
+    },
+    "LS": {
+      "matched": 29,
+      "total": 31,
+      "expected": 32,
+      "terminal": 32,
+      "invalid_terminal": 1,
+      "match_rate": 0.9354838709677419,
+      "match_over_expected": 0.90625
+    },
+    "CP": {
+      "matched": 25,
+      "total": 25,
+      "expected": 32,
+      "terminal": 32,
+      "invalid_terminal": 7,
+      "match_rate": 1.0,
+      "match_over_expected": 0.78125
+    }
+  },
+  "rows": [
+    {
+      "job": {
+        "id": "new5_pair_076ea20f04bb4d7bf23fe02d",
+        "building_id": "B-152d973978be37c8",
+        "pair_id": "CMS-T1.0-P01",
+        "role": "IO",
+        "im_g": 0.45647470774968707,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T1.0-P01\\im_0p45647471\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T1.0-P01\\im_0p45647471\\full3d.json",
+        "source_signature": "2df98e28ab4b563020af2f71e2fd975ae4f82c3873742cf7739df1d96c498c86"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.006017803083862003,
+      "grouped_midr": 0.0059247683556278895,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_076ea20f04bb4d7bf23fe02d\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T1.0-P01\\im_0p45647471\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_0abd97ba5a3e8ed320f28bf9",
+        "building_id": "B-152d973978be37c8",
+        "pair_id": "CMS-T1.0-P01",
+        "role": "LS",
+        "im_g": 0.5934171200745932,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T1.0-P01\\im_0p59341712\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T1.0-P01\\im_0p59341712\\full3d.json",
+        "source_signature": "aa87216933d93c17ab57b2cb4c55560d66049ffa210046a594ab644db0a4b5bd"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.01682459624524343,
+      "grouped_midr": 0.00888552907752559,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_0abd97ba5a3e8ed320f28bf9\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T1.0-P01\\im_0p59341712\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_d2730d2afddc918ec9f51a4b",
+        "building_id": "B-152d973978be37c8",
+        "pair_id": "CMS-T1.0-P01",
+        "role": "CP",
+        "im_g": 0.9700087539680851,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T1.0-P01\\im_0p97000875\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T1.0-P01\\im_0p97000875\\full3d.json",
+        "source_signature": "014c4770edda3ad73fb73e14c703fec00e058ab3282d63cab1646c1dbb304b23"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "dynamic_instability",
+        "success"
+      ],
+      "full3d_midr": 0.056448109837974464,
+      "grouped_midr": 0.0400152831944674,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        {
+          "time_s": 42.11999999999446,
+          "committed_midr": 0.0400152831944674
+        },
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_d2730d2afddc918ec9f51a4b\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T1.0-P01\\im_0p97000875\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_c853cbf42c7384ea378bcd47",
+        "building_id": "B-152d973978be37c8",
+        "pair_id": "CMS-T3.0-P04",
+        "role": "IO",
+        "im_g": 0.45647470774968707,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T3.0-P04\\im_0p45647471\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T3.0-P04\\im_0p45647471\\full3d.json",
+        "source_signature": "88071ff6bac21643e7e31b65891ec50ba78aa6c5eb5f79a3585585eb905bfdd3"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.01040268530579672,
+      "grouped_midr": 0.007847247662408822,
+      "crossing_match": false,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_c853cbf42c7384ea378bcd47\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T3.0-P04\\im_0p45647471\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_ff1a0b2511b86e6b10341b86",
+        "building_id": "B-152d973978be37c8",
+        "pair_id": "CMS-T3.0-P04",
+        "role": "LS",
+        "im_g": 0.5934171200745932,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T3.0-P04\\im_0p59341712\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T3.0-P04\\im_0p59341712\\full3d.json",
+        "source_signature": "5d2a325a54923b1e01bd57d1732c455d04fe8c23533838068b4e00b2bebe94d5"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "dynamic_instability",
+      "directional_status": [
+        "success",
+        "dynamic_instability"
+      ],
+      "full3d_midr": 0.23183895731060875,
+      "grouped_midr": 0.0404035673192309,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        {
+          "time_s": 117.3999999998932,
+          "committed_midr": 0.0404035673192309
+        }
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_ff1a0b2511b86e6b10341b86\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T3.0-P04\\im_0p59341712\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_3fcbfd517beedf0c499853c3",
+        "building_id": "B-152d973978be37c8",
+        "pair_id": "CMS-T3.0-P04",
+        "role": "CP",
+        "im_g": 0.9700087539680851,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T3.0-P04\\im_0p97000875\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T3.0-P04\\im_0p97000875\\full3d.json",
+        "source_signature": "e7ae4580a5769ab304fa1cc6fd4ba42fcd945655df6a0fcd7dd5bd33f00be389"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "dynamic_instability",
+      "directional_status": [
+        "dynamic_instability",
+        "dynamic_instability"
+      ],
+      "full3d_midr": 0.24827345814487414,
+      "grouped_midr": 0.040561301733638165,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        {
+          "time_s": 81.0399999999263,
+          "committed_midr": 0.040015621440896064
+        },
+        {
+          "time_s": 72.21999999993432,
+          "committed_midr": 0.040561301733638165
+        }
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_3fcbfd517beedf0c499853c3\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T3.0-P04\\im_0p97000875\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_a5e615d8af67bb125714899c",
+        "building_id": "B-152d973978be37c8",
+        "pair_id": "CMS-T0.5-P01",
+        "role": "IO",
+        "im_g": 0.45647470774968707,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T0.5-P01\\im_0p45647471\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T0.5-P01\\im_0p45647471\\full3d.json",
+        "source_signature": "c62bec4b32712d6d78b064da7a573f4e857bf0916a563d9e852e00c52f675448"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.008930589870929978,
+      "grouped_midr": 0.0056722071024257565,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_a5e615d8af67bb125714899c\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T0.5-P01\\im_0p45647471\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_77cb440e654ecf3239a7f456",
+        "building_id": "B-152d973978be37c8",
+        "pair_id": "CMS-T0.5-P01",
+        "role": "LS",
+        "im_g": 0.5934171200745932,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T0.5-P01\\im_0p59341712\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T0.5-P01\\im_0p59341712\\full3d.json",
+        "source_signature": "18e08713b8c327af63e026ed368d42b49c408f33cd4e9abf8aa6890db732b0dd"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.015993064155574773,
+      "grouped_midr": 0.016294777392776526,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_77cb440e654ecf3239a7f456\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T0.5-P01\\im_0p59341712\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_8783408b8a0aa5c84d765971",
+        "building_id": "B-152d973978be37c8",
+        "pair_id": "CMS-T0.5-P01",
+        "role": "CP",
+        "im_g": 0.9700087539680851,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T0.5-P01\\im_0p97000875\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T0.5-P01\\im_0p97000875\\full3d.json",
+        "source_signature": "f98e2a58ffdc22d4af3cba359960606374ea65fdfac3b404de61d448285c7fb7"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.034059362162920756,
+      "grouped_midr": 0.03618794402402434,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_8783408b8a0aa5c84d765971\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T0.5-P01\\im_0p97000875\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_6569aa4bad083f2039bb4e88",
+        "building_id": "B-152d973978be37c8",
+        "pair_id": "CMS-T0.2-P04",
+        "role": "IO",
+        "im_g": 0.45647470774968707,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T0.2-P04\\im_0p45647471\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T0.2-P04\\im_0p45647471\\full3d.json",
+        "source_signature": "fec65cb89f21e1ef332e5c147c64eeb8b9f8500c82821d13de143053a68fd515"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.004315773753041956,
+      "grouped_midr": 0.0044384176172266405,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_6569aa4bad083f2039bb4e88\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T0.2-P04\\im_0p45647471\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_cca3f04f614ac3087bbd8da4",
+        "building_id": "B-152d973978be37c8",
+        "pair_id": "CMS-T0.2-P04",
+        "role": "LS",
+        "im_g": 0.5934171200745932,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T0.2-P04\\im_0p59341712\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T0.2-P04\\im_0p59341712\\full3d.json",
+        "source_signature": "d65b32f6d001255873a7e406326db8fedc791b176c950b0da4fc9f3d8e0e9619"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.005013787458897817,
+      "grouped_midr": 0.005138829453076752,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_cca3f04f614ac3087bbd8da4\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T0.2-P04\\im_0p59341712\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_b2ef5b761c23dabe5f3451b3",
+        "building_id": "B-152d973978be37c8",
+        "pair_id": "CMS-T0.2-P04",
+        "role": "CP",
+        "im_g": 0.9700087539680851,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T0.2-P04\\im_0p97000875\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T0.2-P04\\im_0p97000875\\full3d.json",
+        "source_signature": "6116b27e50628ececc49ac2f3281947f9f6426c348abd27688ce3174a2b0ee2e"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.006504373592771939,
+      "grouped_midr": 0.006868771839852776,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_b2ef5b761c23dabe5f3451b3\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-152d973978be37c8\\CMS-T0.2-P04\\im_0p97000875\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_161ee0a004be2fe610180990",
+        "building_id": "B-3161933ddde12cdd",
+        "pair_id": "CMS-T1.0-P01",
+        "role": "IO",
+        "im_g": 0.25518396443585245,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T1.0-P01\\im_0p25518396\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T1.0-P01\\im_0p25518396\\full3d.json",
+        "source_signature": "3781bd064b8c8c201d1ef6e76835892bb2a9f2e30307cfe33999be63395e40b6"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.007584636526737556,
+      "grouped_midr": 0.007780852786731035,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_161ee0a004be2fe610180990\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T1.0-P01\\im_0p25518396\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_9fa0a8858e95a6f40274b6ab",
+        "building_id": "B-3161933ddde12cdd",
+        "pair_id": "CMS-T1.0-P01",
+        "role": "LS",
+        "im_g": 0.3317391537666082,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T1.0-P01\\im_0p33173915\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T1.0-P01\\im_0p33173915\\full3d.json",
+        "source_signature": "0aa5aa1a12b3790fd186ff17681d7bbb446ed0785afed72554ae3016332c7831"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.010990597036646682,
+      "grouped_midr": 0.01021633843357784,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_9fa0a8858e95a6f40274b6ab\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T1.0-P01\\im_0p33173915\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_4004c44505c7b38be96a234a",
+        "building_id": "B-3161933ddde12cdd",
+        "pair_id": "CMS-T1.0-P01",
+        "role": "CP",
+        "im_g": 0.5422659244261864,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T1.0-P01\\im_0p54226592\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T1.0-P01\\im_0p54226592\\full3d.json",
+        "source_signature": "dd6e02bcd3e181cac680ccad4f5084c01fa90ce7b7923897c06eb8e438083283"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.014963278456500235,
+      "grouped_midr": 0.015007294810779066,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_4004c44505c7b38be96a234a\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T1.0-P01\\im_0p54226592\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_5b3f5095f7abd41835cdda5a",
+        "building_id": "B-3161933ddde12cdd",
+        "pair_id": "CMS-T3.0-P04",
+        "role": "IO",
+        "im_g": 0.25518396443585245,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T3.0-P04\\im_0p25518396\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T3.0-P04\\im_0p25518396\\full3d.json",
+        "source_signature": "67d98c6a605a26b131007fb07077e9bd4c4e090687fae2873f8910be3bc00e7d"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.009458984234667893,
+      "grouped_midr": 0.009513608024098846,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_5b3f5095f7abd41835cdda5a\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T3.0-P04\\im_0p25518396\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_5f00922c2020e80ff7bb1975",
+        "building_id": "B-3161933ddde12cdd",
+        "pair_id": "CMS-T3.0-P04",
+        "role": "LS",
+        "im_g": 0.3317391537666082,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T3.0-P04\\im_0p33173915\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T3.0-P04\\im_0p33173915\\full3d.json",
+        "source_signature": "68cd4051353e1834e6c91982b25b15221dd400f460e6e6b427a11d1d4182e802"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.013990159011538265,
+      "grouped_midr": 0.013052967894075396,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_5f00922c2020e80ff7bb1975\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T3.0-P04\\im_0p33173915\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_a961ee3a80016120c2eb6343",
+        "building_id": "B-3161933ddde12cdd",
+        "pair_id": "CMS-T3.0-P04",
+        "role": "CP",
+        "im_g": 0.5422659244261864,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T3.0-P04\\im_0p54226592\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T3.0-P04\\im_0p54226592\\full3d.json",
+        "source_signature": "6793702bd926cf8c171eb5d0b972b040880b473b49b5d900710aa68f329f3cd0"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "dynamic_instability",
+      "directional_status": [
+        "dynamic_instability",
+        "dynamic_instability"
+      ],
+      "full3d_midr": 0.19528308037950567,
+      "grouped_midr": 0.040117713241679134,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        {
+          "time_s": 109.8099999999001,
+          "committed_midr": 0.0403680140013145
+        },
+        {
+          "time_s": 88.58999999991943,
+          "committed_midr": 0.040117713241679134
+        }
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_a961ee3a80016120c2eb6343\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T3.0-P04\\im_0p54226592\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_eec729573d73d22a57fb8b22",
+        "building_id": "B-3161933ddde12cdd",
+        "pair_id": "CMS-T0.5-P01",
+        "role": "IO",
+        "im_g": 0.25518396443585245,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T0.5-P01\\im_0p25518396\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T0.5-P01\\im_0p25518396\\full3d.json",
+        "source_signature": "f14d4dd9b9ab2c57890b94caee35d6cc2042821265816be96142c5dafba77079"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.008117203560701057,
+      "grouped_midr": 0.00864320931493384,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_eec729573d73d22a57fb8b22\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T0.5-P01\\im_0p25518396\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_aa4fa3e7c12c65ded76b9266",
+        "building_id": "B-3161933ddde12cdd",
+        "pair_id": "CMS-T0.5-P01",
+        "role": "LS",
+        "im_g": 0.3317391537666082,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T0.5-P01\\im_0p33173915\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T0.5-P01\\im_0p33173915\\full3d.json",
+        "source_signature": "1a85efa1696c298f5fdff83761560d3aa232945d0ddb763e7e71270dd52249bc"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.008945313395404135,
+      "grouped_midr": 0.00971382939277867,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_aa4fa3e7c12c65ded76b9266\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T0.5-P01\\im_0p33173915\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_0fb998f0954f3d141da7caaa",
+        "building_id": "B-3161933ddde12cdd",
+        "pair_id": "CMS-T0.5-P01",
+        "role": "CP",
+        "im_g": 0.5422659244261864,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T0.5-P01\\im_0p54226592\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T0.5-P01\\im_0p54226592\\full3d.json",
+        "source_signature": "277f0167f1e00183244ca1ab7b7588746ec3cd06bdb1ffb665581f98aa41dc5c"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.013492821949362402,
+      "grouped_midr": 0.014153068358769083,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_0fb998f0954f3d141da7caaa\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T0.5-P01\\im_0p54226592\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_70ca2db82221c769d3f80f18",
+        "building_id": "B-3161933ddde12cdd",
+        "pair_id": "CMS-T0.2-P04",
+        "role": "IO",
+        "im_g": 0.25518396443585245,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T0.2-P04\\im_0p25518396\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T0.2-P04\\im_0p25518396\\full3d.json",
+        "source_signature": "8d96f8de0962e8539fcf62e661ce35e6fd7bad508aa9274aa931150a255f7090"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.009075729452815713,
+      "grouped_midr": 0.009281938040789044,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_70ca2db82221c769d3f80f18\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T0.2-P04\\im_0p25518396\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_504b6f16ec8c45daa7bca8e6",
+        "building_id": "B-3161933ddde12cdd",
+        "pair_id": "CMS-T0.2-P04",
+        "role": "LS",
+        "im_g": 0.3317391537666082,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T0.2-P04\\im_0p33173915\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T0.2-P04\\im_0p33173915\\full3d.json",
+        "source_signature": "a9a525a64fe7db023cc4619958aaa6fae442f1d96f0e8125d7734ec6dd2ddc44"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.010802107045582583,
+      "grouped_midr": 0.010758222272076089,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_504b6f16ec8c45daa7bca8e6\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T0.2-P04\\im_0p33173915\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_821542c104d08025ebf59968",
+        "building_id": "B-3161933ddde12cdd",
+        "pair_id": "CMS-T0.2-P04",
+        "role": "CP",
+        "im_g": 0.5422659244261864,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T0.2-P04\\im_0p54226592\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T0.2-P04\\im_0p54226592\\full3d.json",
+        "source_signature": "02ab9fe9dd9117caa0b35a5680a37d0ac66956186af05590b6198576896e0991"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.019913448124600386,
+      "grouped_midr": 0.020288838860089014,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_821542c104d08025ebf59968\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-3161933ddde12cdd\\CMS-T0.2-P04\\im_0p54226592\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_32eb74edfc16e301de609f04",
+        "building_id": "B-4d99932d16812dee",
+        "pair_id": "CMS-T1.0-P01",
+        "role": "IO",
+        "im_g": 0.1918582777447739,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T1.0-P01\\im_0p19185828\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T1.0-P01\\im_0p19185828\\full3d.json",
+        "source_signature": "d96b7470e666432617e331c3b7c974a5e792980e8cd760e09e68451eaa877f07"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.00603594285500728,
+      "grouped_midr": 0.006075731389245688,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_32eb74edfc16e301de609f04\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T1.0-P01\\im_0p19185828\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_9024ad62a136db0672cc6898",
+        "building_id": "B-4d99932d16812dee",
+        "pair_id": "CMS-T1.0-P01",
+        "role": "LS",
+        "im_g": 0.2494157610682061,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T1.0-P01\\im_0p24941576\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T1.0-P01\\im_0p24941576\\full3d.json",
+        "source_signature": "0fc077ddfd4ddaf70a7c1ee3d3cdbbc858aa4c126d79672e9ba4e624d5ef7855"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.00806827177189104,
+      "grouped_midr": 0.007697889781455019,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_9024ad62a136db0672cc6898\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T1.0-P01\\im_0p24941576\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_6d930cb60ce6d8572f87f778",
+        "building_id": "B-4d99932d16812dee",
+        "pair_id": "CMS-T1.0-P01",
+        "role": "CP",
+        "im_g": 0.4076988402076446,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T1.0-P01\\im_0p40769884\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T1.0-P01\\im_0p40769884\\full3d.json",
+        "source_signature": "a6fef821b2964e899c2cd7621a3599624268cf3f282064b54fdc1ee3406bdf94"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.018964967946940903,
+      "grouped_midr": 0.01568693687707881,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_6d930cb60ce6d8572f87f778\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T1.0-P01\\im_0p40769884\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_04bcd89e8223de9d5fbbcbed",
+        "building_id": "B-4d99932d16812dee",
+        "pair_id": "CMS-T3.0-P04",
+        "role": "IO",
+        "im_g": 0.1918582777447739,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T3.0-P04\\im_0p19185828\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T3.0-P04\\im_0p19185828\\full3d.json",
+        "source_signature": "4c87f620a6758900341b825ee7732c88bd86b16179188b99722253d13292d3de"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.006857746674505551,
+      "grouped_midr": 0.006525261364226143,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_04bcd89e8223de9d5fbbcbed\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T3.0-P04\\im_0p19185828\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_2fad473e78143ee51c5695c3",
+        "building_id": "B-4d99932d16812dee",
+        "pair_id": "CMS-T3.0-P04",
+        "role": "LS",
+        "im_g": 0.2494157610682061,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T3.0-P04\\im_0p24941576\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T3.0-P04\\im_0p24941576\\full3d.json",
+        "source_signature": "5ba48160a46717667482d28e6211b52b44957a18af66f63a91f2a6aff51eb4e6"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.010713141355685123,
+      "grouped_midr": 0.00992835321519977,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_2fad473e78143ee51c5695c3\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T3.0-P04\\im_0p24941576\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_fa2ba127f52f43c3c40bcab3",
+        "building_id": "B-4d99932d16812dee",
+        "pair_id": "CMS-T3.0-P04",
+        "role": "CP",
+        "im_g": 0.4076988402076446,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T3.0-P04\\im_0p40769884\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T3.0-P04\\im_0p40769884\\full3d.json",
+        "source_signature": "e65969d31f8af5f0e13dbe5136f36b1ca040a6e7cea34c5e923f98979cb63d60"
+      },
+      "terminal": true,
+      "usable": false,
+      "full3d_status": "numerical_failure",
+      "directional_status": [
+        "dynamic_instability",
+        "dynamic_instability"
+      ],
+      "full3d_midr": 0.0335391035692297,
+      "grouped_midr": 0.0404807985028134,
+      "crossing_match": null,
+      "raw_cp_proofs": [
+        {
+          "time_s": 110.8699999998992,
+          "committed_midr": 0.0412944732289358
+        },
+        {
+          "time_s": 81.32999999992603,
+          "committed_midr": 0.0404807985028134
+        }
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_fa2ba127f52f43c3c40bcab3\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T3.0-P04\\im_0p40769884\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_99a0081f55695067f2b111a5",
+        "building_id": "B-4d99932d16812dee",
+        "pair_id": "CMS-T0.5-P01",
+        "role": "IO",
+        "im_g": 0.1918582777447739,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T0.5-P01\\im_0p19185828\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T0.5-P01\\im_0p19185828\\full3d.json",
+        "source_signature": "a6b5655de29addbdb726943d3a9e15a008f8c7067c117f31edf2263c0873a40b"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.00596483892763697,
+      "grouped_midr": 0.006798259178983753,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_99a0081f55695067f2b111a5\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T0.5-P01\\im_0p19185828\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_12bf8c12abca265e00ad9460",
+        "building_id": "B-4d99932d16812dee",
+        "pair_id": "CMS-T0.5-P01",
+        "role": "LS",
+        "im_g": 0.2494157610682061,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T0.5-P01\\im_0p24941576\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T0.5-P01\\im_0p24941576\\full3d.json",
+        "source_signature": "d961eea5ee18cb20967ac0ee03921182db0e12aee3475a302b096ead8dabc435"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.006790452189721561,
+      "grouped_midr": 0.008534858182107764,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_12bf8c12abca265e00ad9460\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T0.5-P01\\im_0p24941576\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_1ae7ebc925a447dcc4f5f1d0",
+        "building_id": "B-4d99932d16812dee",
+        "pair_id": "CMS-T0.5-P01",
+        "role": "CP",
+        "im_g": 0.4076988402076446,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T0.5-P01\\im_0p40769884\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T0.5-P01\\im_0p40769884\\full3d.json",
+        "source_signature": "cad77fab82cd148247ee112a66ed4bbe83e87192b52980e7acdc702800889ae6"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.010681854810684718,
+      "grouped_midr": 0.010955643551208769,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_1ae7ebc925a447dcc4f5f1d0\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T0.5-P01\\im_0p40769884\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_70c862a490dd21ad6632a8c4",
+        "building_id": "B-4d99932d16812dee",
+        "pair_id": "CMS-T0.2-P04",
+        "role": "IO",
+        "im_g": 0.1918582777447739,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T0.2-P04\\im_0p19185828\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T0.2-P04\\im_0p19185828\\full3d.json",
+        "source_signature": "41d73386dad4a6b5a66268db6279072886f0cd971d73624d91d1e365095e7f4e"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.0067012449012178454,
+      "grouped_midr": 0.006705022619249157,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_70c862a490dd21ad6632a8c4\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T0.2-P04\\im_0p19185828\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_aaaff08d7f25adbcbf01e77a",
+        "building_id": "B-4d99932d16812dee",
+        "pair_id": "CMS-T0.2-P04",
+        "role": "LS",
+        "im_g": 0.2494157610682061,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T0.2-P04\\im_0p24941576\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T0.2-P04\\im_0p24941576\\full3d.json",
+        "source_signature": "2a4740d8bb99bd56009a7fa247b7f96284363293e8a5452107c114110277a0a4"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.008771328166294425,
+      "grouped_midr": 0.008976165511083592,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_aaaff08d7f25adbcbf01e77a\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T0.2-P04\\im_0p24941576\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_656e859b78bf5bfc8bb7eb93",
+        "building_id": "B-4d99932d16812dee",
+        "pair_id": "CMS-T0.2-P04",
+        "role": "CP",
+        "im_g": 0.4076988402076446,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T0.2-P04\\im_0p40769884\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T0.2-P04\\im_0p40769884\\full3d.json",
+        "source_signature": "856a6793537bae176b00da16eb4383bfc304a2cd058918e3cb76b6a70a5a3b75"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.011933295142184627,
+      "grouped_midr": 0.012508502211939942,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_656e859b78bf5bfc8bb7eb93\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-4d99932d16812dee\\CMS-T0.2-P04\\im_0p40769884\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_0ade6281ab36d11f0b25c839",
+        "building_id": "B-ca7da63e6c956b1c",
+        "pair_id": "CMS-T1.0-P01",
+        "role": "IO",
+        "im_g": 0.3693310615789959,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T1.0-P01\\im_0p36933106\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T1.0-P01\\im_0p36933106\\full3d.json",
+        "source_signature": "49326c6a69f3a45a3f4f01d2c6106f3044d534e225f0be612c80fd3dc7f30be6"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.00556847711424104,
+      "grouped_midr": 0.005483207945735866,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_0ade6281ab36d11f0b25c839\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T1.0-P01\\im_0p36933106\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_a7bb7e2ed9b55874608ffe99",
+        "building_id": "B-ca7da63e6c956b1c",
+        "pair_id": "CMS-T1.0-P01",
+        "role": "LS",
+        "im_g": 0.4801303800526947,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T1.0-P01\\im_0p48013038\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T1.0-P01\\im_0p48013038\\full3d.json",
+        "source_signature": "7c104136f89bc66affb53a576fbb9b64f19964bb6af979bc4ff321eb017704f0"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.009521440694961563,
+      "grouped_midr": 0.009281505161709403,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_a7bb7e2ed9b55874608ffe99\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T1.0-P01\\im_0p48013038\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_775b91c332aa970c609e2ab3",
+        "building_id": "B-ca7da63e6c956b1c",
+        "pair_id": "CMS-T1.0-P01",
+        "role": "CP",
+        "im_g": 0.7848285058553663,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T1.0-P01\\im_0p78482851\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T1.0-P01\\im_0p78482851\\full3d.json",
+        "source_signature": "f3c1adabb8349318d406c3d02b0ce0514e9df375a9b20846ceaa2f0fbad4eb06"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.03251731240172492,
+      "grouped_midr": 0.031349985303834434,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_775b91c332aa970c609e2ab3\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T1.0-P01\\im_0p78482851\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_b0c838839468cf60975a6d19",
+        "building_id": "B-ca7da63e6c956b1c",
+        "pair_id": "CMS-T3.0-P04",
+        "role": "IO",
+        "im_g": 0.3693310615789959,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T3.0-P04\\im_0p36933106\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T3.0-P04\\im_0p36933106\\full3d.json",
+        "source_signature": "670461943336d88bccb0ebb45b4ca9e33b8b5577d76926f60ebbfa4c47e257fd"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.007627039548149396,
+      "grouped_midr": 0.007554506195179758,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_b0c838839468cf60975a6d19\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T3.0-P04\\im_0p36933106\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_345a8af441caa14de2e48d2e",
+        "building_id": "B-ca7da63e6c956b1c",
+        "pair_id": "CMS-T3.0-P04",
+        "role": "LS",
+        "im_g": 0.4801303800526947,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T3.0-P04\\im_0p48013038\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T3.0-P04\\im_0p48013038\\full3d.json",
+        "source_signature": "af330cad318cf2c639af02294e94da24fc765df5278a256c5ef530d04ca9a3c2"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.0379208473058133,
+      "grouped_midr": 0.01158422603737863,
+      "crossing_match": false,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_345a8af441caa14de2e48d2e\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T3.0-P04\\im_0p48013038\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_31bd74d865b60e4ff580d780",
+        "building_id": "B-ca7da63e6c956b1c",
+        "pair_id": "CMS-T3.0-P04",
+        "role": "CP",
+        "im_g": 0.7848285058553663,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T3.0-P04\\im_0p78482851\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T3.0-P04\\im_0p78482851\\full3d.json",
+        "source_signature": "bd0d4e6a16e65fec04c723e01daa7dc79244ff3715274840aca02f4870aaee43"
+      },
+      "terminal": true,
+      "usable": false,
+      "full3d_status": "numerical_failure",
+      "directional_status": [
+        "dynamic_instability",
+        "dynamic_instability"
+      ],
+      "full3d_midr": 0.12167536215634633,
+      "grouped_midr": 0.040210111903558596,
+      "crossing_match": null,
+      "raw_cp_proofs": [
+        {
+          "time_s": 90.9299999999173,
+          "committed_midr": 0.040228255219278274
+        },
+        {
+          "time_s": 72.32999999993422,
+          "committed_midr": 0.040210111903558596
+        }
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_31bd74d865b60e4ff580d780\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T3.0-P04\\im_0p78482851\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_6d52207f4882d9dc94494907",
+        "building_id": "B-ca7da63e6c956b1c",
+        "pair_id": "CMS-T0.5-P01",
+        "role": "IO",
+        "im_g": 0.3693310615789959,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T0.5-P01\\im_0p36933106\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T0.5-P01\\im_0p36933106\\full3d.json",
+        "source_signature": "a5ec588100f4f7a1ddba164678566b38edfba82cf8139cd1f394dfefa0c0340b"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.006129940920486723,
+      "grouped_midr": 0.00573178493533569,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_6d52207f4882d9dc94494907\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T0.5-P01\\im_0p36933106\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_3abdc129cda5b3c7826b096d",
+        "building_id": "B-ca7da63e6c956b1c",
+        "pair_id": "CMS-T0.5-P01",
+        "role": "LS",
+        "im_g": 0.4801303800526947,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T0.5-P01\\im_0p48013038\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T0.5-P01\\im_0p48013038\\full3d.json",
+        "source_signature": "fb83c1acbdd103111bf27ac9e1171b921bd73bc5fb1b8ac3746b9686940f506f"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.011299292622397733,
+      "grouped_midr": 0.010271682648796887,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_3abdc129cda5b3c7826b096d\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T0.5-P01\\im_0p48013038\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_ac9000dc6f51d497e011441c",
+        "building_id": "B-ca7da63e6c956b1c",
+        "pair_id": "CMS-T0.5-P01",
+        "role": "CP",
+        "im_g": 0.7848285058553663,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T0.5-P01\\im_0p78482851\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T0.5-P01\\im_0p78482851\\full3d.json",
+        "source_signature": "48522bdec5fcd25d8f6b61000ae8ea6dbf960754d943159ce58b38690dcd9081"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.0187681626774765,
+      "grouped_midr": 0.017837925866153962,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_ac9000dc6f51d497e011441c\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T0.5-P01\\im_0p78482851\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_cc124f1ba1eebb98eaf24114",
+        "building_id": "B-ca7da63e6c956b1c",
+        "pair_id": "CMS-T0.2-P04",
+        "role": "IO",
+        "im_g": 0.3693310615789959,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T0.2-P04\\im_0p36933106\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T0.2-P04\\im_0p36933106\\full3d.json",
+        "source_signature": "22420be3e17fb144d69953eb3da529f27a0d74f2d5f44a75cdf70ae0e46df629"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.004670864764470147,
+      "grouped_midr": 0.0049487074307876305,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_cc124f1ba1eebb98eaf24114\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T0.2-P04\\im_0p36933106\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_7e6a29ddf389ff9574163979",
+        "building_id": "B-ca7da63e6c956b1c",
+        "pair_id": "CMS-T0.2-P04",
+        "role": "LS",
+        "im_g": 0.4801303800526947,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T0.2-P04\\im_0p48013038\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T0.2-P04\\im_0p48013038\\full3d.json",
+        "source_signature": "73d219254fae280ad51494a8140c0585a6fb48c092a6e1f59b948531f1822227"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.0068241645447940655,
+      "grouped_midr": 0.006432766223513735,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_7e6a29ddf389ff9574163979\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T0.2-P04\\im_0p48013038\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_a3e3c59b54d368e44109398d",
+        "building_id": "B-ca7da63e6c956b1c",
+        "pair_id": "CMS-T0.2-P04",
+        "role": "CP",
+        "im_g": 0.7848285058553663,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T0.2-P04\\im_0p78482851\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T0.2-P04\\im_0p78482851\\full3d.json",
+        "source_signature": "00b24c6edfd7fa541d9031ec68c9ec42a2302263d6fd42d0400325c88a2cc3d7"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.012740112792824809,
+      "grouped_midr": 0.014823063231373732,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_a3e3c59b54d368e44109398d\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-ca7da63e6c956b1c\\CMS-T0.2-P04\\im_0p78482851\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_18918d86d690fb242d8aadfd",
+        "building_id": "B-dfb5d651ce8fef8c",
+        "pair_id": "CMS-T1.0-P01",
+        "role": "IO",
+        "im_g": 0.3172330824334519,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T1.0-P01\\im_0p31723308\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T1.0-P01\\im_0p31723308\\full3d.json",
+        "source_signature": "bc3defd61c00bd2edc413ce4d42342b43afb0181164dad4b1574efdae92318a8"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.0050907056302123095,
+      "grouped_midr": 0.004955151953883606,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_18918d86d690fb242d8aadfd\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T1.0-P01\\im_0p31723308\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_3bc5b4ea5c0b762285060e9f",
+        "building_id": "B-dfb5d651ce8fef8c",
+        "pair_id": "CMS-T1.0-P01",
+        "role": "LS",
+        "im_g": 0.4124030071634875,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T1.0-P01\\im_0p41240301\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T1.0-P01\\im_0p41240301\\full3d.json",
+        "source_signature": "815ad7d3dc3301c2840c9260de34d17c71b221326538f241ab05092b0defa1d1"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.00840022892366872,
+      "grouped_midr": 0.007720062956345483,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_3bc5b4ea5c0b762285060e9f\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T1.0-P01\\im_0p41240301\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_1487f1773d8c944e1de4ae01",
+        "building_id": "B-dfb5d651ce8fef8c",
+        "pair_id": "CMS-T1.0-P01",
+        "role": "CP",
+        "im_g": 0.6741203001710853,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T1.0-P01\\im_0p6741203\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T1.0-P01\\im_0p6741203\\full3d.json",
+        "source_signature": "7252bcff06c97acd1a22fb278a1b141325d6f9fb7d39a51cc79242a8a2ba00f9"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.03178539006547895,
+      "grouped_midr": 0.03090074415503359,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_1487f1773d8c944e1de4ae01\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T1.0-P01\\im_0p6741203\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_d3ba49ecef631ed06436f8b4",
+        "building_id": "B-dfb5d651ce8fef8c",
+        "pair_id": "CMS-T3.0-P04",
+        "role": "IO",
+        "im_g": 0.3172330824334519,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T3.0-P04\\im_0p31723308\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T3.0-P04\\im_0p31723308\\full3d.json",
+        "source_signature": "b91c593596c3bf28ecc9ecaa4ce0b2a7e8d7be19447d5454ef72feff015e11eb"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.0070324271473858726,
+      "grouped_midr": 0.006491338685273722,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_d3ba49ecef631ed06436f8b4\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T3.0-P04\\im_0p31723308\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_1947cdb2c212b357d4215b6d",
+        "building_id": "B-dfb5d651ce8fef8c",
+        "pair_id": "CMS-T3.0-P04",
+        "role": "LS",
+        "im_g": 0.4124030071634875,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T3.0-P04\\im_0p41240301\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T3.0-P04\\im_0p41240301\\full3d.json",
+        "source_signature": "5bb5b58b421661b02da2769037ae1729a3d142ad0607da451bbeceeac7bbbe71"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.032310177467615435,
+      "grouped_midr": 0.009128666574959697,
+      "crossing_match": false,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_1947cdb2c212b357d4215b6d\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T3.0-P04\\im_0p41240301\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_cff881ecc742be9a182d3582",
+        "building_id": "B-dfb5d651ce8fef8c",
+        "pair_id": "CMS-T3.0-P04",
+        "role": "CP",
+        "im_g": 0.6741203001710853,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T3.0-P04\\im_0p6741203\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T3.0-P04\\im_0p6741203\\full3d.json",
+        "source_signature": "1297dca27e7cc3647854c4a8537317c5923d4e6a706eb1ec0183fcdda75f9f24"
+      },
+      "terminal": true,
+      "usable": false,
+      "full3d_status": "numerical_failure",
+      "directional_status": [
+        "dynamic_instability",
+        "dynamic_instability"
+      ],
+      "full3d_midr": 0.06842731330645002,
+      "grouped_midr": 0.04038707774622293,
+      "crossing_match": null,
+      "raw_cp_proofs": [
+        {
+          "time_s": 91.27999999991698,
+          "committed_midr": 0.04003906575641073
+        },
+        {
+          "time_s": 72.29999999993424,
+          "committed_midr": 0.04038707774622293
+        }
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_cff881ecc742be9a182d3582\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T3.0-P04\\im_0p6741203\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_b7e27bd8a27e6f0a96d1c51c",
+        "building_id": "B-dfb5d651ce8fef8c",
+        "pair_id": "CMS-T0.5-P01",
+        "role": "IO",
+        "im_g": 0.3172330824334519,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T0.5-P01\\im_0p31723308\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T0.5-P01\\im_0p31723308\\full3d.json",
+        "source_signature": "510a1d9fe819f8cb38b8d5d5f9b20db3dc79189b6187bdad1f32969779ced1f8"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.00578353723459047,
+      "grouped_midr": 0.005594353762809653,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_b7e27bd8a27e6f0a96d1c51c\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T0.5-P01\\im_0p31723308\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_31841e38248e634b26aa8ac9",
+        "building_id": "B-dfb5d651ce8fef8c",
+        "pair_id": "CMS-T0.5-P01",
+        "role": "LS",
+        "im_g": 0.4124030071634875,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T0.5-P01\\im_0p41240301\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T0.5-P01\\im_0p41240301\\full3d.json",
+        "source_signature": "b275399fde97a919fe694bf644d50386c5bc07a906f6aebf4abcd456c47072ff"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.010291172959286367,
+      "grouped_midr": 0.00966360223715173,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_31841e38248e634b26aa8ac9\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T0.5-P01\\im_0p41240301\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_380d0300858bcba98ec27c80",
+        "building_id": "B-dfb5d651ce8fef8c",
+        "pair_id": "CMS-T0.5-P01",
+        "role": "CP",
+        "im_g": 0.6741203001710853,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T0.5-P01\\im_0p6741203\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T0.5-P01\\im_0p6741203\\full3d.json",
+        "source_signature": "63ac86742fdda88b716fed576b5f10cf840d2a2e19e94fdfa216d798a4c1cc9c"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.018349561774924618,
+      "grouped_midr": 0.01576792452892289,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_380d0300858bcba98ec27c80\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T0.5-P01\\im_0p6741203\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_98d5279e107549c9a29dc91b",
+        "building_id": "B-dfb5d651ce8fef8c",
+        "pair_id": "CMS-T0.2-P04",
+        "role": "IO",
+        "im_g": 0.3172330824334519,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T0.2-P04\\im_0p31723308\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T0.2-P04\\im_0p31723308\\full3d.json",
+        "source_signature": "234717d95314b0f35ce4c25de7eda07a0f5876684bd4c85f1840647e14f8a64d"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.00519089683536699,
+      "grouped_midr": 0.004644135058315266,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_98d5279e107549c9a29dc91b\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T0.2-P04\\im_0p31723308\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_a886f514e58b182d082f801f",
+        "building_id": "B-dfb5d651ce8fef8c",
+        "pair_id": "CMS-T0.2-P04",
+        "role": "LS",
+        "im_g": 0.4124030071634875,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T0.2-P04\\im_0p41240301\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T0.2-P04\\im_0p41240301\\full3d.json",
+        "source_signature": "8919ef5cd1d401bb859113ac2c0daff03a0d53d1f2b49c5192e36b66aeba6253"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.00805762555055558,
+      "grouped_midr": 0.0073826382029411955,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_a886f514e58b182d082f801f\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T0.2-P04\\im_0p41240301\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_9cfefb77afbf54d1f7c8be53",
+        "building_id": "B-dfb5d651ce8fef8c",
+        "pair_id": "CMS-T0.2-P04",
+        "role": "CP",
+        "im_g": 0.6741203001710853,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T0.2-P04\\im_0p6741203\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T0.2-P04\\im_0p6741203\\full3d.json",
+        "source_signature": "ee99eaca3a2f8b988bf278f08e169ab98e99aab551207773beb965e065c07c5d"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.014168422285200785,
+      "grouped_midr": 0.013940026044019648,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_9cfefb77afbf54d1f7c8be53\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-dfb5d651ce8fef8c\\CMS-T0.2-P04\\im_0p6741203\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_929a34677f49ccc9592c6e32",
+        "building_id": "B-e168b46de26f1cab",
+        "pair_id": "CMS-T1.0-P01",
+        "role": "IO",
+        "im_g": 0.3905724717843769,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T1.0-P01\\im_0p39057247\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T1.0-P01\\im_0p39057247\\full3d.json",
+        "source_signature": "33bb68d8d0ad25238984220259cdb02bad653b48c8b9301eed59ce2cac7dd230"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.006330444062343181,
+      "grouped_midr": 0.006136676627025721,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_929a34677f49ccc9592c6e32\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T1.0-P01\\im_0p39057247\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_a377aa9a1297ba71886aebc7",
+        "building_id": "B-e168b46de26f1cab",
+        "pair_id": "CMS-T1.0-P01",
+        "role": "LS",
+        "im_g": 0.5077442133196899,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T1.0-P01\\im_0p50774421\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T1.0-P01\\im_0p50774421\\full3d.json",
+        "source_signature": "34345a6d1f03bbd1ca0503101732498c1f6a98f06e1e09b8869adaf79209b3c4"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.013386139118341404,
+      "grouped_midr": 0.012124932263116091,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_a377aa9a1297ba71886aebc7\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T1.0-P01\\im_0p50774421\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_060f336c777e278148cde74a",
+        "building_id": "B-e168b46de26f1cab",
+        "pair_id": "CMS-T1.0-P01",
+        "role": "CP",
+        "im_g": 0.8299665025418008,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T1.0-P01\\im_0p8299665\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T1.0-P01\\im_0p8299665\\full3d.json",
+        "source_signature": "b540cb5c24314f57c6bab35376186656eab04e7bec62e628af727149451e5f14"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.03700336795520736,
+      "grouped_midr": 0.03642412566132351,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_060f336c777e278148cde74a\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T1.0-P01\\im_0p8299665\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_002758151890338d9398ef25",
+        "building_id": "B-e168b46de26f1cab",
+        "pair_id": "CMS-T3.0-P04",
+        "role": "IO",
+        "im_g": 0.3905724717843769,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T3.0-P04\\im_0p39057247\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T3.0-P04\\im_0p39057247\\full3d.json",
+        "source_signature": "26f49e90f2abbcaee7677bd79a931b78687f46d427d17ea49bc2ce20019833e4"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.011245657010650936,
+      "grouped_midr": 0.008915130567482036,
+      "crossing_match": false,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_002758151890338d9398ef25\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T3.0-P04\\im_0p39057247\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_3dc0d1f2a5a14fcc5a1bb7d4",
+        "building_id": "B-e168b46de26f1cab",
+        "pair_id": "CMS-T3.0-P04",
+        "role": "LS",
+        "im_g": 0.5077442133196899,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T3.0-P04\\im_0p50774421\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T3.0-P04\\im_0p50774421\\full3d.json",
+        "source_signature": "ec279d56fc5a9074553a7000a018914c9f43b56f67af55c506999a22e4119092"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "dynamic_instability",
+      "directional_status": [
+        "success",
+        "dynamic_instability"
+      ],
+      "full3d_midr": 0.30569298129169614,
+      "grouped_midr": 0.04035192149368083,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        {
+          "time_s": 122.059999999889,
+          "committed_midr": 0.04035192149368083
+        }
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_3dc0d1f2a5a14fcc5a1bb7d4\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T3.0-P04\\im_0p50774421\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_d3517789ad0696f24bf349c3",
+        "building_id": "B-e168b46de26f1cab",
+        "pair_id": "CMS-T3.0-P04",
+        "role": "CP",
+        "im_g": 0.8299665025418008,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T3.0-P04\\im_0p8299665\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T3.0-P04\\im_0p8299665\\full3d.json",
+        "source_signature": "402b5656e8e69c3c37047bad66fd1e7fd27386fab2d272cf7c80a4872843a378"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "dynamic_instability",
+      "directional_status": [
+        "dynamic_instability",
+        "dynamic_instability"
+      ],
+      "full3d_midr": 0.24864857070256552,
+      "grouped_midr": 0.04002919606900147,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        {
+          "time_s": 80.78999999992652,
+          "committed_midr": 0.040088561437697165
+        },
+        {
+          "time_s": 72.25999999993428,
+          "committed_midr": 0.04002919606900147
+        }
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_d3517789ad0696f24bf349c3\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T3.0-P04\\im_0p8299665\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_a4bbd27147495b92607b5465",
+        "building_id": "B-e168b46de26f1cab",
+        "pair_id": "CMS-T0.5-P01",
+        "role": "IO",
+        "im_g": 0.3905724717843769,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T0.5-P01\\im_0p39057247\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T0.5-P01\\im_0p39057247\\full3d.json",
+        "source_signature": "df7837e4966b752e176b4a17a06f7e9ba2d1d6c2e6d97f877af4394e2b9ff6a1"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.008907840909729473,
+      "grouped_midr": 0.007956669854043011,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_a4bbd27147495b92607b5465\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T0.5-P01\\im_0p39057247\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_127502468df8c616da968cba",
+        "building_id": "B-e168b46de26f1cab",
+        "pair_id": "CMS-T0.5-P01",
+        "role": "LS",
+        "im_g": 0.5077442133196899,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T0.5-P01\\im_0p50774421\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T0.5-P01\\im_0p50774421\\full3d.json",
+        "source_signature": "99976f99429491bb7cda719512f45e139fcb9645c59ec9959ae6e527f5d360b8"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.014268929680707908,
+      "grouped_midr": 0.014057957263104992,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_127502468df8c616da968cba\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T0.5-P01\\im_0p50774421\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_21005c044d545c2c14c05380",
+        "building_id": "B-e168b46de26f1cab",
+        "pair_id": "CMS-T0.5-P01",
+        "role": "CP",
+        "im_g": 0.8299665025418008,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T0.5-P01\\im_0p8299665\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T0.5-P01\\im_0p8299665\\full3d.json",
+        "source_signature": "e91cd2a7d0bb25a91938594e0e97a997faa04cb9f83325c07191d0249839cbfc"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.02770804099886456,
+      "grouped_midr": 0.02525853057431941,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_21005c044d545c2c14c05380\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T0.5-P01\\im_0p8299665\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_6452304dfa7dfe82015993b4",
+        "building_id": "B-e168b46de26f1cab",
+        "pair_id": "CMS-T0.2-P04",
+        "role": "IO",
+        "im_g": 0.3905724717843769,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T0.2-P04\\im_0p39057247\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T0.2-P04\\im_0p39057247\\full3d.json",
+        "source_signature": "1d7269d4d55077d02474a2c6ccf4b5d490cfa8b37e00cb48345f76934ee3c19e"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.004678702137508467,
+      "grouped_midr": 0.004848161949496273,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_6452304dfa7dfe82015993b4\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T0.2-P04\\im_0p39057247\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_7f98c4acde301e8111720c41",
+        "building_id": "B-e168b46de26f1cab",
+        "pair_id": "CMS-T0.2-P04",
+        "role": "LS",
+        "im_g": 0.5077442133196899,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T0.2-P04\\im_0p50774421\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T0.2-P04\\im_0p50774421\\full3d.json",
+        "source_signature": "5fe384c03244fbd0ad61f636dd9c9c16f7f0854652c23743f12604751540fdcb"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.00565018576166455,
+      "grouped_midr": 0.005973319488029614,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_7f98c4acde301e8111720c41\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T0.2-P04\\im_0p50774421\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_6267e7944a1cc1e656570812",
+        "building_id": "B-e168b46de26f1cab",
+        "pair_id": "CMS-T0.2-P04",
+        "role": "CP",
+        "im_g": 0.8299665025418008,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T0.2-P04\\im_0p8299665\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T0.2-P04\\im_0p8299665\\full3d.json",
+        "source_signature": "479c30e21f8ee3f321f7a69d510a20d0444b99635534655c8c58ccd207db10dd"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.013535694733374862,
+      "grouped_midr": 0.012747256828453568,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_6267e7944a1cc1e656570812\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e168b46de26f1cab\\CMS-T0.2-P04\\im_0p8299665\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_800a73cdfe197e45f4ddc444",
+        "building_id": "B-e35df7801d1070bd",
+        "pair_id": "CMS-T1.0-P01",
+        "role": "IO",
+        "im_g": 0.18681285450874677,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T1.0-P01\\im_0p18681285\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T1.0-P01\\im_0p18681285\\full3d.json",
+        "source_signature": "39c38162c3111f0e9fd6d0a16c18da0c9002f8b67d6bde29c5b4a828c338879d"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.00837917092535601,
+      "grouped_midr": 0.008132973788542334,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_800a73cdfe197e45f4ddc444\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T1.0-P01\\im_0p18681285\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_669f8d8e5c2c2a2319ffbdcd",
+        "building_id": "B-e35df7801d1070bd",
+        "pair_id": "CMS-T1.0-P01",
+        "role": "LS",
+        "im_g": 0.24285671086137084,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T1.0-P01\\im_0p24285671\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T1.0-P01\\im_0p24285671\\full3d.json",
+        "source_signature": "5867e2004369c9a41fad98e8ea0899adaa948bfd0eee7fc8ccde836278bdd532"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.0093599085632179,
+      "grouped_midr": 0.010973546600527219,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_669f8d8e5c2c2a2319ffbdcd\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T1.0-P01\\im_0p24285671\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_3871db9e9ca2a2b255aa6a04",
+        "building_id": "B-e35df7801d1070bd",
+        "pair_id": "CMS-T1.0-P01",
+        "role": "CP",
+        "im_g": 0.39697731583108686,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T1.0-P01\\im_0p39697732\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T1.0-P01\\im_0p39697732\\full3d.json",
+        "source_signature": "7cda080b702fd4f9afc6425a55bc4a4932d5ef4742de774c97d9eed378aa80c3"
+      },
+      "terminal": true,
+      "usable": false,
+      "full3d_status": "numerical_failure",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.05599281544090597,
+      "grouped_midr": 0.01604823308027022,
+      "crossing_match": null,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_3871db9e9ca2a2b255aa6a04\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T1.0-P01\\im_0p39697732\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_37b78b9e03355c433d23bec8",
+        "building_id": "B-e35df7801d1070bd",
+        "pair_id": "CMS-T3.0-P04",
+        "role": "IO",
+        "im_g": 0.18681285450874677,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T3.0-P04\\im_0p18681285\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T3.0-P04\\im_0p18681285\\full3d.json",
+        "source_signature": "dfd11871b0cdaa3c2cc152a07048227fd68abb6bee699b5197f6562cf3d23d2e"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.0067759815055968425,
+      "grouped_midr": 0.007197137058831476,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_37b78b9e03355c433d23bec8\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T3.0-P04\\im_0p18681285\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_9cb511d4e41e976c0cee3b77",
+        "building_id": "B-e35df7801d1070bd",
+        "pair_id": "CMS-T3.0-P04",
+        "role": "LS",
+        "im_g": 0.24285671086137084,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T3.0-P04\\im_0p24285671\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T3.0-P04\\im_0p24285671\\full3d.json",
+        "source_signature": "6dcd8e75f989a1891d08b8bd11cf53eea8dfe89b2554905b61a6a8581f07e0c4"
+      },
+      "terminal": true,
+      "usable": false,
+      "full3d_status": "numerical_failure",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.05289897694166867,
+      "grouped_midr": 0.009395927540782972,
+      "crossing_match": null,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_9cb511d4e41e976c0cee3b77\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T3.0-P04\\im_0p24285671\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_6104a55f2874da442b256f22",
+        "building_id": "B-e35df7801d1070bd",
+        "pair_id": "CMS-T3.0-P04",
+        "role": "CP",
+        "im_g": 0.39697731583108686,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T3.0-P04\\im_0p39697732\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T3.0-P04\\im_0p39697732\\full3d.json",
+        "source_signature": "6634624b2021df6a092a805004bba8e4c9fd346ad6b6ea6ff3b6384838010250"
+      },
+      "terminal": true,
+      "usable": false,
+      "full3d_status": "numerical_failure",
+      "directional_status": [
+        "dynamic_instability",
+        "dynamic_instability"
+      ],
+      "full3d_midr": 0.04992344652291473,
+      "grouped_midr": 0.0402262996702364,
+      "crossing_match": null,
+      "raw_cp_proofs": [
+        {
+          "time_s": 96.88999999991188,
+          "committed_midr": 0.0401791981023194
+        },
+        {
+          "time_s": 76.88999999993007,
+          "committed_midr": 0.0402262996702364
+        }
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_6104a55f2874da442b256f22\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T3.0-P04\\im_0p39697732\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_491a6e42b84c86e679752833",
+        "building_id": "B-e35df7801d1070bd",
+        "pair_id": "CMS-T0.5-P01",
+        "role": "IO",
+        "im_g": 0.18681285450874677,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T0.5-P01\\im_0p18681285\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T0.5-P01\\im_0p18681285\\full3d.json",
+        "source_signature": "25cfcf6fd57863eb996d5c978593b1736555343c9428c73ffd871cee4da7d3b5"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.007561661590835172,
+      "grouped_midr": 0.007016146230029767,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_491a6e42b84c86e679752833\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T0.5-P01\\im_0p18681285\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_389a1f916720affcc150588a",
+        "building_id": "B-e35df7801d1070bd",
+        "pair_id": "CMS-T0.5-P01",
+        "role": "LS",
+        "im_g": 0.24285671086137084,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T0.5-P01\\im_0p24285671\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T0.5-P01\\im_0p24285671\\full3d.json",
+        "source_signature": "2c55d68c9d0fa72d231c3dee8bf5dd1bb2387ff7505f79f9e868afff78a8cb67"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.010100176904874497,
+      "grouped_midr": 0.010347236098839434,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_389a1f916720affcc150588a\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T0.5-P01\\im_0p24285671\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_8d0b49c3ac91a145667afce8",
+        "building_id": "B-e35df7801d1070bd",
+        "pair_id": "CMS-T0.5-P01",
+        "role": "CP",
+        "im_g": 0.39697731583108686,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T0.5-P01\\im_0p39697732\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T0.5-P01\\im_0p39697732\\full3d.json",
+        "source_signature": "5caf2678ac1e3bbfbbecb293ce52ef3ccf32fd43982953244a1cfaedef67db06"
+      },
+      "terminal": true,
+      "usable": false,
+      "full3d_status": "numerical_failure",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.05197516618329287,
+      "grouped_midr": 0.019030341369515476,
+      "crossing_match": null,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_8d0b49c3ac91a145667afce8\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T0.5-P01\\im_0p39697732\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_4364c91900927e4e6fc566c0",
+        "building_id": "B-e35df7801d1070bd",
+        "pair_id": "CMS-T0.2-P04",
+        "role": "IO",
+        "im_g": 0.18681285450874677,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T0.2-P04\\im_0p18681285\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T0.2-P04\\im_0p18681285\\full3d.json",
+        "source_signature": "34c4ee54eee319087d85217fbe293c343ae1977aa9449f99837cbe91775d65d0"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.007438117053841818,
+      "grouped_midr": 0.00811821166849116,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_4364c91900927e4e6fc566c0\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T0.2-P04\\im_0p18681285\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_b742fdd974a4666e0887b933",
+        "building_id": "B-e35df7801d1070bd",
+        "pair_id": "CMS-T0.2-P04",
+        "role": "LS",
+        "im_g": 0.24285671086137084,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T0.2-P04\\im_0p24285671\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T0.2-P04\\im_0p24285671\\full3d.json",
+        "source_signature": "05993b490445595f074ce23ad3304c2683021525f65afb3ac6406065738f9f2a"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.010083834953176954,
+      "grouped_midr": 0.009701827831485044,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_b742fdd974a4666e0887b933\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T0.2-P04\\im_0p24285671\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_e6b98b9fad5d5ddbc1fc5b48",
+        "building_id": "B-e35df7801d1070bd",
+        "pair_id": "CMS-T0.2-P04",
+        "role": "CP",
+        "im_g": 0.39697731583108686,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T0.2-P04\\im_0p39697732\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T0.2-P04\\im_0p39697732\\full3d.json",
+        "source_signature": "11030e56b5e161d898f81d5402377cb0c6f11fca7fc1f59001b18ff9d0a281a9"
+      },
+      "terminal": true,
+      "usable": false,
+      "full3d_status": "numerical_failure",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.06258186324297643,
+      "grouped_midr": 0.019350741891455265,
+      "crossing_match": null,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_e6b98b9fad5d5ddbc1fc5b48\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-e35df7801d1070bd\\CMS-T0.2-P04\\im_0p39697732\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_93d892ec4a9cf41ee363503b",
+        "building_id": "B-fdf078c4d689d4b0",
+        "pair_id": "CMS-T1.0-P01",
+        "role": "IO",
+        "im_g": 0.2065419531108014,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T1.0-P01\\im_0p20654195\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T1.0-P01\\im_0p20654195\\full3d.json",
+        "source_signature": "38d51d475467e3e15d75feffd0c4f3e1653ff0464ef174472f34914fd73d0bd7"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.007418959350823834,
+      "grouped_midr": 0.0068013496522048465,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_93d892ec4a9cf41ee363503b\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T1.0-P01\\im_0p20654195\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_902b6a5e422c70929d8771b0",
+        "building_id": "B-fdf078c4d689d4b0",
+        "pair_id": "CMS-T1.0-P01",
+        "role": "LS",
+        "im_g": 0.2685045390440418,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T1.0-P01\\im_0p26850454\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T1.0-P01\\im_0p26850454\\full3d.json",
+        "source_signature": "4d5e0b2db0d25668a134bbd995dc40992029ef72569928db941860c7c977c6f4"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.010506653410620683,
+      "grouped_midr": 0.01022769829301615,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_902b6a5e422c70929d8771b0\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T1.0-P01\\im_0p26850454\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_5a6c682917a27038d871ca24",
+        "building_id": "B-fdf078c4d689d4b0",
+        "pair_id": "CMS-T1.0-P01",
+        "role": "CP",
+        "im_g": 0.4389016503604529,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T1.0-P01\\im_0p43890165\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T1.0-P01\\im_0p43890165\\full3d.json",
+        "source_signature": "5304fcf09bbd5c8fb0f1f6eaaa27fca6e475eebcac350cc7b03304e84a54608a"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.011484541275617122,
+      "grouped_midr": 0.013306677450128387,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_5a6c682917a27038d871ca24\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T1.0-P01\\im_0p43890165\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_e9e302ff4eec4fc1323c8995",
+        "building_id": "B-fdf078c4d689d4b0",
+        "pair_id": "CMS-T3.0-P04",
+        "role": "IO",
+        "im_g": 0.2065419531108014,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T3.0-P04\\im_0p20654195\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T3.0-P04\\im_0p20654195\\full3d.json",
+        "source_signature": "609e3652ee2ee3bf56c92147dfe4c6d9f0a3c726af03e319899465aa69a66f28"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.008116623335900032,
+      "grouped_midr": 0.008785989722134362,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_e9e302ff4eec4fc1323c8995\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T3.0-P04\\im_0p20654195\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_4e6c82a7feaab5b43c7cf897",
+        "building_id": "B-fdf078c4d689d4b0",
+        "pair_id": "CMS-T3.0-P04",
+        "role": "LS",
+        "im_g": 0.2685045390440418,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T3.0-P04\\im_0p26850454\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T3.0-P04\\im_0p26850454\\full3d.json",
+        "source_signature": "4e8016448ecfb6d2eda6451b3c6b29f5e3b922ffec62d3bab7482ab10a88df3f"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.011321668578475321,
+      "grouped_midr": 0.010601978830017298,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_4e6c82a7feaab5b43c7cf897\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T3.0-P04\\im_0p26850454\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_500ba159b41357ca637305b4",
+        "building_id": "B-fdf078c4d689d4b0",
+        "pair_id": "CMS-T3.0-P04",
+        "role": "CP",
+        "im_g": 0.4389016503604529,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T3.0-P04\\im_0p43890165\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T3.0-P04\\im_0p43890165\\full3d.json",
+        "source_signature": "008d4a7ce509dce8befd0840aa114da7b4b382c70e938632a6bdc2384309c952"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "dynamic_instability",
+      "directional_status": [
+        "dynamic_instability",
+        "dynamic_instability"
+      ],
+      "full3d_midr": 0.19544701840161205,
+      "grouped_midr": 0.04023837534246887,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        {
+          "time_s": 109.8999999999,
+          "committed_midr": 0.040143875712390927
+        },
+        {
+          "time_s": 88.6199999999194,
+          "committed_midr": 0.04023837534246887
+        }
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_500ba159b41357ca637305b4\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T3.0-P04\\im_0p43890165\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_5582399b33e7acaff56ccf71",
+        "building_id": "B-fdf078c4d689d4b0",
+        "pair_id": "CMS-T0.5-P01",
+        "role": "IO",
+        "im_g": 0.2065419531108014,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T0.5-P01\\im_0p20654195\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T0.5-P01\\im_0p20654195\\full3d.json",
+        "source_signature": "1ae01d2ee7bc36a10455ac2fa9a4d58fcfde95592c857277b27c344912036b59"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.008031561746823889,
+      "grouped_midr": 0.007824297888501685,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_5582399b33e7acaff56ccf71\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T0.5-P01\\im_0p20654195\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_e4c361e485b082ae10fd3c3a",
+        "building_id": "B-fdf078c4d689d4b0",
+        "pair_id": "CMS-T0.5-P01",
+        "role": "LS",
+        "im_g": 0.2685045390440418,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T0.5-P01\\im_0p26850454\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T0.5-P01\\im_0p26850454\\full3d.json",
+        "source_signature": "15a51d90402033c44a68e24b8832806e7e56737563671cd47e5ba6c876312253"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.011355906850905364,
+      "grouped_midr": 0.011317163102217842,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_e4c361e485b082ae10fd3c3a\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T0.5-P01\\im_0p26850454\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_8a736fe695fee072cdf79587",
+        "building_id": "B-fdf078c4d689d4b0",
+        "pair_id": "CMS-T0.5-P01",
+        "role": "CP",
+        "im_g": 0.4389016503604529,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T0.5-P01\\im_0p43890165\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T0.5-P01\\im_0p43890165\\full3d.json",
+        "source_signature": "5a2d61e9231db15bb98ecc1d340cb97b7724a5304ae2be3af1b374e5df7403e5"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.02007228178629894,
+      "grouped_midr": 0.02028750934298929,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_8a736fe695fee072cdf79587\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T0.5-P01\\im_0p43890165\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_1ae75f1be63f339ce78dbcba",
+        "building_id": "B-fdf078c4d689d4b0",
+        "pair_id": "CMS-T0.2-P04",
+        "role": "IO",
+        "im_g": 0.2065419531108014,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T0.2-P04\\im_0p20654195\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T0.2-P04\\im_0p20654195\\full3d.json",
+        "source_signature": "c993489dd105c814efadd587ffe0105dd4ebc8fccdfafecf4ba0e78a7c25afb0"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.010380536401934039,
+      "grouped_midr": 0.010492889763016369,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_1ae75f1be63f339ce78dbcba\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T0.2-P04\\im_0p20654195\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_80a879fc6c503d1b54645bfb",
+        "building_id": "B-fdf078c4d689d4b0",
+        "pair_id": "CMS-T0.2-P04",
+        "role": "LS",
+        "im_g": 0.2685045390440418,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T0.2-P04\\im_0p26850454\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T0.2-P04\\im_0p26850454\\full3d.json",
+        "source_signature": "ec97eff20fba480d694f1cb82e8ac28400f4e4e7b5e31b8872946f6c040b9e91"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.014093860864113137,
+      "grouped_midr": 0.013882179015787323,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_80a879fc6c503d1b54645bfb\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T0.2-P04\\im_0p26850454\\full3d.npz",
+      "physical_collapse_claim": false
+    },
+    {
+      "job": {
+        "id": "new5_pair_7e19d847c03b8789513061a3",
+        "building_id": "B-fdf078c4d689d4b0",
+        "pair_id": "CMS-T0.2-P04",
+        "role": "CP",
+        "im_g": 0.4389016503604529,
+        "history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T0.2-P04\\im_0p43890165\\full3d.npz",
+        "metadata": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T0.2-P04\\im_0p43890165\\full3d.json",
+        "source_signature": "0fd819b2f904993dd98edaa2142f3ae30a1292e2d0bddb51a9af7b98281d387c"
+      },
+      "terminal": true,
+      "usable": true,
+      "full3d_status": "success",
+      "directional_status": [
+        "success",
+        "success"
+      ],
+      "full3d_midr": 0.023663181325214333,
+      "grouped_midr": 0.026865853845205307,
+      "crossing_match": true,
+      "raw_cp_proofs": [
+        null,
+        null
+      ],
+      "grouped_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\pairs-ascii-v4\\new5_pair_7e19d847c03b8789513061a3\\history.npz",
+      "full3d_history": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Demo Program 5\\runs\\5storey\\mdof\\validation\\cases\\B-fdf078c4d689d4b0\\CMS-T0.2-P04\\im_0p43890165\\full3d.npz",
+      "physical_collapse_claim": false
+    }
+  ],
+  "holdout_used": false,
+  "population_analysis": false,
+  "dense_qualification": false,
+  "physical_collapse_claim": false,
+  "scientific_qualification_passed": false,
+  "recipe_sha256": "7b2eba2331ad63157c6bc319e2fb94f8e1ac0e531cb2709112c1e4c89fa4dbb3",
+  "review_linkage_provenance": {
+    "original_review_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5-operational-v2-2026-10-14\\review_capture_v4.json",
+    "original_review_sha256": "f20aa61054aeb6f51f1344d30767ff698c90e7ed6a3311d9f0038e8e029e5aa0",
+    "amendment_sha256": "eda64d22e6157edb5b7624939c1bc2ce08a0d3c1c44419049a990109e315e4fd",
+    "candidate_identity_recomputed": true,
+    "scientific_fields_changed": false
+  }
+}

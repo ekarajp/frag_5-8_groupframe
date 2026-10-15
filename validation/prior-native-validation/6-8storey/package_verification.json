@@ -1,0 +1,13 @@
+{
+  "files": 12619,
+  "sha256": "415928f81e6653d04670579ec9c5f8ce24829e9365811433de69be1d77b69e95",
+  "models": {
+    "6": 500,
+    "7": 500,
+    "8": 500
+  },
+  "X_Y_construction_replays": 3000,
+  "CMS_pairs": 23,
+  "analysis_calls": 0,
+  "solver_imported": false
+}

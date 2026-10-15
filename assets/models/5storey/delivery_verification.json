@@ -1,0 +1,48 @@
+{
+  "checked_at": "2026-10-15T01:51:05.848702+07:00",
+  "state": "verified_delivery",
+  "models": 500,
+  "unique_catalog_order": true,
+  "directional_replays": 1000,
+  "relocated_directional_replays": 4,
+  "forbidden_analysis_rejected": true,
+  "v7_receipts": 102,
+  "pairs": 96,
+  "comparison_evidence_files": 845,
+  "figures": 24,
+  "cross_match": {
+    "IO": {
+      "matched": 30,
+      "total": 32,
+      "expected": 32,
+      "terminal": 32,
+      "invalid_terminal": 0,
+      "match_rate": 0.9375,
+      "match_over_expected": 0.9375
+    },
+    "LS": {
+      "matched": 29,
+      "total": 31,
+      "expected": 32,
+      "terminal": 32,
+      "invalid_terminal": 1,
+      "match_rate": 0.9354838709677419,
+      "match_over_expected": 0.90625
+    },
+    "CP": {
+      "matched": 25,
+      "total": 25,
+      "expected": 32,
+      "terminal": 32,
+      "invalid_terminal": 7,
+      "match_rate": 1.0,
+      "match_over_expected": 0.78125
+    }
+  },
+  "candidate_hash": "c270e092a4cda7aed2eeffc3f4b03b177df75ecf47a1a5711f38e00ceb9609da",
+  "analysis_performed": false,
+  "native_solver_imported": false,
+  "static_and_cyclic_global_pass_claim": false,
+  "scientific_qualification_claim": false,
+  "physical_collapse_claim": false
+}

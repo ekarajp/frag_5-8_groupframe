@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "models": 2000,
+  "reference_reports_HTTP_200": 4,
+  "no_automatic_start": true,
+  "unauthenticated_start_rejected": true,
+  "native_dispatched": 0,
+  "snapshot": {
+    "running": false,
+    "reason": "Ready — no analyses started",
+    "workers": 7,
+    "worker_limit": 16,
+    "active": [],
+    "counts": {
+      "pending": 2000,
+      "running": 0,
+      "complete": 0,
+      "needs_review": 0
+    },
+    "floors": [
+      {
+        "stories": 5,
+        "total": 500,
+        "terminal": 0,
+        "certified": 0,
+        "review": 0
+      },
+      {
+        "stories": 6,
+        "total": 500,
+        "terminal": 0,
+        "certified": 0,
+        "review": 0
+      },
+      {
+        "stories": 7,
+        "total": 500,
+        "terminal": 0,
+        "certified": 0,
+        "review": 0
+      },
+      {
+        "stories": 8,
+        "total": 500,
+        "terminal": 0,
+        "certified": 0,
+        "review": 0
+      }
+    ],
+    "models_total": 2000,
+    "models_terminal": 0,
+    "models_certified": 0,
+    "models_review": 0,
+    "overall_percent": 0.0,
+    "certified_percent": 0.0,
+    "disk_free_gib": 124.29774475097656,
+    "reports": {},
+    "failures": [],
+    "run_hash": "721a0a61570eb17f553e9c7b983afd078fd7c74f4bcf146882de802eae4b34cb",
+    "run_dir": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\component-runner-5-8-transition-2026-10-15\\http-qa-state\\run-20261015-144007-42f29f",
+    "policy": {
+      "name": "portable-component-IDA-hunt-bisection-v2",
+      "initial_im_g": 0.05,
+      "minimum_im_g": 0.001,
+      "maximum_im_g": 20.0,
+      "hunt_multiplier": 1.5,
+      "bracket_tolerance": 0.05,
+      "maximum_points_per_curve": 100,
+      "maximum_scale_factor": 10000.0,
+      "runtime_s_per_direction": 7200.0,
+      "family_selection": "nearest single CMS family; no midpoint blend",
+      "damping_ratio": 0.05,
+      "numerical_failure_policy": "retain, mark needs_review, no unchanged retry",
+      "controller": "deterministic hunt and log bisection; no surrogate/calibration",
+      "recording": "all committed single-component floor histories; native logs and recovery histories",
+      "member_response": "localForce and basicDeformation envelopes from every committed native step"
+    },
+    "curve_total_is_final": false,
+    "report_errors": {},
+    "final_export_state": "not_started",
+    "preflight": {
+      "state": "not_started",
+      "percent": 0
+    },
+    "modal_complete": 0,
+    "curves_complete": 0,
+    "curves_expected_so_far": 0,
+    "export": {
+      "state": "idle"
+    }
+  }
+}

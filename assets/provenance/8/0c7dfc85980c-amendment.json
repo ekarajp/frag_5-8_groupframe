@@ -1,0 +1,43 @@
+{
+  "declared_at": "2026-10-12T17:05:56.570634+07:00",
+  "job": {
+    "id": "selected8_dynamic_463eddaaa67e1d00bdd9a565",
+    "stories": 8,
+    "kind": "dynamic",
+    "building_id": "B-df46f7a008aea6f6",
+    "pair_id": "CMS-T2.0-P01",
+    "role": "IO",
+    "im_g": 0.14409070143469127,
+    "variant": "mesh_spatial_elastic",
+    "reference_job": "selected8_reference_463eddaaa67e1d00bdd9a565"
+  },
+  "candidate_hash": "4954c6e9f64f7c318243110e3d120b708fc70bbb4a9870973d736d254cd1d31c",
+  "source_hashes": {
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor8_dynamic_direction_isolation_v1.py": "11f63a5fb8f2b6ba8398bf07adace36a742cc2e88d237e0bddc066f63e9c6713",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\consistent-selected-v1\\preregistration.json": "485b046186a851e4b0e1119226f1c3cd58b6b4df6a4c5a67db214ef47cc6d9b2",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\runtime-completion-v9\\amendment.json": "80f39be5c5608b6a08e28da197d2483672f236f9132422059bec00ce0275be53",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\runtime_completion_v9.py": "bd8d23783f11ef11f1a62789e8a35a8763dd56646138ee38c4945e1099a18f01",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\runtime_completion_v1.py": "2d4e63d5f5d2918d7303c596bfaaeb27746a1ab25b8182589ebe538bd9063642",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\consistent_selected_development_v1.py": "f2f717c6e72767afc89fc4cfc23be5f2de3c43df3e587b007f38bbbed99bdd68",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\autonomous_development_v1.py": "e36de3b07d9f62c7585841ae659e4a6769accf4f9e06cbaf92cc2f95cbdf88c1",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\isolated_worker.py": "3cd5f3ff96985f7552aa7f256a9640c6e9ef909cfb51ba6168ba1ceb83c66ab4",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\run_floor8_refinement_study_v3.py": "0616d27c3655f3f1e3159d6ff7d125aa361e10df348e1f1250c2b32633ce6c0a",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\selected8_dynamic_463eddaaa67e1d00bdd9a565.log": "2383bf0ddf289b390c9f21b1612175a8cde48978b5d585a9549dc74f9f20a022",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\consistent-selected-v1\\cases\\selected8_dynamic_463eddaaa67e1d00bdd9a565\\status.json": "9cda7897d6d5cdb738ff25db7ed0c3b7520a1da1dc10b125d00688d47739086e",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\consistent-selected-v1\\cases\\selected8_dynamic_463eddaaa67e1d00bdd9a565\\pre_exit_status.json": "ef71aa134b5003a3663c683d1efafa465a5c0a31a89ade3805bdad29c2a2c7ec",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\8-10 floor\\src\\fragility_poc\\fishbone_v5_batched_dynamic.py": "b1549263b4560b7332039d020c20d017cd4e9b22a18ecab056ce85ede59752fb",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\8-10 floor\\src\\fragility_poc\\fishbone_v4_dynamic.py": "e2fb3185ccf82c94de95811139ef843501ce67f918eea3b7d295dedc913a1f17",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\8-10 floor\\src\\fragility_poc\\fishbone_v4_grouped_frame.py": "1834c71c2ea8599d64d46c0feb35dc82c29018cd7f970d135a78e414c3b9e0d3"
+  },
+  "maximum_runtime_s_per_direction": 7200,
+  "minimum_substep_factor": 64,
+  "chunk_steps": 10,
+  "maximum_attempts_per_direction": 1,
+  "physics_changed": false,
+  "thresholds_changed": false,
+  "old_failure_preserved": true,
+  "holdout_used": false,
+  "population_analysis": false,
+  "reason": "Native access violation stack ended in groupedmodel build after analyze activity, consistent with domain rebuild failure; exact causeunconfirmed. FreshX/Y independent solver processes, mathematical combination unchanged. No olddirectionprefix reused.",
+  "runtime_provenance": "Outerselecteddecl says1200 but frozen floor8 runtime_point overrides to7200 in actualoldstack. Thisexplicitisolation retains7200effectivebudget; doesnotclaimold1200execution."
+}

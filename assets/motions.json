@@ -1,0 +1,2578 @@
+[
+  {
+    "pair_id": "CMS-T0.2-P01",
+    "source_set": "CMS_ZONE5",
+    "conditioning_period_s": 0.2,
+    "component_x_path": "assets/motions/CMS-T0.2-P01_X.txt",
+    "component_y_path": "assets/motions/CMS-T0.2-P01_Y.txt",
+    "units": "g",
+    "dt_s": 0.009999999999999787,
+    "npts": 16384,
+    "duration_s": 163.83,
+    "pga_x_g": 0.07027385654791594,
+    "pga_y_g": 0.09234514084369728,
+    "sha256_x": "a2f3bf3b6138538e74c021fe08d302f1bc622868eef35fffeec4002e03c0a14f",
+    "sha256_y": "f21a62d1eff97b3424277735f2a4de3358f7d3f45b515e6cb765e2b8354fee24",
+    "physical_pair_hash": "448e3e24f3243e43da950868a52d0166999de07add9f3f2f95c5e59af5891f66",
+    "raw_source_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.2second\\ReadMe.txt",
+    "raw_source_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+    "source_metadata_json": {
+      "adjacent_x_then_y_verified": true,
+      "analysis_preprocessing": {
+        "maximum_abs_residual_displacement_m": 0.01,
+        "maximum_abs_residual_velocity_m_s": 0.0001,
+        "method": "linear_least_squares_detrend_v1",
+        "original_dt_s": 0.0049999999999954525,
+        "original_duration_s": 163.835,
+        "original_npts": 32768,
+        "processed_baseline_diagnostics": {
+          "component_x": {
+            "linear_trend_acceleration_g_per_s": 1.2694172640811692e-21,
+            "mean_acceleration_g": -3.8275301304053697e-20,
+            "normalized_residual_velocity_g_s": 3.2712423338410444e-11,
+            "residual_displacement_m": 5.364553133771069e-06,
+            "residual_velocity_m_s": 5.255654707970977e-08
+          },
+          "component_y": {
+            "linear_trend_acceleration_g_per_s": -1.0138572603490986e-21,
+            "mean_acceleration_g": 2.5887444450459554e-20,
+            "normalized_residual_velocity_g_s": -2.9301151683371192e-12,
+            "residual_displacement_m": -8.426949276104802e-07,
+            "residual_velocity_m_s": -4.707591797788359e-09
+          }
+        },
+        "processed_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T0.2-P01_X.txt",
+        "processed_component_x_sha256": "a2f3bf3b6138538e74c021fe08d302f1bc622868eef35fffeec4002e03c0a14f",
+        "processed_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T0.2-P01_Y.txt",
+        "processed_component_y_sha256": "f21a62d1eff97b3424277735f2a4de3358f7d3f45b515e6cb765e2b8354fee24",
+        "processed_dataset_id": "analysis_v2_dt001_pwsa150_350",
+        "processed_dt_s": 0.009999999999999787,
+        "processed_duration_s": 163.83,
+        "processed_npts": 16384,
+        "processing_sequence": [
+          "linear_least_squares_detrend",
+          "polyphase_resample",
+          "post_resample_linear_detrend"
+        ],
+        "pwsa_taper_s": null,
+        "pwsa_window_s": null,
+        "raw_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.2second\\Zone5_0.2sec_EQ_1.txt",
+        "raw_component_x_sha256": "aa2bc4369bbf1c5e0267160843f7bf351ee793c338f9764a377eb2dcad7e24b7",
+        "raw_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.2second\\Zone5_0.2sec_EQ_2.txt",
+        "raw_component_y_sha256": "c73df0ae2244d1ad97cc7835132834d37c3969a17fe9874d8008652ab4ea1d87",
+        "raw_files_preserved": true,
+        "resampling_component_x": {
+          "down": 2,
+          "method": "scipy_resample_poly_v1",
+          "source_dt_s": 0.0049999999999954525,
+          "target_dt_s": 0.01,
+          "up": 1
+        },
+        "resampling_component_y": {
+          "down": 2,
+          "method": "scipy_resample_poly_v1",
+          "source_dt_s": 0.0049999999999954525,
+          "target_dt_s": 0.01,
+          "up": 1
+        },
+        "target_dt_s": 0.01
+      },
+      "baseline_diagnostics": {
+        "component_x": {
+          "linear_trend_acceleration_g_per_s": -1.6039610133174507e-09,
+          "mean_acceleration_g": 5.354003875732578e-07,
+          "normalized_residual_velocity_g_s": 5.354167271950955e-07,
+          "residual_displacement_m": 0.07623357251529277,
+          "residual_velocity_m_s": 0.0008602393330967581
+        },
+        "component_y": {
+          "linear_trend_acceleration_g_per_s": 6.946427383027241e-10,
+          "mean_acceleration_g": -4.800415954594515e-08,
+          "normalized_residual_velocity_g_s": -4.800562456126558e-08,
+          "residual_displacement_m": -0.008814908546804565,
+          "residual_velocity_m_s": -7.712931695992544e-05
+        },
+        "interpretation": "Raw-record screening values only; the source files are never modified automatically. Large residuals require documented engineering review before production IDA."
+      },
+      "component_x_label": "EQ1_X",
+      "component_x_number": 1,
+      "component_x_source_entry": "EQ_1 = EQ1_X",
+      "component_x_source_line_number": 2,
+      "component_y_label": "EQ1_Y",
+      "component_y_number": 2,
+      "component_y_source_entry": "EQ_2 = EQ1_Y",
+      "component_y_source_line_number": 3,
+      "logical_record_number": 1,
+      "pairing_authority_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.2second\\ReadMe.txt",
+      "pairing_authority_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+      "pairing_rule": "source ReadMe mapping plus adjacency",
+      "pairing_verified_from_source_manifest": true
+    },
+    "valid": 1,
+    "validation_message": "valid paired components; X/Y identity verified from source ReadMe manifest; analysis copy passed deterministic linear-detrend QA"
+  },
+  {
+    "pair_id": "CMS-T0.2-P02",
+    "source_set": "CMS_ZONE5",
+    "conditioning_period_s": 0.2,
+    "component_x_path": "assets/motions/CMS-T0.2-P02_X.txt",
+    "component_y_path": "assets/motions/CMS-T0.2-P02_Y.txt",
+    "units": "g",
+    "dt_s": 0.009999999999999787,
+    "npts": 16383,
+    "duration_s": 163.82,
+    "pga_x_g": 0.1347172520583094,
+    "pga_y_g": 0.14526292251664533,
+    "sha256_x": "e454fa3b9ede1bbfa82382fe4eb0bc2759422f32441ebe961b8eccd8e7b73796",
+    "sha256_y": "21c32bd637b5f840b22ba813d4b54c0749326daabb7fca92887f3e4de1971754",
+    "physical_pair_hash": "d1336f06103e5768ba08668fe77b0abb657ad605889d257c376d1c3698e75dcb",
+    "raw_source_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.2second\\ReadMe.txt",
+    "raw_source_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+    "source_metadata_json": {
+      "adjacent_x_then_y_verified": true,
+      "analysis_preprocessing": {
+        "maximum_abs_residual_displacement_m": 0.01,
+        "maximum_abs_residual_velocity_m_s": 0.0001,
+        "method": "linear_least_squares_detrend_v1",
+        "original_dt_s": 0.019999999999999574,
+        "original_duration_s": 163.82,
+        "original_npts": 8192,
+        "processed_baseline_diagnostics": {
+          "component_x": {
+            "linear_trend_acceleration_g_per_s": -4.752167392968336e-22,
+            "mean_acceleration_g": 1.3963661014126926e-21,
+            "normalized_residual_velocity_g_s": 7.455779580412352e-14,
+            "residual_displacement_m": 2.92586400018844e-09,
+            "residual_velocity_m_s": 1.1977899295101124e-10
+          },
+          "component_y": {
+            "linear_trend_acceleration_g_per_s": 3.8079423439846535e-22,
+            "mean_acceleration_g": -2.5068411337209856e-20,
+            "normalized_residual_velocity_g_s": -3.355116988649887e-13,
+            "residual_displacement_m": -7.566685011589222e-08,
+            "residual_velocity_m_s": -5.390080672302906e-10
+          }
+        },
+        "processed_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T0.2-P02_X.txt",
+        "processed_component_x_sha256": "e454fa3b9ede1bbfa82382fe4eb0bc2759422f32441ebe961b8eccd8e7b73796",
+        "processed_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T0.2-P02_Y.txt",
+        "processed_component_y_sha256": "21c32bd637b5f840b22ba813d4b54c0749326daabb7fca92887f3e4de1971754",
+        "processed_dataset_id": "analysis_v2_dt001_pwsa150_350",
+        "processed_dt_s": 0.009999999999999787,
+        "processed_duration_s": 163.82,
+        "processed_npts": 16383,
+        "processing_sequence": [
+          "linear_least_squares_detrend",
+          "polyphase_resample",
+          "post_resample_linear_detrend"
+        ],
+        "pwsa_taper_s": null,
+        "pwsa_window_s": null,
+        "raw_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.2second\\Zone5_0.2sec_EQ_3.txt",
+        "raw_component_x_sha256": "651c5842b9d5ec181659dce1c034bc13142da5118e7749aa685033fd2265c88c",
+        "raw_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.2second\\Zone5_0.2sec_EQ_4.txt",
+        "raw_component_y_sha256": "2c684595f1ca863a5e205cc4a604f506135456f3a97cd33e98c1b061c4b04c36",
+        "raw_files_preserved": true,
+        "resampling_component_x": {
+          "down": 1,
+          "method": "scipy_resample_poly_v1",
+          "source_dt_s": 0.019999999999999574,
+          "target_dt_s": 0.01,
+          "up": 2
+        },
+        "resampling_component_y": {
+          "down": 1,
+          "method": "scipy_resample_poly_v1",
+          "source_dt_s": 0.019999999999999574,
+          "target_dt_s": 0.01,
+          "up": 2
+        },
+        "target_dt_s": 0.01
+      },
+      "baseline_diagnostics": {
+        "component_x": {
+          "linear_trend_acceleration_g_per_s": 1.0456642641631533e-11,
+          "mean_acceleration_g": 1.2207031249927505e-09,
+          "normalized_residual_velocity_g_s": 1.2208521544264499e-09,
+          "residual_displacement_m": 0.0001230695347103463,
+          "residual_velocity_m_s": 1.9613299993933704e-06
+        },
+        "component_y": {
+          "linear_trend_acceleration_g_per_s": 4.78647350643514e-11,
+          "mean_acceleration_g": -5.4931762695423065e-09,
+          "normalized_residual_velocity_g_s": -5.493846902950502e-09,
+          "residual_displacement_m": -0.0008949722802285334,
+          "residual_velocity_m_s": -8.826004609782857e-06
+        },
+        "interpretation": "Raw-record screening values only; the source files are never modified automatically. Large residuals require documented engineering review before production IDA."
+      },
+      "component_x_label": "EQ2_X",
+      "component_x_number": 3,
+      "component_x_source_entry": "EQ_3 = EQ2_X",
+      "component_x_source_line_number": 4,
+      "component_y_label": "EQ2_Y",
+      "component_y_number": 4,
+      "component_y_source_entry": "EQ_4 = EQ2_Y",
+      "component_y_source_line_number": 5,
+      "logical_record_number": 2,
+      "pairing_authority_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.2second\\ReadMe.txt",
+      "pairing_authority_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+      "pairing_rule": "source ReadMe mapping plus adjacency",
+      "pairing_verified_from_source_manifest": true
+    },
+    "valid": 1,
+    "validation_message": "valid paired components; X/Y identity verified from source ReadMe manifest; analysis copy passed deterministic linear-detrend QA"
+  },
+  {
+    "pair_id": "CMS-T0.2-P03",
+    "source_set": "CMS_ZONE5",
+    "conditioning_period_s": 0.2,
+    "component_x_path": "assets/motions/CMS-T0.2-P03_X.txt",
+    "component_y_path": "assets/motions/CMS-T0.2-P03_Y.txt",
+    "units": "g",
+    "dt_s": 0.009999999999999787,
+    "npts": 8192,
+    "duration_s": 81.91,
+    "pga_x_g": 0.13853302399470138,
+    "pga_y_g": 0.10516900243904714,
+    "sha256_x": "e85ddda67969d4ae9af4d3714cba0d7505fa62c44762f4de08b0a7fbe365ad4b",
+    "sha256_y": "abd7cddf5ae97a820029387eb4ee056c46c74d1e08addf136a981b660e1eff19",
+    "physical_pair_hash": "b4ae5b9c0d7401b38efef0c92a808c848a44c78886dc95a4ac4e7291302bf4dc",
+    "raw_source_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.2second\\ReadMe.txt",
+    "raw_source_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+    "source_metadata_json": {
+      "adjacent_x_then_y_verified": true,
+      "analysis_preprocessing": {
+        "maximum_abs_residual_displacement_m": 0.01,
+        "maximum_abs_residual_velocity_m_s": 0.0001,
+        "method": "linear_least_squares_detrend_v1",
+        "original_dt_s": 0.009999999999999787,
+        "original_duration_s": 81.91,
+        "original_npts": 8192,
+        "processed_baseline_diagnostics": {
+          "component_x": {
+            "linear_trend_acceleration_g_per_s": -4.531079793609191e-22,
+            "mean_acceleration_g": -3.0228488305137843e-20,
+            "normalized_residual_velocity_g_s": -2.220542438105666e-12,
+            "residual_displacement_m": -1.2466761847874395e-07,
+            "residual_velocity_m_s": -1.7836789176281538e-09
+          },
+          "component_y": {
+            "linear_trend_acceleration_g_per_s": 7.674061219092842e-22,
+            "mean_acceleration_g": 3.134021904840911e-20,
+            "normalized_residual_velocity_g_s": 9.686933705889539e-13,
+            "residual_displacement_m": -2.6439842497083227e-08,
+            "residual_velocity_m_s": 7.781152537844236e-10
+          }
+        },
+        "processed_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T0.2-P03_X.txt",
+        "processed_component_x_sha256": "e85ddda67969d4ae9af4d3714cba0d7505fa62c44762f4de08b0a7fbe365ad4b",
+        "processed_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T0.2-P03_Y.txt",
+        "processed_component_y_sha256": "abd7cddf5ae97a820029387eb4ee056c46c74d1e08addf136a981b660e1eff19",
+        "processed_dataset_id": "analysis_v2_dt001_pwsa150_350",
+        "processed_dt_s": 0.009999999999999787,
+        "processed_duration_s": 81.91,
+        "processed_npts": 8192,
+        "processing_sequence": [
+          "linear_least_squares_detrend",
+          "polyphase_resample",
+          "post_resample_linear_detrend"
+        ],
+        "pwsa_taper_s": null,
+        "pwsa_window_s": null,
+        "raw_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.2second\\Zone5_0.2sec_EQ_5.txt",
+        "raw_component_x_sha256": "201cadc13e7b33eba35eaf7958f16d5cb2be966fb912db3b6662c0685c523950",
+        "raw_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.2second\\Zone5_0.2sec_EQ_6.txt",
+        "raw_component_y_sha256": "5abeda3490b93d2e60ececb460a8a02bd43d40e478b2e148f6788822deb49156",
+        "raw_files_preserved": true,
+        "resampling_component_x": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999999787,
+          "target_dt_s": 0.009999999999999787,
+          "up": 1
+        },
+        "resampling_component_y": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999999787,
+          "target_dt_s": 0.009999999999999787,
+          "up": 1
+        },
+        "target_dt_s": 0.01
+      },
+      "baseline_diagnostics": {
+        "component_x": {
+          "linear_trend_acceleration_g_per_s": 3.137658484611112e-10,
+          "mean_acceleration_g": -1.8188464355441514e-08,
+          "normalized_residual_velocity_g_s": -1.819068489803425e-08,
+          "residual_displacement_m": -0.0007393964891393109,
+          "residual_velocity_m_s": -1.4611898693330243e-05
+        },
+        "component_y": {
+          "linear_trend_acceleration_g_per_s": 3.544355475337686e-10,
+          "mean_acceleration_g": 7.934570312485912e-09,
+          "normalized_residual_velocity_g_s": 7.93553900599823e-09,
+          "residual_displacement_m": 0.000101822446946169,
+          "residual_velocity_m_s": 6.374322499816763e-06
+        },
+        "interpretation": "Raw-record screening values only; the source files are never modified automatically. Large residuals require documented engineering review before production IDA."
+      },
+      "component_x_label": "EQ3_X",
+      "component_x_number": 5,
+      "component_x_source_entry": "EQ_5 = EQ3_X",
+      "component_x_source_line_number": 6,
+      "component_y_label": "EQ3_Y",
+      "component_y_number": 6,
+      "component_y_source_entry": "EQ_6 = EQ3_Y",
+      "component_y_source_line_number": 7,
+      "logical_record_number": 3,
+      "pairing_authority_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.2second\\ReadMe.txt",
+      "pairing_authority_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+      "pairing_rule": "source ReadMe mapping plus adjacency",
+      "pairing_verified_from_source_manifest": true
+    },
+    "valid": 1,
+    "validation_message": "valid paired components; X/Y identity verified from source ReadMe manifest; analysis copy passed deterministic linear-detrend QA"
+  },
+  {
+    "pair_id": "CMS-T0.2-P04",
+    "source_set": "CMS_ZONE5",
+    "conditioning_period_s": 0.2,
+    "component_x_path": "assets/motions/CMS-T0.2-P04_X.txt",
+    "component_y_path": "assets/motions/CMS-T0.2-P04_Y.txt",
+    "units": "g",
+    "dt_s": 0.009999999999990905,
+    "npts": 32767,
+    "duration_s": 327.66,
+    "pga_x_g": 0.11942374229787489,
+    "pga_y_g": 0.1597658474740762,
+    "sha256_x": "43c6a4a5f0e9b9e5cce42720bc93cf2f379c9221739a1b8029fc77eae33f1826",
+    "sha256_y": "672335679b5d6b453c4113c1321bc21834d320a904d766ac3f628f828f167ea2",
+    "physical_pair_hash": "89fa6030bcb32a2f2f675d6c28ee47af3ba7e71039cf469fb8140322c7727e95",
+    "raw_source_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.2second\\ReadMe.txt",
+    "raw_source_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+    "source_metadata_json": {
+      "adjacent_x_then_y_verified": true,
+      "analysis_preprocessing": {
+        "maximum_abs_residual_displacement_m": 0.01,
+        "maximum_abs_residual_velocity_m_s": 0.0001,
+        "method": "linear_least_squares_detrend_v1",
+        "original_dt_s": 0.019999999999999574,
+        "original_duration_s": 327.66,
+        "original_npts": 16384,
+        "processed_baseline_diagnostics": {
+          "component_x": {
+            "linear_trend_acceleration_g_per_s": 9.513934878480016e-23,
+            "mean_acceleration_g": -1.7284052776420157e-20,
+            "normalized_residual_velocity_g_s": -8.554742925798029e-13,
+            "residual_displacement_m": -9.166848429363819e-07,
+            "residual_velocity_m_s": -2.7488501520252423e-09
+          },
+          "component_y": {
+            "linear_trend_acceleration_g_per_s": 1.7811506939854863e-22,
+            "mean_acceleration_g": 1.4880192556348993e-20,
+            "normalized_residual_velocity_g_s": 8.424289553070773e-13,
+            "residual_displacement_m": 1.1538214863211617e-06,
+            "residual_velocity_m_s": 2.706932261965434e-09
+          }
+        },
+        "processed_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T0.2-P04_X.txt",
+        "processed_component_x_sha256": "43c6a4a5f0e9b9e5cce42720bc93cf2f379c9221739a1b8029fc77eae33f1826",
+        "processed_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T0.2-P04_Y.txt",
+        "processed_component_y_sha256": "672335679b5d6b453c4113c1321bc21834d320a904d766ac3f628f828f167ea2",
+        "processed_dataset_id": "analysis_v2_dt001_pwsa150_350",
+        "processed_dt_s": 0.009999999999990905,
+        "processed_duration_s": 327.66,
+        "processed_npts": 32767,
+        "processing_sequence": [
+          "linear_least_squares_detrend",
+          "polyphase_resample",
+          "post_resample_linear_detrend"
+        ],
+        "pwsa_taper_s": null,
+        "pwsa_window_s": null,
+        "raw_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.2second\\Zone5_0.2sec_EQ_7.txt",
+        "raw_component_x_sha256": "ca1901713e19415e4f7cfa2595094566d08486a544057570711d008e1ab4030e",
+        "raw_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.2second\\Zone5_0.2sec_EQ_8.txt",
+        "raw_component_y_sha256": "5adb545413c7ee876676cef85cd0471fa7c03e449aa8e4b6b2f8d6a36e811dbf",
+        "raw_files_preserved": true,
+        "resampling_component_x": {
+          "down": 1,
+          "method": "scipy_resample_poly_v1",
+          "source_dt_s": 0.019999999999999574,
+          "target_dt_s": 0.01,
+          "up": 2
+        },
+        "resampling_component_y": {
+          "down": 1,
+          "method": "scipy_resample_poly_v1",
+          "source_dt_s": 0.019999999999999574,
+          "target_dt_s": 0.01,
+          "up": 2
+        },
+        "target_dt_s": 0.01
+      },
+      "baseline_diagnostics": {
+        "component_x": {
+          "linear_trend_acceleration_g_per_s": 1.770590855497103e-10,
+          "mean_acceleration_g": -2.801512451172742e-08,
+          "normalized_residual_velocity_g_s": -2.8016834524831817e-08,
+          "residual_displacement_m": -0.01983984804889155,
+          "residual_velocity_m_s": -9.002500777738536e-05
+        },
+        "component_y": {
+          "linear_trend_acceleration_g_per_s": -2.6970186396723103e-10,
+          "mean_acceleration_g": 2.7587902832026757e-08,
+          "normalized_residual_velocity_g_s": 2.75895867671858e-08,
+          "residual_displacement_m": 0.022278728644405464,
+          "residual_velocity_m_s": 8.865215522793468e-05
+        },
+        "interpretation": "Raw-record screening values only; the source files are never modified automatically. Large residuals require documented engineering review before production IDA."
+      },
+      "component_x_label": "EQ4_X",
+      "component_x_number": 7,
+      "component_x_source_entry": "EQ_7 = EQ4_X",
+      "component_x_source_line_number": 8,
+      "component_y_label": "EQ4_Y",
+      "component_y_number": 8,
+      "component_y_source_entry": "EQ_8 = EQ4_Y",
+      "component_y_source_line_number": 9,
+      "logical_record_number": 4,
+      "pairing_authority_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.2second\\ReadMe.txt",
+      "pairing_authority_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+      "pairing_rule": "source ReadMe mapping plus adjacency",
+      "pairing_verified_from_source_manifest": true
+    },
+    "valid": 1,
+    "validation_message": "valid paired components; X/Y identity verified from source ReadMe manifest; analysis copy passed deterministic linear-detrend QA"
+  },
+  {
+    "pair_id": "CMS-T0.5-P01",
+    "source_set": "CMS_ZONE5",
+    "conditioning_period_s": 0.5,
+    "component_x_path": "assets/motions/CMS-T0.5-P01_X.txt",
+    "component_y_path": "assets/motions/CMS-T0.5-P01_Y.txt",
+    "units": "g",
+    "dt_s": 0.009999999999999787,
+    "npts": 16384,
+    "duration_s": 163.83,
+    "pga_x_g": 0.07981481866498116,
+    "pga_y_g": 0.1274737672622982,
+    "sha256_x": "6dd1163a6f2ee1ebceb3d0e7f9f7405176e7169234012f13ef131e0b22b3f8aa",
+    "sha256_y": "2141c9a3c4c87ad7456bf4699763894d76333f099e8f9883479ee0d13db34a81",
+    "physical_pair_hash": "e83368f06bb910454fd5e45b82d9e7c2d6f1f36a6722640c4fb0c4e044d22922",
+    "raw_source_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.5second\\ReadMe.txt",
+    "raw_source_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+    "source_metadata_json": {
+      "adjacent_x_then_y_verified": true,
+      "analysis_preprocessing": {
+        "maximum_abs_residual_displacement_m": 0.01,
+        "maximum_abs_residual_velocity_m_s": 0.0001,
+        "method": "linear_least_squares_detrend_v1",
+        "original_dt_s": 0.009999999999999787,
+        "original_duration_s": 163.83,
+        "original_npts": 16384,
+        "processed_baseline_diagnostics": {
+          "component_x": {
+            "linear_trend_acceleration_g_per_s": -7.669009860838186e-22,
+            "mean_acceleration_g": 2.625802136488331e-20,
+            "normalized_residual_velocity_g_s": -4.578662239455973e-12,
+            "residual_displacement_m": -2.156221416587854e-06,
+            "residual_velocity_m_s": -7.356186212823395e-09
+          },
+          "component_y": {
+            "linear_trend_acceleration_g_per_s": 8.464718949959282e-22,
+            "mean_acceleration_g": 2.0540548970916783e-20,
+            "normalized_residual_velocity_g_s": -5.834161493052288e-12,
+            "residual_displacement_m": -2.7618286194442617e-06,
+            "residual_velocity_m_s": -9.373300779590967e-09
+          }
+        },
+        "processed_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T0.5-P01_X.txt",
+        "processed_component_x_sha256": "6dd1163a6f2ee1ebceb3d0e7f9f7405176e7169234012f13ef131e0b22b3f8aa",
+        "processed_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T0.5-P01_Y.txt",
+        "processed_component_y_sha256": "2141c9a3c4c87ad7456bf4699763894d76333f099e8f9883479ee0d13db34a81",
+        "processed_dataset_id": "analysis_v2_dt001_pwsa150_350",
+        "processed_dt_s": 0.009999999999999787,
+        "processed_duration_s": 163.83,
+        "processed_npts": 16384,
+        "processing_sequence": [
+          "linear_least_squares_detrend",
+          "polyphase_resample",
+          "post_resample_linear_detrend"
+        ],
+        "pwsa_taper_s": null,
+        "pwsa_window_s": null,
+        "raw_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.5second\\Zone5_0.5sec_EQ_1.txt",
+        "raw_component_x_sha256": "8dbed7e261dcb58a887030d4089a6fc5a0916de8c9735f97416919412fe7e82d",
+        "raw_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.5second\\Zone5_0.5sec_EQ_2.txt",
+        "raw_component_y_sha256": "98c527973d9153f6271a2f3dca7601764c218548e93a5fe8975134abfdf7bfa4",
+        "raw_files_preserved": true,
+        "resampling_component_x": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999999787,
+          "target_dt_s": 0.009999999999999787,
+          "up": 1
+        },
+        "resampling_component_y": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999999787,
+          "target_dt_s": 0.009999999999999787,
+          "up": 1
+        },
+        "target_dt_s": 0.01
+      },
+      "baseline_diagnostics": {
+        "component_x": {
+          "linear_trend_acceleration_g_per_s": 2.3608923591295784e-09,
+          "mean_acceleration_g": -7.501223144528535e-08,
+          "normalized_residual_velocity_g_s": -7.501681010760817e-08,
+          "residual_displacement_m": -0.018358165250938082,
+          "residual_velocity_m_s": -0.00012052376772590811
+        },
+        "component_y": {
+          "linear_trend_acceleration_g_per_s": 3.0300814075239976e-09,
+          "mean_acceleration_g": -9.558106689456411e-08,
+          "normalized_residual_velocity_g_s": -9.558690105605724e-08,
+          "residual_displacement_m": -0.023470506886737352,
+          "residual_velocity_m_s": -0.0001535721586134359
+        },
+        "interpretation": "Raw-record screening values only; the source files are never modified automatically. Large residuals require documented engineering review before production IDA."
+      },
+      "component_x_label": "EQ1_X",
+      "component_x_number": 1,
+      "component_x_source_entry": "EQ_1 = EQ1_X",
+      "component_x_source_line_number": 2,
+      "component_y_label": "EQ1_Y",
+      "component_y_number": 2,
+      "component_y_source_entry": "EQ_2 = EQ1_Y",
+      "component_y_source_line_number": 3,
+      "logical_record_number": 1,
+      "pairing_authority_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.5second\\ReadMe.txt",
+      "pairing_authority_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+      "pairing_rule": "source ReadMe mapping plus adjacency",
+      "pairing_verified_from_source_manifest": true
+    },
+    "valid": 1,
+    "validation_message": "valid paired components; X/Y identity verified from source ReadMe manifest; analysis copy passed deterministic linear-detrend QA"
+  },
+  {
+    "pair_id": "CMS-T0.5-P02",
+    "source_set": "CMS_ZONE5",
+    "conditioning_period_s": 0.5,
+    "component_x_path": "assets/motions/CMS-T0.5-P02_X.txt",
+    "component_y_path": "assets/motions/CMS-T0.5-P02_Y.txt",
+    "units": "g",
+    "dt_s": 0.009999999999999787,
+    "npts": 16384,
+    "duration_s": 163.83,
+    "pga_x_g": 0.07027385654791594,
+    "pga_y_g": 0.09234514084369728,
+    "sha256_x": "a2f3bf3b6138538e74c021fe08d302f1bc622868eef35fffeec4002e03c0a14f",
+    "sha256_y": "f21a62d1eff97b3424277735f2a4de3358f7d3f45b515e6cb765e2b8354fee24",
+    "physical_pair_hash": "448e3e24f3243e43da950868a52d0166999de07add9f3f2f95c5e59af5891f66",
+    "raw_source_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.5second\\ReadMe.txt",
+    "raw_source_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+    "source_metadata_json": {
+      "adjacent_x_then_y_verified": true,
+      "analysis_preprocessing": {
+        "maximum_abs_residual_displacement_m": 0.01,
+        "maximum_abs_residual_velocity_m_s": 0.0001,
+        "method": "linear_least_squares_detrend_v1",
+        "original_dt_s": 0.0049999999999954525,
+        "original_duration_s": 163.835,
+        "original_npts": 32768,
+        "processed_baseline_diagnostics": {
+          "component_x": {
+            "linear_trend_acceleration_g_per_s": 1.2694172640811692e-21,
+            "mean_acceleration_g": -3.8275301304053697e-20,
+            "normalized_residual_velocity_g_s": 3.2712423338410444e-11,
+            "residual_displacement_m": 5.364553133771069e-06,
+            "residual_velocity_m_s": 5.255654707970977e-08
+          },
+          "component_y": {
+            "linear_trend_acceleration_g_per_s": -1.0138572603490986e-21,
+            "mean_acceleration_g": 2.5887444450459554e-20,
+            "normalized_residual_velocity_g_s": -2.9301151683371192e-12,
+            "residual_displacement_m": -8.426949276104802e-07,
+            "residual_velocity_m_s": -4.707591797788359e-09
+          }
+        },
+        "processed_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T0.5-P02_X.txt",
+        "processed_component_x_sha256": "a2f3bf3b6138538e74c021fe08d302f1bc622868eef35fffeec4002e03c0a14f",
+        "processed_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T0.5-P02_Y.txt",
+        "processed_component_y_sha256": "f21a62d1eff97b3424277735f2a4de3358f7d3f45b515e6cb765e2b8354fee24",
+        "processed_dataset_id": "analysis_v2_dt001_pwsa150_350",
+        "processed_dt_s": 0.009999999999999787,
+        "processed_duration_s": 163.83,
+        "processed_npts": 16384,
+        "processing_sequence": [
+          "linear_least_squares_detrend",
+          "polyphase_resample",
+          "post_resample_linear_detrend"
+        ],
+        "pwsa_taper_s": null,
+        "pwsa_window_s": null,
+        "raw_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.5second\\Zone5_0.5sec_EQ_3.txt",
+        "raw_component_x_sha256": "aa2bc4369bbf1c5e0267160843f7bf351ee793c338f9764a377eb2dcad7e24b7",
+        "raw_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.5second\\Zone5_0.5sec_EQ_4.txt",
+        "raw_component_y_sha256": "c73df0ae2244d1ad97cc7835132834d37c3969a17fe9874d8008652ab4ea1d87",
+        "raw_files_preserved": true,
+        "resampling_component_x": {
+          "down": 2,
+          "method": "scipy_resample_poly_v1",
+          "source_dt_s": 0.0049999999999954525,
+          "target_dt_s": 0.01,
+          "up": 1
+        },
+        "resampling_component_y": {
+          "down": 2,
+          "method": "scipy_resample_poly_v1",
+          "source_dt_s": 0.0049999999999954525,
+          "target_dt_s": 0.01,
+          "up": 1
+        },
+        "target_dt_s": 0.01
+      },
+      "baseline_diagnostics": {
+        "component_x": {
+          "linear_trend_acceleration_g_per_s": -1.6039610133174507e-09,
+          "mean_acceleration_g": 5.354003875732578e-07,
+          "normalized_residual_velocity_g_s": 5.354167271950955e-07,
+          "residual_displacement_m": 0.07623357251529277,
+          "residual_velocity_m_s": 0.0008602393330967581
+        },
+        "component_y": {
+          "linear_trend_acceleration_g_per_s": 6.946427383027241e-10,
+          "mean_acceleration_g": -4.800415954594515e-08,
+          "normalized_residual_velocity_g_s": -4.800562456126558e-08,
+          "residual_displacement_m": -0.008814908546804565,
+          "residual_velocity_m_s": -7.712931695992544e-05
+        },
+        "interpretation": "Raw-record screening values only; the source files are never modified automatically. Large residuals require documented engineering review before production IDA."
+      },
+      "component_x_label": "EQ2_X",
+      "component_x_number": 3,
+      "component_x_source_entry": "EQ_3 = EQ2_X",
+      "component_x_source_line_number": 4,
+      "component_y_label": "EQ2_Y",
+      "component_y_number": 4,
+      "component_y_source_entry": "EQ_4 = EQ2_Y",
+      "component_y_source_line_number": 5,
+      "logical_record_number": 2,
+      "pairing_authority_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.5second\\ReadMe.txt",
+      "pairing_authority_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+      "pairing_rule": "source ReadMe mapping plus adjacency",
+      "pairing_verified_from_source_manifest": true
+    },
+    "valid": 1,
+    "validation_message": "valid paired components; X/Y identity verified from source ReadMe manifest; analysis copy passed deterministic linear-detrend QA"
+  },
+  {
+    "pair_id": "CMS-T0.5-P03",
+    "source_set": "CMS_ZONE5",
+    "conditioning_period_s": 0.5,
+    "component_x_path": "assets/motions/CMS-T0.5-P03_X.txt",
+    "component_y_path": "assets/motions/CMS-T0.5-P03_Y.txt",
+    "units": "g",
+    "dt_s": 0.009999999999999787,
+    "npts": 8192,
+    "duration_s": 81.91,
+    "pga_x_g": 0.09823303046154946,
+    "pga_y_g": 0.1170200063186477,
+    "sha256_x": "d2bc1d8a589c991c0a5939e8ebf2eb6529d7767e6473fb1f99bc7ebb1bdd1987",
+    "sha256_y": "7b106c57a74cd1ae980a02b9eccb0af9ad19a9f8638ac1a91b2d1d8f96c48e46",
+    "physical_pair_hash": "991283f2c41586e391aec67495dd6867273cbd7a1cbfa7695750096069f29157",
+    "raw_source_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.5second\\ReadMe.txt",
+    "raw_source_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+    "source_metadata_json": {
+      "adjacent_x_then_y_verified": true,
+      "analysis_preprocessing": {
+        "maximum_abs_residual_displacement_m": 0.01,
+        "maximum_abs_residual_velocity_m_s": 0.0001,
+        "method": "linear_least_squares_detrend_v1",
+        "original_dt_s": 0.009999999999999787,
+        "original_duration_s": 81.91,
+        "original_npts": 8192,
+        "processed_baseline_diagnostics": {
+          "component_x": {
+            "linear_trend_acceleration_g_per_s": 3.8067860031856895e-22,
+            "mean_acceleration_g": -4.0657581468206416e-20,
+            "normalized_residual_velocity_g_s": -3.710841059550802e-12,
+            "residual_displacement_m": -1.0573740098921826e-07,
+            "residual_velocity_m_s": -2.9807802143318994e-09
+          },
+          "component_y": {
+            "linear_trend_acceleration_g_per_s": -2.9242352806376193e-22,
+            "mean_acceleration_g": -2.710505431213761e-20,
+            "normalized_residual_velocity_g_s": -7.600525488983037e-13,
+            "residual_displacement_m": -3.8985135792782507e-08,
+            "residual_velocity_m_s": -6.105218637100123e-10
+          }
+        },
+        "processed_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T0.5-P03_X.txt",
+        "processed_component_x_sha256": "d2bc1d8a589c991c0a5939e8ebf2eb6529d7767e6473fb1f99bc7ebb1bdd1987",
+        "processed_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T0.5-P03_Y.txt",
+        "processed_component_y_sha256": "7b106c57a74cd1ae980a02b9eccb0af9ad19a9f8638ac1a91b2d1d8f96c48e46",
+        "processed_dataset_id": "analysis_v2_dt001_pwsa150_350",
+        "processed_dt_s": 0.009999999999999787,
+        "processed_duration_s": 81.91,
+        "processed_npts": 8192,
+        "processing_sequence": [
+          "linear_least_squares_detrend",
+          "polyphase_resample",
+          "post_resample_linear_detrend"
+        ],
+        "pwsa_taper_s": null,
+        "pwsa_window_s": null,
+        "raw_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.5second\\Zone5_0.5sec_EQ_5.txt",
+        "raw_component_x_sha256": "72721c2806a66832ae5d85b65f5c1506a20a3d15aa5a4f0d23980ff070130f22",
+        "raw_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.5second\\Zone5_0.5sec_EQ_6.txt",
+        "raw_component_y_sha256": "b274a5bfb9eac589960b184e2e1c5aefecc4178f9ba64cbb2fdac9d8f56c4dd7",
+        "raw_files_preserved": true,
+        "resampling_component_x": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999999787,
+          "target_dt_s": 0.009999999999999787,
+          "up": 1
+        },
+        "resampling_component_y": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999999787,
+          "target_dt_s": 0.009999999999999787,
+          "up": 1
+        },
+        "target_dt_s": 0.01
+      },
+      "baseline_diagnostics": {
+        "component_x": {
+          "linear_trend_acceleration_g_per_s": -9.932910535080641e-11,
+          "mean_acceleration_g": -3.0395495605447316e-08,
+          "normalized_residual_velocity_g_s": -3.039920644638966e-08,
+          "residual_displacement_m": -0.0009554358860924038,
+          "residual_velocity_m_s": -2.441854869358317e-05
+        },
+        "component_y": {
+          "linear_trend_acceleration_g_per_s": 8.498791557241399e-11,
+          "mean_acceleration_g": -6.225585937421523e-09,
+          "normalized_residual_velocity_g_s": -6.2263459901627364e-09,
+          "residual_displacement_m": -0.00024301467101528528,
+          "residual_velocity_m_s": -5.0013915005318115e-06
+        },
+        "interpretation": "Raw-record screening values only; the source files are never modified automatically. Large residuals require documented engineering review before production IDA."
+      },
+      "component_x_label": "EQ3_X",
+      "component_x_number": 5,
+      "component_x_source_entry": "EQ_5 = EQ3_X",
+      "component_x_source_line_number": 6,
+      "component_y_label": "EQ3_Y",
+      "component_y_number": 6,
+      "component_y_source_entry": "EQ_6 = EQ3_Y",
+      "component_y_source_line_number": 7,
+      "logical_record_number": 3,
+      "pairing_authority_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.5second\\ReadMe.txt",
+      "pairing_authority_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+      "pairing_rule": "source ReadMe mapping plus adjacency",
+      "pairing_verified_from_source_manifest": true
+    },
+    "valid": 1,
+    "validation_message": "valid paired components; X/Y identity verified from source ReadMe manifest; analysis copy passed deterministic linear-detrend QA"
+  },
+  {
+    "pair_id": "CMS-T0.5-P04",
+    "source_set": "CMS_ZONE5",
+    "conditioning_period_s": 0.5,
+    "component_x_path": "assets/motions/CMS-T0.5-P04_X.txt",
+    "component_y_path": "assets/motions/CMS-T0.5-P04_Y.txt",
+    "units": "g",
+    "dt_s": 0.009999999999999787,
+    "npts": 8192,
+    "duration_s": 81.91,
+    "pga_x_g": 0.07387173338175529,
+    "pga_y_g": 0.07691954442945918,
+    "sha256_x": "a7151cf1b8df08e60e4cc04df4e3a927dc0310d67adde323b9971034429d0557",
+    "sha256_y": "be341453e50dee06afe3810c4d63552ef24199603c6e64e0324f56e96e719792",
+    "physical_pair_hash": "f3e5d8fd85ee548934ec0825a2c6739ec424f2b0656a8dde4b1e118b83b61951",
+    "raw_source_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.5second\\ReadMe.txt",
+    "raw_source_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+    "source_metadata_json": {
+      "adjacent_x_then_y_verified": true,
+      "analysis_preprocessing": {
+        "maximum_abs_residual_displacement_m": 0.01,
+        "maximum_abs_residual_velocity_m_s": 0.0001,
+        "method": "linear_least_squares_detrend_v1",
+        "original_dt_s": 0.004999999999999893,
+        "original_duration_s": 81.915,
+        "original_npts": 16384,
+        "processed_baseline_diagnostics": {
+          "component_x": {
+            "linear_trend_acceleration_g_per_s": 2.382187247500863e-21,
+            "mean_acceleration_g": 1.5246593050577406e-20,
+            "normalized_residual_velocity_g_s": -3.531125234790111e-10,
+            "residual_displacement_m": -1.2984243242087459e-05,
+            "residual_velocity_m_s": -2.8364211954323264e-07
+          },
+          "component_y": {
+            "linear_trend_acceleration_g_per_s": -2.7164151538483367e-23,
+            "mean_acceleration_g": 1.1858461261560205e-20,
+            "normalized_residual_velocity_g_s": -5.018566844851858e-10,
+            "residual_displacement_m": -1.8268148416591613e-05,
+            "residual_velocity_m_s": -4.0312275614540344e-07
+          }
+        },
+        "processed_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T0.5-P04_X.txt",
+        "processed_component_x_sha256": "a7151cf1b8df08e60e4cc04df4e3a927dc0310d67adde323b9971034429d0557",
+        "processed_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T0.5-P04_Y.txt",
+        "processed_component_y_sha256": "be341453e50dee06afe3810c4d63552ef24199603c6e64e0324f56e96e719792",
+        "processed_dataset_id": "analysis_v2_dt001_pwsa150_350",
+        "processed_dt_s": 0.009999999999999787,
+        "processed_duration_s": 81.91,
+        "processed_npts": 8192,
+        "processing_sequence": [
+          "linear_least_squares_detrend",
+          "polyphase_resample",
+          "post_resample_linear_detrend"
+        ],
+        "pwsa_taper_s": null,
+        "pwsa_window_s": null,
+        "raw_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.5second\\Zone5_0.5sec_EQ_7.txt",
+        "raw_component_x_sha256": "91e733c474e9963056f143d5125f5f424e5327ad7cb0eab8cd2c00a480463f66",
+        "raw_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.5second\\Zone5_0.5sec_EQ_8.txt",
+        "raw_component_y_sha256": "661d87f90d5d6d29bcd92315f27863a2d7b8d9530fa39e25e25f7feba398c730",
+        "raw_files_preserved": true,
+        "resampling_component_x": {
+          "down": 2,
+          "method": "scipy_resample_poly_v1",
+          "source_dt_s": 0.004999999999999893,
+          "target_dt_s": 0.01,
+          "up": 1
+        },
+        "resampling_component_y": {
+          "down": 2,
+          "method": "scipy_resample_poly_v1",
+          "source_dt_s": 0.004999999999999893,
+          "target_dt_s": 0.01,
+          "up": 1
+        },
+        "target_dt_s": 0.01
+      },
+      "baseline_diagnostics": {
+        "component_x": {
+          "linear_trend_acceleration_g_per_s": 5.277150773349356e-09,
+          "mean_acceleration_g": -1.7272955322251217e-08,
+          "normalized_residual_velocity_g_s": -1.7457126289368063e-08,
+          "residual_displacement_m": -0.0029452436598528084,
+          "residual_velocity_m_s": -1.402351440326209e-05
+        },
+        "component_y": {
+          "linear_trend_acceleration_g_per_s": 1.0483422664421229e-08,
+          "mean_acceleration_g": -1.0668945312492374e-07,
+          "normalized_residual_velocity_g_s": -1.0694012085712535e-07,
+          "residual_displacement_m": -0.008228412645274581,
+          "residual_velocity_m_s": -8.590625400011203e-05
+        },
+        "interpretation": "Raw-record screening values only; the source files are never modified automatically. Large residuals require documented engineering review before production IDA."
+      },
+      "component_x_label": "EQ4_X",
+      "component_x_number": 7,
+      "component_x_source_entry": "EQ_7 = EQ4_X",
+      "component_x_source_line_number": 8,
+      "component_y_label": "EQ4_Y",
+      "component_y_number": 8,
+      "component_y_source_entry": "EQ_8 = EQ4_Y",
+      "component_y_source_line_number": 9,
+      "logical_record_number": 4,
+      "pairing_authority_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\0.5second\\ReadMe.txt",
+      "pairing_authority_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+      "pairing_rule": "source ReadMe mapping plus adjacency",
+      "pairing_verified_from_source_manifest": true
+    },
+    "valid": 1,
+    "validation_message": "valid paired components; X/Y identity verified from source ReadMe manifest; analysis copy passed deterministic linear-detrend QA"
+  },
+  {
+    "pair_id": "CMS-T1.0-P01",
+    "source_set": "CMS_ZONE5",
+    "conditioning_period_s": 1.0,
+    "component_x_path": "assets/motions/CMS-T1.0-P01_X.txt",
+    "component_y_path": "assets/motions/CMS-T1.0-P01_Y.txt",
+    "units": "g",
+    "dt_s": 0.009999999999999787,
+    "npts": 13107,
+    "duration_s": 131.06,
+    "pga_x_g": 0.15022348359969412,
+    "pga_y_g": 0.10111469649900501,
+    "sha256_x": "a6fc9d97fb03fe0897fd5e84e8f07b1d10cfcdadcdba80918a56fc6802021165",
+    "sha256_y": "614e57277c3da7281e5fdf7b1cfab12e17092c0c20f6af8d6932dc81d7fb6f57",
+    "physical_pair_hash": "2db5f6f487b934950944598d480e6546060b9f399fcaa1865cc694184b7711c9",
+    "raw_source_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\1.0second\\ReadMe.txt",
+    "raw_source_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+    "source_metadata_json": {
+      "adjacent_x_then_y_verified": true,
+      "analysis_preprocessing": {
+        "maximum_abs_residual_displacement_m": 0.01,
+        "maximum_abs_residual_velocity_m_s": 0.0001,
+        "method": "linear_least_squares_detrend_v1",
+        "original_dt_s": 0.004000000000000448,
+        "original_duration_s": 131.068,
+        "original_npts": 32768,
+        "processed_baseline_diagnostics": {
+          "component_x": {
+            "linear_trend_acceleration_g_per_s": -1.842870944006608e-21,
+            "mean_acceleration_g": -5.294036700928686e-22,
+            "normalized_residual_velocity_g_s": -4.470939809683668e-13,
+            "residual_displacement_m": -8.533534342522632e-08,
+            "residual_velocity_m_s": -5.746318083400177e-10
+          },
+          "component_y": {
+            "linear_trend_acceleration_g_per_s": 2.8822862651380903e-22,
+            "mean_acceleration_g": 4.499931195789383e-21,
+            "normalized_residual_velocity_g_s": -6.980891161935119e-14,
+            "residual_displacement_m": -7.601846953297631e-08,
+            "residual_velocity_m_s": -8.972257026406816e-11
+          }
+        },
+        "processed_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T1.0-P01_X.txt",
+        "processed_component_x_sha256": "a6fc9d97fb03fe0897fd5e84e8f07b1d10cfcdadcdba80918a56fc6802021165",
+        "processed_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T1.0-P01_Y.txt",
+        "processed_component_y_sha256": "614e57277c3da7281e5fdf7b1cfab12e17092c0c20f6af8d6932dc81d7fb6f57",
+        "processed_dataset_id": "analysis_v2_dt001_pwsa150_350",
+        "processed_dt_s": 0.009999999999999787,
+        "processed_duration_s": 131.06,
+        "processed_npts": 13107,
+        "processing_sequence": [
+          "linear_least_squares_detrend",
+          "polyphase_resample",
+          "post_resample_linear_detrend"
+        ],
+        "pwsa_taper_s": null,
+        "pwsa_window_s": null,
+        "raw_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\1.0second\\Zone5_1.0sec_EQ_1.txt",
+        "raw_component_x_sha256": "96a227ebe7259a01b1dd1e6de1e4ce2e19c8e9262a6366532562a9167e694ad1",
+        "raw_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\1.0second\\Zone5_1.0sec_EQ_2.txt",
+        "raw_component_y_sha256": "0c6277c732c19d349b18290ba92a1f0d759f7052e6a72b19ccd77c8963cdee24",
+        "raw_files_preserved": true,
+        "resampling_component_x": {
+          "down": 5,
+          "method": "scipy_resample_poly_v1",
+          "source_dt_s": 0.004000000000000448,
+          "target_dt_s": 0.01,
+          "up": 2
+        },
+        "resampling_component_y": {
+          "down": 5,
+          "method": "scipy_resample_poly_v1",
+          "source_dt_s": 0.004000000000000448,
+          "target_dt_s": 0.01,
+          "up": 2
+        },
+        "target_dt_s": 0.01
+      },
+      "baseline_diagnostics": {
+        "component_x": {
+          "linear_trend_acceleration_g_per_s": 1.1321665066984512e-10,
+          "mean_acceleration_g": -5.85937805172764e-09,
+          "normalized_residual_velocity_g_s": -5.859556871042894e-09,
+          "residual_displacement_m": -0.0007019133364869026,
+          "residual_velocity_m_s": -7.531511122403557e-06
+        },
+        "component_y": {
+          "linear_trend_acceleration_g_per_s": 1.6652263625783412e-10,
+          "mean_acceleration_g": -9.155303955193998e-10,
+          "normalized_residual_velocity_g_s": -9.155583366332682e-10,
+          "residual_displacement_m": -0.0003835584430303561,
+          "residual_velocity_m_s": -1.1768019233057602e-06
+        },
+        "interpretation": "Raw-record screening values only; the source files are never modified automatically. Large residuals require documented engineering review before production IDA."
+      },
+      "component_x_label": "EQ1_X",
+      "component_x_number": 1,
+      "component_x_source_entry": "EQ_1 = EQ1_X",
+      "component_x_source_line_number": 2,
+      "component_y_label": "EQ1_Y",
+      "component_y_number": 2,
+      "component_y_source_entry": "EQ_2 = EQ1_Y",
+      "component_y_source_line_number": 3,
+      "logical_record_number": 1,
+      "pairing_authority_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\1.0second\\ReadMe.txt",
+      "pairing_authority_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+      "pairing_rule": "source ReadMe mapping plus adjacency",
+      "pairing_verified_from_source_manifest": true
+    },
+    "valid": 1,
+    "validation_message": "valid paired components; X/Y identity verified from source ReadMe manifest; analysis copy passed deterministic linear-detrend QA"
+  },
+  {
+    "pair_id": "CMS-T1.0-P02",
+    "source_set": "CMS_ZONE5",
+    "conditioning_period_s": 1.0,
+    "component_x_path": "assets/motions/CMS-T1.0-P02_X.txt",
+    "component_y_path": "assets/motions/CMS-T1.0-P02_Y.txt",
+    "units": "g",
+    "dt_s": 0.009999999999999787,
+    "npts": 16384,
+    "duration_s": 163.83,
+    "pga_x_g": 0.06065820198623064,
+    "pga_y_g": 0.06895103869168936,
+    "sha256_x": "f94a3f41ac72f35ca341389cb80e4c8d8c0931fc6840a4147bcfaf74bfe73c2f",
+    "sha256_y": "5b4a0a79a66546f91ece24f89d14efa7215c1eba8669a55eb381fa17b026b7f8",
+    "physical_pair_hash": "a7f534fcdf634cf1ad3109ebb65d3543cbce0959f73f88535b5123d0b74b5f5c",
+    "raw_source_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\1.0second\\ReadMe.txt",
+    "raw_source_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+    "source_metadata_json": {
+      "adjacent_x_then_y_verified": true,
+      "analysis_preprocessing": {
+        "maximum_abs_residual_displacement_m": 0.01,
+        "maximum_abs_residual_velocity_m_s": 0.0001,
+        "method": "linear_least_squares_detrend_v1",
+        "original_dt_s": 0.0049999999999954525,
+        "original_duration_s": 163.835,
+        "original_npts": 32768,
+        "processed_baseline_diagnostics": {
+          "component_x": {
+            "linear_trend_acceleration_g_per_s": -4.522225467496063e-22,
+            "mean_acceleration_g": 1.2017279939170386e-20,
+            "normalized_residual_velocity_g_s": 2.53204727432917e-11,
+            "residual_displacement_m": 4.158782892736731e-06,
+            "residual_velocity_m_s": 4.0680465768207496e-08
+          },
+          "component_y": {
+            "linear_trend_acceleration_g_per_s": -6.780895076979934e-22,
+            "mean_acceleration_g": -1.4134862307306137e-20,
+            "normalized_residual_velocity_g_s": -2.535175618447417e-12,
+            "residual_displacement_m": -7.137703877029578e-07,
+            "residual_velocity_m_s": -4.073072647901797e-09
+          }
+        },
+        "processed_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T1.0-P02_X.txt",
+        "processed_component_x_sha256": "f94a3f41ac72f35ca341389cb80e4c8d8c0931fc6840a4147bcfaf74bfe73c2f",
+        "processed_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T1.0-P02_Y.txt",
+        "processed_component_y_sha256": "5b4a0a79a66546f91ece24f89d14efa7215c1eba8669a55eb381fa17b026b7f8",
+        "processed_dataset_id": "analysis_v2_dt001_pwsa150_350",
+        "processed_dt_s": 0.009999999999999787,
+        "processed_duration_s": 163.83,
+        "processed_npts": 16384,
+        "processing_sequence": [
+          "linear_least_squares_detrend",
+          "polyphase_resample",
+          "post_resample_linear_detrend"
+        ],
+        "pwsa_taper_s": null,
+        "pwsa_window_s": null,
+        "raw_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\1.0second\\Zone5_1.0sec_EQ_3.txt",
+        "raw_component_x_sha256": "c87336e06f6292608d45fea9b97c628a296da5fee2f36b8b7f07599397116c80",
+        "raw_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\1.0second\\Zone5_1.0sec_EQ_4.txt",
+        "raw_component_y_sha256": "2c6b37dc798f75bdad11de9c159db4d5e722faa8200758751a6ea383d8b8173c",
+        "raw_files_preserved": true,
+        "resampling_component_x": {
+          "down": 2,
+          "method": "scipy_resample_poly_v1",
+          "source_dt_s": 0.0049999999999954525,
+          "target_dt_s": 0.01,
+          "up": 1
+        },
+        "resampling_component_y": {
+          "down": 2,
+          "method": "scipy_resample_poly_v1",
+          "source_dt_s": 0.0049999999999954525,
+          "target_dt_s": 0.01,
+          "up": 1
+        },
+        "target_dt_s": 0.01
+      },
+      "baseline_diagnostics": {
+        "component_x": {
+          "linear_trend_acceleration_g_per_s": -1.2563183716205424e-09,
+          "mean_acceleration_g": 4.1482544860842045e-07,
+          "normalized_residual_velocity_g_s": 4.14838108462897e-07,
+          "residual_displacement_m": 0.05911417790387864,
+          "residual_velocity_m_s": 0.0006665089819601586
+        },
+        "component_y": {
+          "linear_trend_acceleration_g_per_s": 5.776572229419023e-10,
+          "mean_acceleration_g": -4.153442993163323e-08,
+          "normalized_residual_velocity_g_s": -4.153569750056568e-08,
+          "residual_displacement_m": -0.007542905276943169,
+          "residual_velocity_m_s": -6.673426305670079e-05
+        },
+        "interpretation": "Raw-record screening values only; the source files are never modified automatically. Large residuals require documented engineering review before production IDA."
+      },
+      "component_x_label": "EQ2_X",
+      "component_x_number": 3,
+      "component_x_source_entry": "EQ_3 = EQ2_X",
+      "component_x_source_line_number": 4,
+      "component_y_label": "EQ2_Y",
+      "component_y_number": 4,
+      "component_y_source_entry": "EQ_4 = EQ2_Y",
+      "component_y_source_line_number": 5,
+      "logical_record_number": 2,
+      "pairing_authority_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\1.0second\\ReadMe.txt",
+      "pairing_authority_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+      "pairing_rule": "source ReadMe mapping plus adjacency",
+      "pairing_verified_from_source_manifest": true
+    },
+    "valid": 1,
+    "validation_message": "valid paired components; X/Y identity verified from source ReadMe manifest; analysis copy passed deterministic linear-detrend QA"
+  },
+  {
+    "pair_id": "CMS-T1.0-P03",
+    "source_set": "CMS_ZONE5",
+    "conditioning_period_s": 1.0,
+    "component_x_path": "assets/motions/CMS-T1.0-P03_X.txt",
+    "component_y_path": "assets/motions/CMS-T1.0-P03_Y.txt",
+    "units": "g",
+    "dt_s": 0.009999999999999787,
+    "npts": 16384,
+    "duration_s": 163.83,
+    "pga_x_g": 0.06759485664538083,
+    "pga_y_g": 0.10486880917650593,
+    "sha256_x": "1441644a7a7ae5725beee9f415725a26ff000a7364b2d43d468ce95ec26677a2",
+    "sha256_y": "c5f34fb39bcb90aa8cad36acf42d7a0eb26ef2928d544b2245038e78f0939d65",
+    "physical_pair_hash": "1b38bd7739dfdc97bff1631503c5a5bacd8d0554a1c1c46bf58a86f4af3671c5",
+    "raw_source_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\1.0second\\ReadMe.txt",
+    "raw_source_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+    "source_metadata_json": {
+      "adjacent_x_then_y_verified": true,
+      "analysis_preprocessing": {
+        "maximum_abs_residual_displacement_m": 0.01,
+        "maximum_abs_residual_velocity_m_s": 0.0001,
+        "method": "linear_least_squares_detrend_v1",
+        "original_dt_s": 0.009999999999999787,
+        "original_duration_s": 163.83,
+        "original_npts": 16384,
+        "processed_baseline_diagnostics": {
+          "component_x": {
+            "linear_trend_acceleration_g_per_s": -2.0812388672158292e-22,
+            "mean_acceleration_g": -2.1175823681357508e-20,
+            "normalized_residual_velocity_g_s": -3.4572791549739448e-12,
+            "residual_displacement_m": -1.7215446815111665e-06,
+            "residual_velocity_m_s": -5.554545830994267e-09
+          },
+          "component_y": {
+            "linear_trend_acceleration_g_per_s": 6.422968413469335e-22,
+            "mean_acceleration_g": -1.6093625997831706e-20,
+            "normalized_residual_velocity_g_s": -5.048076960290208e-12,
+            "residual_displacement_m": -2.2352047404488314e-06,
+            "residual_velocity_m_s": -8.110358920244468e-09
+          }
+        },
+        "processed_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T1.0-P03_X.txt",
+        "processed_component_x_sha256": "1441644a7a7ae5725beee9f415725a26ff000a7364b2d43d468ce95ec26677a2",
+        "processed_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T1.0-P03_Y.txt",
+        "processed_component_y_sha256": "c5f34fb39bcb90aa8cad36acf42d7a0eb26ef2928d544b2245038e78f0939d65",
+        "processed_dataset_id": "analysis_v2_dt001_pwsa150_350",
+        "processed_dt_s": 0.009999999999999787,
+        "processed_duration_s": 163.83,
+        "processed_npts": 16384,
+        "processing_sequence": [
+          "linear_least_squares_detrend",
+          "polyphase_resample",
+          "post_resample_linear_detrend"
+        ],
+        "pwsa_taper_s": null,
+        "pwsa_window_s": null,
+        "raw_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\1.0second\\Zone5_1.0sec_EQ_5.txt",
+        "raw_component_x_sha256": "8f491fedf62997780a8797d8dff844d3fd63cdde912e876011a18712cc65740f",
+        "raw_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\1.0second\\Zone5_1.0sec_EQ_6.txt",
+        "raw_component_y_sha256": "5116818cca11dcd63d0cefcb1b19fd08e2b3af81b631a167e31e38e3b4476c62",
+        "raw_files_preserved": true,
+        "resampling_component_x": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999999787,
+          "target_dt_s": 0.009999999999999787,
+          "up": 1
+        },
+        "resampling_component_y": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999999787,
+          "target_dt_s": 0.009999999999999787,
+          "up": 1
+        },
+        "target_dt_s": 0.01
+      },
+      "baseline_diagnostics": {
+        "component_x": {
+          "linear_trend_acceleration_g_per_s": 1.924625599461501e-09,
+          "mean_acceleration_g": -5.6640612792917024e-08,
+          "normalized_residual_velocity_g_s": -5.6644070071990776e-08,
+          "residual_displacement_m": -0.014372172931890697,
+          "residual_velocity_m_s": -9.100569238566294e-05
+        },
+        "component_y": {
+          "linear_trend_acceleration_g_per_s": 2.3870372281480525e-09,
+          "mean_acceleration_g": -8.270264282229463e-08,
+          "normalized_residual_velocity_g_s": -8.270769089919832e-08,
+          "residual_displacement_m": -0.01946430486729131,
+          "residual_velocity_m_s": -0.00013288011730680358
+        },
+        "interpretation": "Raw-record screening values only; the source files are never modified automatically. Large residuals require documented engineering review before production IDA."
+      },
+      "component_x_label": "EQ3_X",
+      "component_x_number": 5,
+      "component_x_source_entry": "EQ_5 = EQ3_X",
+      "component_x_source_line_number": 6,
+      "component_y_label": "EQ3_Y",
+      "component_y_number": 6,
+      "component_y_source_entry": "EQ_6 = EQ3_Y",
+      "component_y_source_line_number": 7,
+      "logical_record_number": 3,
+      "pairing_authority_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\1.0second\\ReadMe.txt",
+      "pairing_authority_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+      "pairing_rule": "source ReadMe mapping plus adjacency",
+      "pairing_verified_from_source_manifest": true
+    },
+    "valid": 1,
+    "validation_message": "valid paired components; X/Y identity verified from source ReadMe manifest; analysis copy passed deterministic linear-detrend QA"
+  },
+  {
+    "pair_id": "CMS-T1.0-P04",
+    "source_set": "CMS_ZONE5",
+    "conditioning_period_s": 1.0,
+    "component_x_path": "assets/motions/CMS-T1.0-P04_X.txt",
+    "component_y_path": "assets/motions/CMS-T1.0-P04_Y.txt",
+    "units": "g",
+    "dt_s": 0.009999999999999787,
+    "npts": 8192,
+    "duration_s": 81.91,
+    "pga_x_g": 0.07130136805540194,
+    "pga_y_g": 0.08126338971180337,
+    "sha256_x": "785b3c1b1289395dbaeabfbba2fc5e053f514b47746bcb3c2483a78fbab8508a",
+    "sha256_y": "fa205d4b938a3547e653ec2cd829a5341008653f1847236935c272c44fe09971",
+    "physical_pair_hash": "cabc23dff9dcd614eb3247f4067b5b666ab6b07080f01c920fbe11f0643e51de",
+    "raw_source_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\1.0second\\ReadMe.txt",
+    "raw_source_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+    "source_metadata_json": {
+      "adjacent_x_then_y_verified": true,
+      "analysis_preprocessing": {
+        "maximum_abs_residual_displacement_m": 0.01,
+        "maximum_abs_residual_velocity_m_s": 0.0001,
+        "method": "linear_least_squares_detrend_v1",
+        "original_dt_s": 0.004999999999999893,
+        "original_duration_s": 81.915,
+        "original_npts": 16384,
+        "processed_baseline_diagnostics": {
+          "component_x": {
+            "linear_trend_acceleration_g_per_s": 3.827134452394277e-21,
+            "mean_acceleration_g": -1.3213713977167085e-19,
+            "normalized_residual_velocity_g_s": -3.713105588950811e-10,
+            "residual_displacement_m": -1.3824467247082187e-05,
+            "residual_velocity_m_s": -2.9825992263353766e-07
+          },
+          "component_y": {
+            "linear_trend_acceleration_g_per_s": 1.2279335967767607e-20,
+            "mean_acceleration_g": -9.486769009248164e-20,
+            "normalized_residual_velocity_g_s": 2.7793546071958228e-12,
+            "residual_displacement_m": 3.2365941346690644e-07,
+            "residual_velocity_m_s": 2.2325518902025878e-09
+          }
+        },
+        "processed_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T1.0-P04_X.txt",
+        "processed_component_x_sha256": "785b3c1b1289395dbaeabfbba2fc5e053f514b47746bcb3c2483a78fbab8508a",
+        "processed_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T1.0-P04_Y.txt",
+        "processed_component_y_sha256": "fa205d4b938a3547e653ec2cd829a5341008653f1847236935c272c44fe09971",
+        "processed_dataset_id": "analysis_v2_dt001_pwsa150_350",
+        "processed_dt_s": 0.009999999999999787,
+        "processed_duration_s": 81.91,
+        "processed_npts": 8192,
+        "processing_sequence": [
+          "linear_least_squares_detrend",
+          "polyphase_resample",
+          "post_resample_linear_detrend"
+        ],
+        "pwsa_taper_s": null,
+        "pwsa_window_s": null,
+        "raw_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\1.0second\\Zone5_1.0sec_EQ_7.txt",
+        "raw_component_x_sha256": "2e7572794157fe250b1c838d197f2324131a018cc7741ad0e4a8e149633f95be",
+        "raw_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\1.0second\\Zone5_1.0sec_EQ_8.txt",
+        "raw_component_y_sha256": "2af98326ff8c6a74573c8e0e39531467889f63e901bdd43207855e2a8f9d50c1",
+        "raw_files_preserved": true,
+        "resampling_component_x": {
+          "down": 2,
+          "method": "scipy_resample_poly_v1",
+          "source_dt_s": 0.004999999999999893,
+          "target_dt_s": 0.01,
+          "up": 1
+        },
+        "resampling_component_y": {
+          "down": 2,
+          "method": "scipy_resample_poly_v1",
+          "source_dt_s": 0.004999999999999893,
+          "target_dt_s": 0.01,
+          "up": 1
+        },
+        "target_dt_s": 0.01
+      },
+      "baseline_diagnostics": {
+        "component_x": {
+          "linear_trend_acceleration_g_per_s": 9.886230273414765e-09,
+          "mean_acceleration_g": -4.656982421876608e-08,
+          "normalized_residual_velocity_g_s": -4.675578343414667e-08,
+          "residual_displacement_m": -0.005979947457338179,
+          "residual_velocity_m_s": -3.7559469500079674e-05
+        },
+        "component_y": {
+          "linear_trend_acceleration_g_per_s": -1.4117705142681438e-09,
+          "mean_acceleration_g": 2.2766107177866752e-08,
+          "normalized_residual_velocity_g_s": 2.2767496795558557e-08,
+          "residual_displacement_m": 0.0013833568169316084,
+          "residual_velocity_m_s": 1.828939734675521e-05
+        },
+        "interpretation": "Raw-record screening values only; the source files are never modified automatically. Large residuals require documented engineering review before production IDA."
+      },
+      "component_x_label": "EQ4_X",
+      "component_x_number": 7,
+      "component_x_source_entry": "EQ_7 = EQ4_X",
+      "component_x_source_line_number": 8,
+      "component_y_label": "EQ4_Y",
+      "component_y_number": 8,
+      "component_y_source_entry": "EQ_8 = EQ4_Y",
+      "component_y_source_line_number": 9,
+      "logical_record_number": 4,
+      "pairing_authority_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\1.0second\\ReadMe.txt",
+      "pairing_authority_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+      "pairing_rule": "source ReadMe mapping plus adjacency",
+      "pairing_verified_from_source_manifest": true
+    },
+    "valid": 1,
+    "validation_message": "valid paired components; X/Y identity verified from source ReadMe manifest; analysis copy passed deterministic linear-detrend QA"
+  },
+  {
+    "pair_id": "CMS-T1.5-P01",
+    "source_set": "CMS_ZONE5",
+    "conditioning_period_s": 1.5,
+    "component_x_path": "assets/motions/CMS-T1.5-P01_X.txt",
+    "component_y_path": "assets/motions/CMS-T1.5-P01_Y.txt",
+    "units": "g",
+    "dt_s": 0.009999999999990905,
+    "npts": 32768,
+    "duration_s": 327.67,
+    "pga_x_g": 0.06410368857680276,
+    "pga_y_g": 0.08379704157344298,
+    "sha256_x": "6f98493d141da2af93e005c7b8e3861d4264f4977d0567c852629a8a30e3304d",
+    "sha256_y": "7cf8d70de9e1ad6a3c041066bc74d1f0b587306ddb43f07d5714e40e5e330fbb",
+    "physical_pair_hash": "26c7f316c9b108a16e017d2cad061457896ff836b77113f0e1dabd07c1d398a5",
+    "raw_source_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\1.5second\\ReadMe2.txt",
+    "raw_source_sha256": "9f6f8221b03d7d30bad2c63adb0d820ba6c0adb3d289a3a3f05bb46e98fdb426",
+    "source_metadata_json": {
+      "adjacent_x_then_y_verified": true,
+      "analysis_preprocessing": {
+        "maximum_abs_residual_displacement_m": 0.01,
+        "maximum_abs_residual_velocity_m_s": 0.0001,
+        "method": "linear_least_squares_detrend_v1",
+        "original_dt_s": 0.009999999999990905,
+        "original_duration_s": 327.67,
+        "original_npts": 32768,
+        "processed_baseline_diagnostics": {
+          "component_x": {
+            "linear_trend_acceleration_g_per_s": -5.566991058666884e-22,
+            "mean_acceleration_g": 4.0657581468206416e-20,
+            "normalized_residual_velocity_g_s": -1.9278936353771518e-13,
+            "residual_displacement_m": -0.0002685520851882477,
+            "residual_velocity_m_s": -6.194987384374409e-10
+          },
+          "component_y": {
+            "linear_trend_acceleration_g_per_s": -1.7695758570762245e-23,
+            "mean_acceleration_g": -9.147955830346444e-20,
+            "normalized_residual_velocity_g_s": -3.06479670598215e-11,
+            "residual_displacement_m": 0.0002567893877405241,
+            "residual_velocity_m_s": -9.848249188040594e-08
+          }
+        },
+        "processed_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T1.5-P01_X.txt",
+        "processed_component_x_sha256": "6f98493d141da2af93e005c7b8e3861d4264f4977d0567c852629a8a30e3304d",
+        "processed_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T1.5-P01_Y.txt",
+        "processed_component_y_sha256": "7cf8d70de9e1ad6a3c041066bc74d1f0b587306ddb43f07d5714e40e5e330fbb",
+        "processed_dataset_id": "analysis_v2_dt001_pwsa150_350",
+        "processed_dt_s": 0.009999999999990905,
+        "processed_duration_s": 327.67,
+        "processed_npts": 32768,
+        "processing_sequence": [
+          "linear_least_squares_detrend",
+          "polyphase_resample",
+          "post_resample_linear_detrend"
+        ],
+        "pwsa_taper_s": null,
+        "pwsa_window_s": null,
+        "raw_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\1.5second\\Zone5_1.5sec_EQ_1.txt",
+        "raw_component_x_sha256": "24c1ce4f45edcd2e37a336e63a61e8cc5363f9a325c2d209e26573887bc709a6",
+        "raw_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\1.5second\\Zone5_1.5sec_EQ_2.txt",
+        "raw_component_y_sha256": "f4bc0f72e90c39010ad715bc2aac66108b7a4ec58a2a6c9a076e738bd131a679",
+        "raw_files_preserved": true,
+        "resampling_component_x": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999990905,
+          "target_dt_s": 0.009999999999990905,
+          "up": 1
+        },
+        "resampling_component_y": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999990905,
+          "target_dt_s": 0.009999999999990905,
+          "up": 1
+        },
+        "target_dt_s": 0.01
+      },
+      "baseline_diagnostics": {
+        "component_x": {
+          "linear_trend_acceleration_g_per_s": 1.0198048233109892e-07,
+          "mean_acceleration_g": -6.317135620121559e-09,
+          "normalized_residual_velocity_g_s": -6.317328409704606e-09,
+          "residual_displacement_m": -2.9356115999975274,
+          "residual_velocity_m_s": -2.0299755693427553e-05
+        },
+        "component_y": {
+          "linear_trend_acceleration_g_per_s": -1.0367996740240885e-07,
+          "mean_acceleration_g": -4.24194030756612e-09,
+          "normalized_residual_velocity_g_s": -4.272588274253669e-09,
+          "residual_displacement_m": 2.97890242682332,
+          "residual_velocity_m_s": -1.3729300191630892e-05
+        },
+        "interpretation": "Raw-record screening values only; the source files are never modified automatically. Large residuals require documented engineering review before production IDA."
+      },
+      "component_x_label": "EQ1_X",
+      "component_x_number": 1,
+      "component_x_source_entry": "EQ_1 = EQ1_X",
+      "component_x_source_line_number": 2,
+      "component_y_label": "EQ1_Y",
+      "component_y_number": 2,
+      "component_y_source_entry": "EQ_2 = EQ1_Y",
+      "component_y_source_line_number": 3,
+      "logical_record_number": 1,
+      "pairing_authority_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\1.5second\\ReadMe2.txt",
+      "pairing_authority_sha256": "9f6f8221b03d7d30bad2c63adb0d820ba6c0adb3d289a3a3f05bb46e98fdb426",
+      "pairing_rule": "source ReadMe mapping plus adjacency",
+      "pairing_verified_from_source_manifest": true
+    },
+    "valid": 1,
+    "validation_message": "valid paired components; X/Y identity verified from source ReadMe manifest; analysis copy passed deterministic linear-detrend QA"
+  },
+  {
+    "pair_id": "CMS-T1.5-P02",
+    "source_set": "CMS_ZONE5",
+    "conditioning_period_s": 1.5,
+    "component_x_path": "assets/motions/CMS-T1.5-P02_X.txt",
+    "component_y_path": "assets/motions/CMS-T1.5-P02_Y.txt",
+    "units": "g",
+    "dt_s": 0.009999999999990905,
+    "npts": 32768,
+    "duration_s": 327.67,
+    "pga_x_g": 0.07554802466323447,
+    "pga_y_g": 0.07002765767736623,
+    "sha256_x": "6f3fd66641135348602772f020cf1cdb4b3e215ef0b4c8b8075d23dac5674dbc",
+    "sha256_y": "bb86f2f73b290c62b13d5e992025962305c7ba2988e1839769406d2495c13c41",
+    "physical_pair_hash": "d2fa9280a42b24ebf29a9bc20f6c2833dbbc3fff2003168e8e22165a254b7a66",
+    "raw_source_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\1.5second\\ReadMe2.txt",
+    "raw_source_sha256": "9f6f8221b03d7d30bad2c63adb0d820ba6c0adb3d289a3a3f05bb46e98fdb426",
+    "source_metadata_json": {
+      "adjacent_x_then_y_verified": true,
+      "analysis_preprocessing": {
+        "maximum_abs_residual_displacement_m": 0.01,
+        "maximum_abs_residual_velocity_m_s": 0.0001,
+        "method": "linear_least_squares_detrend_v1",
+        "original_dt_s": 0.009999999999990905,
+        "original_duration_s": 327.67,
+        "original_npts": 32768,
+        "processed_baseline_diagnostics": {
+          "component_x": {
+            "linear_trend_acceleration_g_per_s": 1.9912703224438575e-22,
+            "mean_acceleration_g": 4.0657581468206416e-20,
+            "normalized_residual_velocity_g_s": -5.800454045953944e-11,
+            "residual_displacement_m": -7.48066811577366e-05,
+            "residual_velocity_m_s": -1.8638860038198372e-07
+          },
+          "component_y": {
+            "linear_trend_acceleration_g_per_s": -6.448861426060558e-23,
+            "mean_acceleration_g": -1.6093625997831706e-20,
+            "normalized_residual_velocity_g_s": -4.6357064737105116e-11,
+            "residual_displacement_m": -9.991654333836712e-05,
+            "residual_velocity_m_s": -1.489612424426169e-07
+          }
+        },
+        "processed_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T1.5-P02_X.txt",
+        "processed_component_x_sha256": "6f3fd66641135348602772f020cf1cdb4b3e215ef0b4c8b8075d23dac5674dbc",
+        "processed_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T1.5-P02_Y.txt",
+        "processed_component_y_sha256": "bb86f2f73b290c62b13d5e992025962305c7ba2988e1839769406d2495c13c41",
+        "processed_dataset_id": "analysis_v2_dt001_pwsa150_350",
+        "processed_dt_s": 0.009999999999990905,
+        "processed_duration_s": 327.67,
+        "processed_npts": 32768,
+        "processing_sequence": [
+          "linear_least_squares_detrend",
+          "polyphase_resample",
+          "post_resample_linear_detrend"
+        ],
+        "pwsa_taper_s": null,
+        "pwsa_window_s": null,
+        "raw_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\1.5second\\Zone5_1.5sec_EQ_3.txt",
+        "raw_component_x_sha256": "d06a494a481462dc0158c7f136dbe75e3f03db364772fe3f0e5636dcf71c1f0c",
+        "raw_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\1.5second\\Zone5_1.5sec_EQ_4.txt",
+        "raw_component_y_sha256": "8566fc2582f8036ff6556dc414a1b01c90b4cd05d9616340db77784cfe5f985e",
+        "raw_files_preserved": true,
+        "resampling_component_x": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999990905,
+          "target_dt_s": 0.009999999999990905,
+          "up": 1
+        },
+        "resampling_component_y": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999990905,
+          "target_dt_s": 0.009999999999990905,
+          "up": 1
+        },
+        "target_dt_s": 0.01
+      },
+      "baseline_diagnostics": {
+        "component_x": {
+          "linear_trend_acceleration_g_per_s": 1.6817418263832504e-08,
+          "mean_acceleration_g": -9.006347747802821e-07,
+          "normalized_residual_velocity_g_s": -9.006927793205782e-07,
+          "residual_displacement_m": -0.9577352460091927,
+          "residual_velocity_m_s": -0.0028942366439196937
+        },
+        "component_y": {
+          "linear_trend_acceleration_g_per_s": 2.8685714493320715e-08,
+          "mean_acceleration_g": -1.518981936645486e-06,
+          "normalized_residual_velocity_g_s": -1.5190282937102556e-06,
+          "residual_displacement_m": -1.6245170493627528,
+          "residual_velocity_m_s": -0.0048811619808070365
+        },
+        "interpretation": "Raw-record screening values only; the source files are never modified automatically. Large residuals require documented engineering review before production IDA."
+      },
+      "component_x_label": "EQ2_X",
+      "component_x_number": 3,
+      "component_x_source_entry": "EQ_3 = EQ2_X",
+      "component_x_source_line_number": 4,
+      "component_y_label": "EQ2_Y",
+      "component_y_number": 4,
+      "component_y_source_entry": "EQ_4 = EQ2_Y",
+      "component_y_source_line_number": 5,
+      "logical_record_number": 2,
+      "pairing_authority_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\1.5second\\ReadMe2.txt",
+      "pairing_authority_sha256": "9f6f8221b03d7d30bad2c63adb0d820ba6c0adb3d289a3a3f05bb46e98fdb426",
+      "pairing_rule": "source ReadMe mapping plus adjacency",
+      "pairing_verified_from_source_manifest": true
+    },
+    "valid": 1,
+    "validation_message": "valid paired components; X/Y identity verified from source ReadMe manifest; analysis copy passed deterministic linear-detrend QA"
+  },
+  {
+    "pair_id": "CMS-T1.5-P03",
+    "source_set": "CMS_ZONE5",
+    "conditioning_period_s": 1.5,
+    "component_x_path": "assets/motions/CMS-T1.5-P03_X.txt",
+    "component_y_path": "assets/motions/CMS-T1.5-P03_Y.txt",
+    "units": "g",
+    "dt_s": 0.009999999999990905,
+    "npts": 32768,
+    "duration_s": 327.67,
+    "pga_x_g": 0.08029647324180904,
+    "pga_y_g": 0.0668384456970898,
+    "sha256_x": "6fdeebe79e8a65778a6bdb9b808547ffe936b4ebcee8efbc3e3776ebfa76b55c",
+    "sha256_y": "5c6b907d480a6ca9bb8f778899c9e0c6ba9385cc232ce06b5634a74a2bb06de1",
+    "physical_pair_hash": "c5138c21fcd5dfd7b6b409e00d6444abecedc96ad9f5f076e7bdc57904a3c14e",
+    "raw_source_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\1.5second\\ReadMe2.txt",
+    "raw_source_sha256": "9f6f8221b03d7d30bad2c63adb0d820ba6c0adb3d289a3a3f05bb46e98fdb426",
+    "source_metadata_json": {
+      "adjacent_x_then_y_verified": true,
+      "analysis_preprocessing": {
+        "maximum_abs_residual_displacement_m": 0.01,
+        "maximum_abs_residual_velocity_m_s": 0.0001,
+        "method": "linear_least_squares_detrend_v1",
+        "original_dt_s": 0.009999999999990905,
+        "original_duration_s": 327.67,
+        "original_npts": 32768,
+        "processed_baseline_diagnostics": {
+          "component_x": {
+            "linear_trend_acceleration_g_per_s": 1.2709535761384515e-22,
+            "mean_acceleration_g": -2.371692252312041e-20,
+            "normalized_residual_velocity_g_s": -1.0075168827124395e-10,
+            "residual_displacement_m": -0.00010412640900650188,
+            "residual_velocity_m_s": -3.2374993430209467e-07
+          },
+          "component_y": {
+            "linear_trend_acceleration_g_per_s": -2.684153765838245e-22,
+            "mean_acceleration_g": 2.3505164286306834e-20,
+            "normalized_residual_velocity_g_s": -3.632017421815269e-10,
+            "residual_displacement_m": -0.0002435856222592878,
+            "residual_velocity_m_s": -1.1670925042279081e-06
+          }
+        },
+        "processed_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T1.5-P03_X.txt",
+        "processed_component_x_sha256": "6fdeebe79e8a65778a6bdb9b808547ffe936b4ebcee8efbc3e3776ebfa76b55c",
+        "processed_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T1.5-P03_Y.txt",
+        "processed_component_y_sha256": "5c6b907d480a6ca9bb8f778899c9e0c6ba9385cc232ce06b5634a74a2bb06de1",
+        "processed_dataset_id": "analysis_v2_dt001_pwsa150_350",
+        "processed_dt_s": 0.009999999999990905,
+        "processed_duration_s": 327.67,
+        "processed_npts": 32768,
+        "processing_sequence": [
+          "linear_least_squares_detrend",
+          "polyphase_resample",
+          "post_resample_linear_detrend"
+        ],
+        "pwsa_taper_s": null,
+        "pwsa_window_s": null,
+        "raw_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\1.5second\\Zone5_1.5sec_EQ_5.txt",
+        "raw_component_x_sha256": "ce67d58a98d995732793c767a3a48245ad5fd09a31ca3621df85569bc799466d",
+        "raw_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\1.5second\\Zone5_1.5sec_EQ_6.txt",
+        "raw_component_y_sha256": "3548f6553678d26835712a29fe86bc5dfa273bc281221d9a0e5d2d9c0ad1f6b0",
+        "raw_files_preserved": true,
+        "resampling_component_x": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999990905,
+          "target_dt_s": 0.009999999999990905,
+          "up": 1
+        },
+        "resampling_component_y": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999990905,
+          "target_dt_s": 0.009999999999990905,
+          "up": 1
+        },
+        "target_dt_s": 0.01
+      },
+      "baseline_diagnostics": {
+        "component_x": {
+          "linear_trend_acceleration_g_per_s": 1.9406388650090147e-08,
+          "mean_acceleration_g": -3.0133057250977764e-07,
+          "normalized_residual_velocity_g_s": -3.0143132419817506e-07,
+          "residual_displacement_m": -0.7166907376615249,
+          "residual_velocity_m_s": -0.000968602840113457
+        },
+        "component_y": {
+          "linear_trend_acceleration_g_per_s": 1.98965105779883e-08,
+          "mean_acceleration_g": 9.896850891110761e-08,
+          "normalized_residual_velocity_g_s": 9.860530716891216e-08,
+          "residual_displacement_m": -0.520180773930146,
+          "residual_velocity_m_s": 0.0003168528713070172
+        },
+        "interpretation": "Raw-record screening values only; the source files are never modified automatically. Large residuals require documented engineering review before production IDA."
+      },
+      "component_x_label": "EQ3_X",
+      "component_x_number": 5,
+      "component_x_source_entry": "EQ_5 = EQ3_X",
+      "component_x_source_line_number": 6,
+      "component_y_label": "EQ3_Y",
+      "component_y_number": 6,
+      "component_y_source_entry": "EQ_6 = EQ3_Y",
+      "component_y_source_line_number": 7,
+      "logical_record_number": 3,
+      "pairing_authority_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\1.5second\\ReadMe2.txt",
+      "pairing_authority_sha256": "9f6f8221b03d7d30bad2c63adb0d820ba6c0adb3d289a3a3f05bb46e98fdb426",
+      "pairing_rule": "source ReadMe mapping plus adjacency",
+      "pairing_verified_from_source_manifest": true
+    },
+    "valid": 1,
+    "validation_message": "valid paired components; X/Y identity verified from source ReadMe manifest; analysis copy passed deterministic linear-detrend QA"
+  },
+  {
+    "pair_id": "CMS-T2.0-P01",
+    "source_set": "CMS_ZONE5",
+    "conditioning_period_s": 2.0,
+    "component_x_path": "assets/motions/CMS-T2.0-P01_X.txt",
+    "component_y_path": "assets/motions/CMS-T2.0-P01_Y.txt",
+    "units": "g",
+    "dt_s": 0.009999999999990905,
+    "npts": 32768,
+    "duration_s": 327.67,
+    "pga_x_g": 0.0906064037595007,
+    "pga_y_g": 0.09300081093317028,
+    "sha256_x": "1d05b4427ae4fc49ebe4be6b3481f8a9a919d104a87ee0b20c14a435c2a5adfc",
+    "sha256_y": "d9e27af4a61faa6c46c2ef836e09abf10816b33e5cad56bd9300803084c40697",
+    "physical_pair_hash": "bc6bcf995dcdb5212c760d745d1a2de21cfb92af3489be4f8aa9e3231ebf9ff1",
+    "raw_source_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\2.0second\\ReadMe.txt",
+    "raw_source_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+    "source_metadata_json": {
+      "adjacent_x_then_y_verified": true,
+      "analysis_preprocessing": {
+        "maximum_abs_residual_displacement_m": 0.01,
+        "maximum_abs_residual_velocity_m_s": 0.0001,
+        "method": "linear_least_squares_detrend_v1",
+        "original_dt_s": 0.009999999999990905,
+        "original_duration_s": 327.67,
+        "original_npts": 32768,
+        "processed_baseline_diagnostics": {
+          "component_x": {
+            "linear_trend_acceleration_g_per_s": -3.5071707521404485e-22,
+            "mean_acceleration_g": 5.3151317440207346e-20,
+            "normalized_residual_velocity_g_s": -3.872753029040788e-10,
+            "residual_displacement_m": -0.0005132917967582988,
+            "residual_velocity_m_s": -1.2444491603403212e-06
+          },
+          "component_y": {
+            "linear_trend_acceleration_g_per_s": 7.7379692268383105e-22,
+            "mean_acceleration_g": -6.522153693858113e-20,
+            "normalized_residual_velocity_g_s": 1.0828818063676045e-10,
+            "residual_displacement_m": -4.8223756653431516e-05,
+            "residual_velocity_m_s": 3.47967284403816e-07
+          }
+        },
+        "processed_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T2.0-P01_X.txt",
+        "processed_component_x_sha256": "1d05b4427ae4fc49ebe4be6b3481f8a9a919d104a87ee0b20c14a435c2a5adfc",
+        "processed_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T2.0-P01_Y.txt",
+        "processed_component_y_sha256": "d9e27af4a61faa6c46c2ef836e09abf10816b33e5cad56bd9300803084c40697",
+        "processed_dataset_id": "analysis_v2_dt001_pwsa150_350",
+        "processed_dt_s": 0.009999999999990905,
+        "processed_duration_s": 327.67,
+        "processed_npts": 32768,
+        "processing_sequence": [
+          "linear_least_squares_detrend",
+          "polyphase_resample",
+          "post_resample_linear_detrend"
+        ],
+        "pwsa_taper_s": null,
+        "pwsa_window_s": null,
+        "raw_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\2.0second\\Zone5_2.0sec_EQ_1.txt",
+        "raw_component_x_sha256": "e6f18bf9c66417e3eea41677d662893fc319da231a7b4d0fcc5cb27ce63f3ad1",
+        "raw_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\2.0second\\Zone5_2.0sec_EQ_2.txt",
+        "raw_component_y_sha256": "f55455aa46a736b1ddc03b039b6ba40974ebda799e964199f1ecf1f388ae3b8b",
+        "raw_files_preserved": true,
+        "resampling_component_x": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999990905,
+          "target_dt_s": 0.009999999999990905,
+          "up": 1
+        },
+        "resampling_component_y": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999990905,
+          "target_dt_s": 0.009999999999990905,
+          "up": 1
+        },
+        "target_dt_s": 0.01
+      },
+      "baseline_diagnostics": {
+        "component_x": {
+          "linear_trend_acceleration_g_per_s": 1.1448755523361408e-07,
+          "mean_acceleration_g": -1.0189849850463904e-05,
+          "normalized_residual_velocity_g_s": -1.0190237125766953e-05,
+          "residual_displacement_m": -8.656650434902252,
+          "residual_velocity_m_s": -0.03274474757294391
+        },
+        "component_y": {
+          "linear_trend_acceleration_g_per_s": 3.9976480352910065e-08,
+          "mean_acceleration_g": -1.4517211822510241e-06,
+          "normalized_residual_velocity_g_s": -1.4516128940701277e-06,
+          "residual_displacement_m": -1.9136735753274168,
+          "residual_velocity_m_s": -0.004664533043079645
+        },
+        "interpretation": "Raw-record screening values only; the source files are never modified automatically. Large residuals require documented engineering review before production IDA."
+      },
+      "component_x_label": "EQ1_X",
+      "component_x_number": 1,
+      "component_x_source_entry": "EQ_1 = EQ1_X",
+      "component_x_source_line_number": 2,
+      "component_y_label": "EQ1_Y",
+      "component_y_number": 2,
+      "component_y_source_entry": "EQ_2 = EQ1_Y",
+      "component_y_source_line_number": 3,
+      "logical_record_number": 1,
+      "pairing_authority_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\2.0second\\ReadMe.txt",
+      "pairing_authority_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+      "pairing_rule": "source ReadMe mapping plus adjacency",
+      "pairing_verified_from_source_manifest": true
+    },
+    "valid": 1,
+    "validation_message": "valid paired components; X/Y identity verified from source ReadMe manifest; analysis copy passed deterministic linear-detrend QA"
+  },
+  {
+    "pair_id": "CMS-T2.0-P02",
+    "source_set": "CMS_ZONE5",
+    "conditioning_period_s": 2.0,
+    "component_x_path": "assets/motions/CMS-T2.0-P02_X.txt",
+    "component_y_path": "assets/motions/CMS-T2.0-P02_Y.txt",
+    "units": "g",
+    "dt_s": 0.009999999999990905,
+    "npts": 32768,
+    "duration_s": 327.67,
+    "pga_x_g": 0.07651754429450136,
+    "pga_y_g": 0.0703955994622905,
+    "sha256_x": "c401846ff71fc6a3ff005dad000bbe71f9370936450ee0245b5c2dd7381290e9",
+    "sha256_y": "d5a38f398bd8519b46e602d949a0d0ecda6108f6341cc95ad9d464986c6597f9",
+    "physical_pair_hash": "5166fdf8074f39974a6dfcfe6fe356f218da9053bc4979c1d7dbd0299c187166",
+    "raw_source_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\2.0second\\ReadMe.txt",
+    "raw_source_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+    "source_metadata_json": {
+      "adjacent_x_then_y_verified": true,
+      "analysis_preprocessing": {
+        "maximum_abs_residual_displacement_m": 0.01,
+        "maximum_abs_residual_velocity_m_s": 0.0001,
+        "method": "linear_least_squares_detrend_v1",
+        "original_dt_s": 0.009999999999990905,
+        "original_duration_s": 327.67,
+        "original_npts": 32768,
+        "processed_baseline_diagnostics": {
+          "component_x": {
+            "linear_trend_acceleration_g_per_s": 1.9442641596710545e-22,
+            "mean_acceleration_g": 1.6940658945086007e-21,
+            "normalized_residual_velocity_g_s": 3.855979407938278e-11,
+            "residual_displacement_m": -0.0002703233391695454,
+            "residual_velocity_m_s": 1.2390592171809312e-07
+          },
+          "component_y": {
+            "linear_trend_acceleration_g_per_s": -1.3002606143424732e-24,
+            "mean_acceleration_g": -3.3881317890172014e-20,
+            "normalized_residual_velocity_g_s": 2.6305077454945236e-11,
+            "residual_displacement_m": -8.202071814311602e-05,
+            "residual_velocity_m_s": 8.452728925913892e-08
+          }
+        },
+        "processed_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T2.0-P02_X.txt",
+        "processed_component_x_sha256": "c401846ff71fc6a3ff005dad000bbe71f9370936450ee0245b5c2dd7381290e9",
+        "processed_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T2.0-P02_Y.txt",
+        "processed_component_y_sha256": "d5a38f398bd8519b46e602d949a0d0ecda6108f6341cc95ad9d464986c6597f9",
+        "processed_dataset_id": "analysis_v2_dt001_pwsa150_350",
+        "processed_dt_s": 0.009999999999990905,
+        "processed_duration_s": 327.67,
+        "processed_npts": 32768,
+        "processing_sequence": [
+          "linear_least_squares_detrend",
+          "polyphase_resample",
+          "post_resample_linear_detrend"
+        ],
+        "pwsa_taper_s": null,
+        "pwsa_window_s": null,
+        "raw_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\2.0second\\Zone5_2.0sec_EQ_3.txt",
+        "raw_component_x_sha256": "6214bb3e9dcb74549a09f53bc793968bdda57d73e304514aef9deb7902e23e25",
+        "raw_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\2.0second\\Zone5_2.0sec_EQ_4.txt",
+        "raw_component_y_sha256": "ac8849324e12bd6efdf72ff3eafcf907fa224d06efa0fd38b3c190988befc81e",
+        "raw_files_preserved": true,
+        "resampling_component_x": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999990905,
+          "target_dt_s": 0.009999999999990905,
+          "up": 1
+        },
+        "resampling_component_y": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999990905,
+          "target_dt_s": 0.009999999999990905,
+          "up": 1
+        },
+        "target_dt_s": 0.01
+      },
+      "baseline_diagnostics": {
+        "component_x": {
+          "linear_trend_acceleration_g_per_s": 1.1040363615710335e-07,
+          "mean_acceleration_g": 2.634887786864938e-07,
+          "normalized_residual_velocity_g_s": 2.6352733848062694e-07,
+          "residual_displacement_m": -3.035743940911201,
+          "residual_velocity_m_s": 0.0008468042569194304
+        },
+        "component_y": {
+          "linear_trend_acceleration_g_per_s": 3.641933520927797e-08,
+          "mean_acceleration_g": -1.3806152038578345e-07,
+          "normalized_residual_velocity_g_s": -1.3803521530822072e-07,
+          "residual_displacement_m": -1.1198495761466183,
+          "residual_velocity_m_s": -0.00044355476969378817
+        },
+        "interpretation": "Raw-record screening values only; the source files are never modified automatically. Large residuals require documented engineering review before production IDA."
+      },
+      "component_x_label": "EQ2_X",
+      "component_x_number": 3,
+      "component_x_source_entry": "EQ_3 = EQ2_X",
+      "component_x_source_line_number": 4,
+      "component_y_label": "EQ2_Y",
+      "component_y_number": 4,
+      "component_y_source_entry": "EQ_4 = EQ2_Y",
+      "component_y_source_line_number": 5,
+      "logical_record_number": 2,
+      "pairing_authority_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\2.0second\\ReadMe.txt",
+      "pairing_authority_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+      "pairing_rule": "source ReadMe mapping plus adjacency",
+      "pairing_verified_from_source_manifest": true
+    },
+    "valid": 1,
+    "validation_message": "valid paired components; X/Y identity verified from source ReadMe manifest; analysis copy passed deterministic linear-detrend QA"
+  },
+  {
+    "pair_id": "CMS-T2.0-P03",
+    "source_set": "CMS_ZONE5",
+    "conditioning_period_s": 2.0,
+    "component_x_path": "assets/motions/CMS-T2.0-P03_X.txt",
+    "component_y_path": "assets/motions/CMS-T2.0-P03_Y.txt",
+    "units": "g",
+    "dt_s": 0.009999999999990905,
+    "npts": 32768,
+    "duration_s": 327.67,
+    "pga_x_g": 0.0775690512324205,
+    "pga_y_g": 0.07200869990677014,
+    "sha256_x": "88fb8fd43643a40c5be55c421c7d97f0580b63f544ac44ca65f28eebea71a206",
+    "sha256_y": "65d851892276d40c73f17ffbe9dfc2712a75c04221f789157c323d4e8326ccb7",
+    "physical_pair_hash": "de13af6c8d0345609bf4d1fcc3ee13052f77c1519ebe1d374fc75bc2f20f81ed",
+    "raw_source_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\2.0second\\ReadMe.txt",
+    "raw_source_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+    "source_metadata_json": {
+      "adjacent_x_then_y_verified": true,
+      "analysis_preprocessing": {
+        "maximum_abs_residual_displacement_m": 0.01,
+        "maximum_abs_residual_velocity_m_s": 0.0001,
+        "method": "linear_least_squares_detrend_v1",
+        "original_dt_s": 0.009999999999990905,
+        "original_duration_s": 327.67,
+        "original_npts": 32768,
+        "processed_baseline_diagnostics": {
+          "component_x": {
+            "linear_trend_acceleration_g_per_s": 1.3213628193481963e-23,
+            "mean_acceleration_g": 7.284483346386983e-20,
+            "normalized_residual_velocity_g_s": -5.87142297238618e-11,
+            "residual_displacement_m": -7.642517117536312e-05,
+            "residual_velocity_m_s": -1.8866907683495097e-07
+          },
+          "component_y": {
+            "linear_trend_acceleration_g_per_s": -1.3488871267082314e-23,
+            "mean_acceleration_g": 6.479802046495398e-20,
+            "normalized_residual_velocity_g_s": -4.752684142139027e-11,
+            "residual_displacement_m": -0.00010265533822904789,
+            "residual_velocity_m_s": -1.5272013850861494e-07
+          }
+        },
+        "processed_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T2.0-P03_X.txt",
+        "processed_component_x_sha256": "88fb8fd43643a40c5be55c421c7d97f0580b63f544ac44ca65f28eebea71a206",
+        "processed_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T2.0-P03_Y.txt",
+        "processed_component_y_sha256": "65d851892276d40c73f17ffbe9dfc2712a75c04221f789157c323d4e8326ccb7",
+        "processed_dataset_id": "analysis_v2_dt001_pwsa150_350",
+        "processed_dt_s": 0.009999999999990905,
+        "processed_duration_s": 327.67,
+        "processed_npts": 32768,
+        "processing_sequence": [
+          "linear_least_squares_detrend",
+          "polyphase_resample",
+          "post_resample_linear_detrend"
+        ],
+        "pwsa_taper_s": null,
+        "pwsa_window_s": null,
+        "raw_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\2.0second\\Zone5_2.0sec_EQ_5.txt",
+        "raw_component_x_sha256": "9d8f8a66b79670c59b9a47e568afc1292ca2dc456a0d0fac2cd9a87c4ee8e949",
+        "raw_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\2.0second\\Zone5_2.0sec_EQ_6.txt",
+        "raw_component_y_sha256": "09ebede16171110af06bea29c9f628b5020496374fbd5f08d166e0e595e5d22c",
+        "raw_files_preserved": true,
+        "resampling_component_x": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999990905,
+          "target_dt_s": 0.009999999999990905,
+          "up": 1
+        },
+        "resampling_component_y": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999990905,
+          "target_dt_s": 0.009999999999990905,
+          "up": 1
+        },
+        "target_dt_s": 0.01
+      },
+      "baseline_diagnostics": {
+        "component_x": {
+          "linear_trend_acceleration_g_per_s": 1.7290325611840074e-08,
+          "mean_acceleration_g": -9.238891723633431e-07,
+          "normalized_residual_velocity_g_s": -9.239478865930325e-07,
+          "residual_displacement_m": -0.9835757871027586,
+          "residual_velocity_m_s": -0.002968963326726001
+        },
+        "component_y": {
+          "linear_trend_acceleration_g_per_s": 2.9492194720481374e-08,
+          "mean_acceleration_g": -1.5573120086670129e-06,
+          "normalized_residual_velocity_g_s": -1.5573595355084571e-06,
+          "residual_displacement_m": -1.6678859028411588,
+          "residual_velocity_m_s": -0.0050043334851939
+        },
+        "interpretation": "Raw-record screening values only; the source files are never modified automatically. Large residuals require documented engineering review before production IDA."
+      },
+      "component_x_label": "EQ3_X",
+      "component_x_number": 5,
+      "component_x_source_entry": "EQ_5 = EQ3_X",
+      "component_x_source_line_number": 6,
+      "component_y_label": "EQ3_Y",
+      "component_y_number": 6,
+      "component_y_source_entry": "EQ_6 = EQ3_Y",
+      "component_y_source_line_number": 7,
+      "logical_record_number": 3,
+      "pairing_authority_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\2.0second\\ReadMe.txt",
+      "pairing_authority_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+      "pairing_rule": "source ReadMe mapping plus adjacency",
+      "pairing_verified_from_source_manifest": true
+    },
+    "valid": 1,
+    "validation_message": "valid paired components; X/Y identity verified from source ReadMe manifest; analysis copy passed deterministic linear-detrend QA"
+  },
+  {
+    "pair_id": "CMS-T2.0-P04",
+    "source_set": "CMS_ZONE5",
+    "conditioning_period_s": 2.0,
+    "component_x_path": "assets/motions/CMS-T2.0-P04_X.txt",
+    "component_y_path": "assets/motions/CMS-T2.0-P04_Y.txt",
+    "units": "g",
+    "dt_s": 0.009999999999990905,
+    "npts": 32768,
+    "duration_s": 327.67,
+    "pga_x_g": 0.06058189937217929,
+    "pga_y_g": 0.06840806182515845,
+    "sha256_x": "c227e20b5432333db229704f89c8afa4c7c8aa8e031941d6460265b016d9909d",
+    "sha256_y": "8a09b0ddc340a1dfd1c50d4418ff2324deccf3272a433657f13142bc550995f6",
+    "physical_pair_hash": "879875831d54b040455031443119c0d7ac680ba778dc43d3eb87476279ff0dca",
+    "raw_source_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\2.0second\\ReadMe.txt",
+    "raw_source_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+    "source_metadata_json": {
+      "adjacent_x_then_y_verified": true,
+      "analysis_preprocessing": {
+        "maximum_abs_residual_displacement_m": 0.01,
+        "maximum_abs_residual_velocity_m_s": 0.0001,
+        "method": "linear_least_squares_detrend_v1",
+        "original_dt_s": 0.009999999999990905,
+        "original_duration_s": 327.67,
+        "original_npts": 32768,
+        "processed_baseline_diagnostics": {
+          "component_x": {
+            "linear_trend_acceleration_g_per_s": -2.721362421417284e-22,
+            "mean_acceleration_g": 2.329340604949326e-20,
+            "normalized_residual_velocity_g_s": 6.094947186764226e-11,
+            "residual_displacement_m": -0.00017398089980690744,
+            "residual_velocity_m_s": 1.95851681013751e-07
+          },
+          "component_y": {
+            "linear_trend_acceleration_g_per_s": 1.877833548554282e-22,
+            "mean_acceleration_g": 7.284483346386983e-20,
+            "normalized_residual_velocity_g_s": -6.126985699585691e-11,
+            "residual_displacement_m": 0.00013786414887137036,
+            "residual_velocity_m_s": -1.9688118896533605e-07
+          }
+        },
+        "processed_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T2.0-P04_X.txt",
+        "processed_component_x_sha256": "c227e20b5432333db229704f89c8afa4c7c8aa8e031941d6460265b016d9909d",
+        "processed_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T2.0-P04_Y.txt",
+        "processed_component_y_sha256": "8a09b0ddc340a1dfd1c50d4418ff2324deccf3272a433657f13142bc550995f6",
+        "processed_dataset_id": "analysis_v2_dt001_pwsa150_350",
+        "processed_dt_s": 0.009999999999990905,
+        "processed_duration_s": 327.67,
+        "processed_npts": 32768,
+        "processing_sequence": [
+          "linear_least_squares_detrend",
+          "polyphase_resample",
+          "post_resample_linear_detrend"
+        ],
+        "pwsa_taper_s": null,
+        "pwsa_window_s": null,
+        "raw_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\2.0second\\Zone5_2.0sec_EQ_7.txt",
+        "raw_component_x_sha256": "f7ce90e250b7864382445d4793a7aba8a513840716cd2da5cf8f142a71bf9c93",
+        "raw_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\2.0second\\Zone5_2.0sec_EQ_8.txt",
+        "raw_component_y_sha256": "ed54ee391832f5d3662dfd1973108541e3c2fd8b040fffdca42080563ec2eb03",
+        "raw_files_preserved": true,
+        "resampling_component_x": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999990905,
+          "target_dt_s": 0.009999999999990905,
+          "up": 1
+        },
+        "resampling_component_y": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999990905,
+          "target_dt_s": 0.009999999999990905,
+          "up": 1
+        },
+        "target_dt_s": 0.01
+      },
+      "baseline_diagnostics": {
+        "component_x": {
+          "linear_trend_acceleration_g_per_s": 7.828234082855372e-08,
+          "mean_acceleration_g": -2.8686645507880935e-09,
+          "normalized_residual_velocity_g_s": -2.8077150792319677e-09,
+          "residual_displacement_m": -2.2523617488852414,
+          "residual_velocity_m_s": -9.02215722671708e-06
+        },
+        "component_y": {
+          "linear_trend_acceleration_g_per_s": -6.46261864801541e-08,
+          "mean_acceleration_g": -7.629397582983931e-09,
+          "normalized_residual_velocity_g_s": -7.69066743984027e-09,
+          "residual_displacement_m": 1.8541738937103351,
+          "residual_velocity_m_s": -2.4712767806772202e-05
+        },
+        "interpretation": "Raw-record screening values only; the source files are never modified automatically. Large residuals require documented engineering review before production IDA."
+      },
+      "component_x_label": "EQ4_X",
+      "component_x_number": 7,
+      "component_x_source_entry": "EQ_7 = EQ4_X",
+      "component_x_source_line_number": 8,
+      "component_y_label": "EQ4_Y",
+      "component_y_number": 8,
+      "component_y_source_entry": "EQ_8 = EQ4_Y",
+      "component_y_source_line_number": 9,
+      "logical_record_number": 4,
+      "pairing_authority_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\2.0second\\ReadMe.txt",
+      "pairing_authority_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+      "pairing_rule": "source ReadMe mapping plus adjacency",
+      "pairing_verified_from_source_manifest": true
+    },
+    "valid": 1,
+    "validation_message": "valid paired components; X/Y identity verified from source ReadMe manifest; analysis copy passed deterministic linear-detrend QA"
+  },
+  {
+    "pair_id": "CMS-T3.0-P01",
+    "source_set": "CMS_ZONE5",
+    "conditioning_period_s": 3.0,
+    "component_x_path": "assets/motions/CMS-T3.0-P01_X.txt",
+    "component_y_path": "assets/motions/CMS-T3.0-P01_Y.txt",
+    "units": "g",
+    "dt_s": 0.009999999999990905,
+    "npts": 32768,
+    "duration_s": 327.67,
+    "pga_x_g": 0.047587858482814334,
+    "pga_y_g": 0.06943830218000609,
+    "sha256_x": "9136a679480d4bc3a935297b348937ab83fb85f68cde52e74addba015d2387e9",
+    "sha256_y": "2ca8386ed8c0e7a6dc0937e110785ececa4ce7367c155425fa0b9193dc04a20c",
+    "physical_pair_hash": "20ac133c4bc42b434beec640c7ff3b1a0412925f0355acfa3b66b0867d94454b",
+    "raw_source_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\3.0second\\ReadMe.txt",
+    "raw_source_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+    "source_metadata_json": {
+      "adjacent_x_then_y_verified": true,
+      "analysis_preprocessing": {
+        "maximum_abs_residual_displacement_m": 0.01,
+        "maximum_abs_residual_velocity_m_s": 0.0001,
+        "method": "linear_least_squares_detrend_v1",
+        "original_dt_s": 0.009999999999990905,
+        "original_duration_s": 327.67,
+        "original_npts": 32768,
+        "processed_baseline_diagnostics": {
+          "component_x": {
+            "linear_trend_acceleration_g_per_s": 3.8608196288950557e-22,
+            "mean_acceleration_g": 9.656175598699024e-20,
+            "normalized_residual_velocity_g_s": -2.291120712142085e-13,
+            "residual_displacement_m": -0.00019531476269868034,
+            "residual_velocity_m_s": -7.362161297359372e-10
+          },
+          "component_y": {
+            "linear_trend_acceleration_g_per_s": 1.1126489545728234e-22,
+            "mean_acceleration_g": 4.2351647362715017e-20,
+            "normalized_residual_velocity_g_s": -3.069360329100989e-11,
+            "residual_displacement_m": 0.00018223688644289314,
+            "residual_velocity_m_s": -9.8629136835965e-08
+          }
+        },
+        "processed_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T3.0-P01_X.txt",
+        "processed_component_x_sha256": "9136a679480d4bc3a935297b348937ab83fb85f68cde52e74addba015d2387e9",
+        "processed_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T3.0-P01_Y.txt",
+        "processed_component_y_sha256": "2ca8386ed8c0e7a6dc0937e110785ececa4ce7367c155425fa0b9193dc04a20c",
+        "processed_dataset_id": "analysis_v2_dt001_pwsa150_350",
+        "processed_dt_s": 0.009999999999990905,
+        "processed_duration_s": 327.67,
+        "processed_npts": 32768,
+        "processing_sequence": [
+          "linear_least_squares_detrend",
+          "polyphase_resample",
+          "post_resample_linear_detrend"
+        ],
+        "pwsa_taper_s": null,
+        "pwsa_window_s": null,
+        "raw_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\3.0second\\Zone5_3.0sec_EQ_1.txt",
+        "raw_component_x_sha256": "310953b1746cf38602cf55a49bdda7095c0fc784aded9047db297799d8b54e8a",
+        "raw_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\3.0second\\Zone5_3.0sec_EQ_2.txt",
+        "raw_component_y_sha256": "94eb731e22b1c92f1db701fce1257e8cb7567da70053c72bd8fe03e79d7498d1",
+        "raw_files_preserved": true,
+        "resampling_component_x": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999990905,
+          "target_dt_s": 0.009999999999990905,
+          "up": 1
+        },
+        "resampling_component_y": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999990905,
+          "target_dt_s": 0.009999999999990905,
+          "up": 1
+        },
+        "target_dt_s": 0.01
+      },
+      "baseline_diagnostics": {
+        "component_x": {
+          "linear_trend_acceleration_g_per_s": 7.415142225128697e-08,
+          "mean_acceleration_g": -7.507324218835964e-09,
+          "normalized_residual_velocity_g_s": -7.507553330958158e-09,
+          "residual_displacement_m": -2.1360580562428253,
+          "residual_velocity_m_s": -2.4124358999559286e-05
+        },
+        "component_y": {
+          "linear_trend_acceleration_g_per_s": -7.53676812750662e-08,
+          "mean_acceleration_g": -5.737310791008315e-09,
+          "normalized_residual_velocity_g_s": -5.76800439432176e-09,
+          "residual_displacement_m": 2.164040612109591,
+          "residual_velocity_m_s": -1.8534588112195878e-05
+        },
+        "interpretation": "Raw-record screening values only; the source files are never modified automatically. Large residuals require documented engineering review before production IDA."
+      },
+      "component_x_label": "EQ1_X",
+      "component_x_number": 1,
+      "component_x_source_entry": "EQ_1 = EQ1_X",
+      "component_x_source_line_number": 2,
+      "component_y_label": "EQ1_Y",
+      "component_y_number": 2,
+      "component_y_source_entry": "EQ_2 = EQ1_Y",
+      "component_y_source_line_number": 3,
+      "logical_record_number": 1,
+      "pairing_authority_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\3.0second\\ReadMe.txt",
+      "pairing_authority_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+      "pairing_rule": "source ReadMe mapping plus adjacency",
+      "pairing_verified_from_source_manifest": true
+    },
+    "valid": 1,
+    "validation_message": "valid paired components; X/Y identity verified from source ReadMe manifest; analysis copy passed deterministic linear-detrend QA"
+  },
+  {
+    "pair_id": "CMS-T3.0-P02",
+    "source_set": "CMS_ZONE5",
+    "conditioning_period_s": 3.0,
+    "component_x_path": "assets/motions/CMS-T3.0-P02_X.txt",
+    "component_y_path": "assets/motions/CMS-T3.0-P02_Y.txt",
+    "units": "g",
+    "dt_s": 0.009999999999990905,
+    "npts": 32768,
+    "duration_s": 327.67,
+    "pga_x_g": 0.07516179523446259,
+    "pga_y_g": 0.07614010724217968,
+    "sha256_x": "c43558b412b285ea5ec4858ff58e98e74454cf63b2a86ebd6df03d116ec0dbca",
+    "sha256_y": "820accaff697b6cbfe206bc945ffbee7b6c847df9706f6ae7fc54299af6b5822",
+    "physical_pair_hash": "402cc748d15028059e96e20f3f3a47da1b421ff9a062964d883c5f543e70b846",
+    "raw_source_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\3.0second\\ReadMe.txt",
+    "raw_source_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+    "source_metadata_json": {
+      "adjacent_x_then_y_verified": true,
+      "analysis_preprocessing": {
+        "maximum_abs_residual_displacement_m": 0.01,
+        "maximum_abs_residual_velocity_m_s": 0.0001,
+        "method": "linear_least_squares_detrend_v1",
+        "original_dt_s": 0.009999999999990905,
+        "original_duration_s": 327.67,
+        "original_npts": 32768,
+        "processed_baseline_diagnostics": {
+          "component_x": {
+            "linear_trend_acceleration_g_per_s": 6.945177484852075e-23,
+            "mean_acceleration_g": 2.202285662861181e-20,
+            "normalized_residual_velocity_g_s": -9.765960322839867e-11,
+            "residual_displacement_m": -0.00020429703228018817,
+            "residual_velocity_m_s": -3.138139982730865e-07
+          },
+          "component_y": {
+            "linear_trend_acceleration_g_per_s": -2.468827682687091e-22,
+            "mean_acceleration_g": -1.6940658945086007e-20,
+            "normalized_residual_velocity_g_s": -1.7497477417633166e-10,
+            "residual_displacement_m": -0.00017932555051685097,
+            "residual_velocity_m_s": -5.622543166880057e-07
+          }
+        },
+        "processed_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T3.0-P02_X.txt",
+        "processed_component_x_sha256": "c43558b412b285ea5ec4858ff58e98e74454cf63b2a86ebd6df03d116ec0dbca",
+        "processed_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T3.0-P02_Y.txt",
+        "processed_component_y_sha256": "820accaff697b6cbfe206bc945ffbee7b6c847df9706f6ae7fc54299af6b5822",
+        "processed_dataset_id": "analysis_v2_dt001_pwsa150_350",
+        "processed_dt_s": 0.009999999999990905,
+        "processed_duration_s": 327.67,
+        "processed_npts": 32768,
+        "processing_sequence": [
+          "linear_least_squares_detrend",
+          "polyphase_resample",
+          "post_resample_linear_detrend"
+        ],
+        "pwsa_taper_s": null,
+        "pwsa_window_s": null,
+        "raw_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\3.0second\\Zone5_3.0sec_EQ_3.txt",
+        "raw_component_x_sha256": "938b5a72cddfd9ac502806054f65e13d5a782505fc570347105bf47f40f9bb65",
+        "raw_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\3.0second\\Zone5_3.0sec_EQ_4.txt",
+        "raw_component_y_sha256": "b2297c078cf64b5ba17953ed34692dd276863153a1bfd4bf2336f44e6929509a",
+        "raw_files_preserved": true,
+        "resampling_component_x": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999990905,
+          "target_dt_s": 0.009999999999990905,
+          "up": 1
+        },
+        "resampling_component_y": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999990905,
+          "target_dt_s": 0.009999999999990905,
+          "up": 1
+        },
+        "target_dt_s": 0.01
+      },
+      "baseline_diagnostics": {
+        "component_x": {
+          "linear_trend_acceleration_g_per_s": 5.8078152543381265e-08,
+          "mean_acceleration_g": -3.2000122161865007e-06,
+          "normalized_residual_velocity_g_s": -3.20010987578977e-06,
+          "residual_displacement_m": -3.3546691166533487,
+          "residual_velocity_m_s": -0.010283057086420282
+        },
+        "component_y": {
+          "linear_trend_acceleration_g_per_s": 3.3129286811734117e-08,
+          "mean_acceleration_g": -1.7333984283447592e-06,
+          "normalized_residual_velocity_g_s": -1.7335734031188523e-06,
+          "residual_displacement_m": -1.8652339404087923,
+          "residual_velocity_m_s": -0.0055705694365796015
+        },
+        "interpretation": "Raw-record screening values only; the source files are never modified automatically. Large residuals require documented engineering review before production IDA."
+      },
+      "component_x_label": "EQ2_X",
+      "component_x_number": 3,
+      "component_x_source_entry": "EQ_3 = EQ2_X",
+      "component_x_source_line_number": 4,
+      "component_y_label": "EQ2_Y",
+      "component_y_number": 4,
+      "component_y_source_entry": "EQ_4 = EQ2_Y",
+      "component_y_source_line_number": 5,
+      "logical_record_number": 2,
+      "pairing_authority_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\3.0second\\ReadMe.txt",
+      "pairing_authority_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+      "pairing_rule": "source ReadMe mapping plus adjacency",
+      "pairing_verified_from_source_manifest": true
+    },
+    "valid": 1,
+    "validation_message": "valid paired components; X/Y identity verified from source ReadMe manifest; analysis copy passed deterministic linear-detrend QA"
+  },
+  {
+    "pair_id": "CMS-T3.0-P03",
+    "source_set": "CMS_ZONE5",
+    "conditioning_period_s": 3.0,
+    "component_x_path": "assets/motions/CMS-T3.0-P03_X.txt",
+    "component_y_path": "assets/motions/CMS-T3.0-P03_Y.txt",
+    "units": "g",
+    "dt_s": 0.009999999999990905,
+    "npts": 32768,
+    "duration_s": 327.67,
+    "pga_x_g": 0.056534300473573364,
+    "pga_y_g": 0.03869525684587331,
+    "sha256_x": "4fd750e6376a2a2d4f339d5c22ca9c7b090bb601672b12718216ddbca327503f",
+    "sha256_y": "d8e36c55a6b59a4e5a1beda98226dca2577db9ee6d79f139616609bbdaedf45a",
+    "physical_pair_hash": "2f7ff5d79956ce5749b5d48d505ee1b2eb845d0066953d02a8d77b0f00b98909",
+    "raw_source_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\3.0second\\ReadMe.txt",
+    "raw_source_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+    "source_metadata_json": {
+      "adjacent_x_then_y_verified": true,
+      "analysis_preprocessing": {
+        "maximum_abs_residual_displacement_m": 0.01,
+        "maximum_abs_residual_velocity_m_s": 0.0001,
+        "method": "linear_least_squares_detrend_v1",
+        "original_dt_s": 0.009999999999990905,
+        "original_duration_s": 327.67,
+        "original_npts": 32768,
+        "processed_baseline_diagnostics": {
+          "component_x": {
+            "linear_trend_acceleration_g_per_s": 6.424598018521581e-22,
+            "mean_acceleration_g": 0.0,
+            "normalized_residual_velocity_g_s": 1.5296629849006732e-09,
+            "residual_displacement_m": -0.0006148301001306345,
+            "residual_velocity_m_s": 4.9153349126288e-06
+          },
+          "component_y": {
+            "linear_trend_acceleration_g_per_s": 4.085285769572576e-22,
+            "mean_acceleration_g": -3.049318610115481e-20,
+            "normalized_residual_velocity_g_s": 6.975446425364706e-10,
+            "residual_displacement_m": -0.0005526861060453561,
+            "residual_velocity_m_s": 2.2414515932078506e-06
+          }
+        },
+        "processed_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T3.0-P03_X.txt",
+        "processed_component_x_sha256": "4fd750e6376a2a2d4f339d5c22ca9c7b090bb601672b12718216ddbca327503f",
+        "processed_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T3.0-P03_Y.txt",
+        "processed_component_y_sha256": "d8e36c55a6b59a4e5a1beda98226dca2577db9ee6d79f139616609bbdaedf45a",
+        "processed_dataset_id": "analysis_v2_dt001_pwsa150_350",
+        "processed_dt_s": 0.009999999999990905,
+        "processed_duration_s": 327.67,
+        "processed_npts": 32768,
+        "processing_sequence": [
+          "linear_least_squares_detrend",
+          "polyphase_resample",
+          "post_resample_linear_detrend"
+        ],
+        "pwsa_taper_s": null,
+        "pwsa_window_s": null,
+        "raw_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\3.0second\\Zone5_3.0sec_EQ_5.txt",
+        "raw_component_x_sha256": "b4910c4960e643f897055b1aad4f86292a6f01dd0d6b07d445f0bda8ede386ff",
+        "raw_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\3.0second\\Zone5_3.0sec_EQ_6.txt",
+        "raw_component_y_sha256": "fde795cc449f532091868ecf590c8f75ca7fc15e048ca5c2420b50bedfc2b9c7",
+        "raw_files_preserved": true,
+        "resampling_component_x": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999990905,
+          "target_dt_s": 0.009999999999990905,
+          "up": 1
+        },
+        "resampling_component_y": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999990905,
+          "target_dt_s": 0.009999999999990905,
+          "up": 1
+        },
+        "target_dt_s": 0.01
+      },
+      "baseline_diagnostics": {
+        "component_x": {
+          "linear_trend_acceleration_g_per_s": 5.394882912895119e-07,
+          "mean_acceleration_g": 4.51224670532226e-05,
+          "normalized_residual_velocity_g_s": 4.512399671620804e-05,
+          "residual_displacement_m": 8.243782530259516,
+          "residual_velocity_m_s": 0.14499896947622548
+        },
+        "component_y": {
+          "linear_trend_acceleration_g_per_s": 3.4946210029994035e-07,
+          "mean_acceleration_g": 6.856445309448255e-06,
+          "normalized_residual_velocity_g_s": 6.857142854091067e-06,
+          "residual_displacement_m": -6.438223890584338,
+          "residual_velocity_m_s": 0.022034365742193543
+        },
+        "interpretation": "Raw-record screening values only; the source files are never modified automatically. Large residuals require documented engineering review before production IDA."
+      },
+      "component_x_label": "EQ3_X",
+      "component_x_number": 5,
+      "component_x_source_entry": "EQ_5 = EQ3_X",
+      "component_x_source_line_number": 6,
+      "component_y_label": "EQ3_Y",
+      "component_y_number": 6,
+      "component_y_source_entry": "EQ_6 = EQ3_Y",
+      "component_y_source_line_number": 7,
+      "logical_record_number": 3,
+      "pairing_authority_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\3.0second\\ReadMe.txt",
+      "pairing_authority_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+      "pairing_rule": "source ReadMe mapping plus adjacency",
+      "pairing_verified_from_source_manifest": true
+    },
+    "valid": 1,
+    "validation_message": "valid paired components; X/Y identity verified from source ReadMe manifest; analysis copy passed deterministic linear-detrend QA"
+  },
+  {
+    "pair_id": "CMS-T3.0-P04",
+    "source_set": "CMS_ZONE5",
+    "conditioning_period_s": 3.0,
+    "component_x_path": "assets/motions/CMS-T3.0-P04_X.txt",
+    "component_y_path": "assets/motions/CMS-T3.0-P04_Y.txt",
+    "units": "g",
+    "dt_s": 0.009999999999990905,
+    "npts": 32768,
+    "duration_s": 327.67,
+    "pga_x_g": 0.04471214116761399,
+    "pga_y_g": 0.05196154478437626,
+    "sha256_x": "bf118b5415c44973b1c96c9ae7adc643dc9db7dd7eb62ec84c5fe7b9f709c23f",
+    "sha256_y": "0973570f6423e9fe8635a2181f839e56a8fc754a7c105e078860b5c7197792f8",
+    "physical_pair_hash": "4173624e1a615e2cddc4f942ffd67ba29e91058298840c0572c71eb4724e1ce1",
+    "raw_source_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\3.0second\\ReadMe.txt",
+    "raw_source_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+    "source_metadata_json": {
+      "adjacent_x_then_y_verified": true,
+      "analysis_preprocessing": {
+        "maximum_abs_residual_displacement_m": 0.01,
+        "maximum_abs_residual_velocity_m_s": 0.0001,
+        "method": "linear_least_squares_detrend_v1",
+        "original_dt_s": 0.009999999999990905,
+        "original_duration_s": 327.67,
+        "original_npts": 32768,
+        "processed_baseline_diagnostics": {
+          "component_x": {
+            "linear_trend_acceleration_g_per_s": -6.96441437912058e-23,
+            "mean_acceleration_g": 1.0164395367051604e-20,
+            "normalized_residual_velocity_g_s": 3.03797381769046e-11,
+            "residual_displacement_m": 0.0002068513747325247,
+            "residual_velocity_m_s": 9.762057993915406e-08
+          },
+          "component_y": {
+            "linear_trend_acceleration_g_per_s": 1.7517615355296776e-22,
+            "mean_acceleration_g": -3.3881317890172014e-21,
+            "normalized_residual_velocity_g_s": -1.2223702396666684e-10,
+            "residual_displacement_m": -0.00024019461240838545,
+            "residual_velocity_m_s": -3.9278973045047265e-07
+          }
+        },
+        "processed_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T3.0-P04_X.txt",
+        "processed_component_x_sha256": "bf118b5415c44973b1c96c9ae7adc643dc9db7dd7eb62ec84c5fe7b9f709c23f",
+        "processed_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\data\\ground_motion\\processed\\analysis_v2_dt001_pwsa150_350\\CMS-T3.0-P04_Y.txt",
+        "processed_component_y_sha256": "0973570f6423e9fe8635a2181f839e56a8fc754a7c105e078860b5c7197792f8",
+        "processed_dataset_id": "analysis_v2_dt001_pwsa150_350",
+        "processed_dt_s": 0.009999999999990905,
+        "processed_duration_s": 327.67,
+        "processed_npts": 32768,
+        "processing_sequence": [
+          "linear_least_squares_detrend",
+          "polyphase_resample",
+          "post_resample_linear_detrend"
+        ],
+        "pwsa_taper_s": null,
+        "pwsa_window_s": null,
+        "raw_component_x_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\3.0second\\Zone5_3.0sec_EQ_7.txt",
+        "raw_component_x_sha256": "a8d6233c9f0ba7bb32503fda4ca982b521ca15bf84476a714ae7334e59181bf9",
+        "raw_component_y_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\3.0second\\Zone5_3.0sec_EQ_8.txt",
+        "raw_component_y_sha256": "ebb9cc41b5333da878114c345b100074acb4c2718a680c4745c3feab00847ed5",
+        "raw_files_preserved": true,
+        "resampling_component_x": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999990905,
+          "target_dt_s": 0.009999999999990905,
+          "up": 1
+        },
+        "resampling_component_y": {
+          "down": 1,
+          "method": "not_required",
+          "source_dt_s": 0.009999999999990905,
+          "target_dt_s": 0.009999999999990905,
+          "up": 1
+        },
+        "target_dt_s": 0.01
+      },
+      "baseline_diagnostics": {
+        "component_x": {
+          "linear_trend_acceleration_g_per_s": -7.250407253725202e-08,
+          "mean_acceleration_g": -4.5471191406303946e-09,
+          "normalized_residual_velocity_g_s": -4.5167394025706255e-09,
+          "residual_displacement_m": 2.082360858263552,
+          "residual_velocity_m_s": -1.4513842000395373e-05
+        },
+        "component_y": {
+          "linear_trend_acceleration_g_per_s": 6.679978804669579e-08,
+          "mean_acceleration_g": -5.340570068360399e-09,
+          "normalized_residual_velocity_g_s": -5.4628070924488076e-09,
+          "residual_displacement_m": -1.923597089899428,
+          "residual_velocity_m_s": -1.7553883886530353e-05
+        },
+        "interpretation": "Raw-record screening values only; the source files are never modified automatically. Large residuals require documented engineering review before production IDA."
+      },
+      "component_x_label": "EQ4_X",
+      "component_x_number": 7,
+      "component_x_source_entry": "EQ_7 = EQ4_X",
+      "component_x_source_line_number": 8,
+      "component_y_label": "EQ4_Y",
+      "component_y_number": 8,
+      "component_y_source_entry": "EQ_8 = EQ4_Y",
+      "component_y_source_line_number": 9,
+      "logical_record_number": 4,
+      "pairing_authority_path": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\6-7 floor\\inputs\\ground_motion\\Zone 5\\3.0second\\ReadMe.txt",
+      "pairing_authority_sha256": "a8a00ea16c3b33826a958841b4651b02e3bdb13fc7bd5efb44a724488969964e",
+      "pairing_rule": "source ReadMe mapping plus adjacency",
+      "pairing_verified_from_source_manifest": true
+    },
+    "valid": 1,
+    "validation_message": "valid paired components; X/Y identity verified from source ReadMe manifest; analysis copy passed deterministic linear-detrend QA"
+  }
+]

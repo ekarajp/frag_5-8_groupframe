@@ -1,0 +1,18 @@
+test_ready_paused_with_two_thousand_models_and_variant_hashes (test_all_heights.FourHeightTests) ... ok
+test_cluster_counts_are_pairs_not_components (test_components.ComponentTests) ... ok
+test_three_or_four_pairs_make_six_or_eight_individual_spectra (test_components.ComponentTests) ... ok
+test_changed_source_refused_before_analysis (test_runner.PolicyTests) ... ok
+test_crossings_and_refinement (test_runner.PolicyTests) ... ok
+test_failure_is_never_CP (test_runner.PolicyTests) ... ok
+test_fit_known_lognormal (test_runner.PolicyTests) ... ok
+test_guards_are_terminal_review (test_runner.PolicyTests) ... ok
+test_initial_aboveIO_hunts_down (test_runner.PolicyTests) ... ok
+test_continuous_refill_stop_resume_and_workers (test_runner.QueueTests) ... ok
+test_failure_retained_other_models_continue (test_runner.QueueTests) ... ok
+test_process_identity_not_pid_only (test_runner.QueueTests) ... ok
+test_reopen_adopts_live_workers_without_duplicate (test_runner.QueueTests) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 68.218s
+
+OK

@@ -1,0 +1,391 @@
+{
+  "declared_at": "2026-10-13T02:52:14.387218+07:00",
+  "entries": [
+    {
+      "id": "completion68_selected7_dynamic_342e068cd7aa3a6f85d45f8a",
+      "job": {
+        "id": "selected7_dynamic_342e068cd7aa3a6f85d45f8a",
+        "stories": 7,
+        "kind": "dynamic",
+        "building_id": "B-69d8baeb898da258",
+        "pair_id": "CMS-T2.0-P01",
+        "role": "CP",
+        "im_g": 0.33383337010001696,
+        "variant": "reference_mesh",
+        "reference_job": "selected7_reference_342e068cd7aa3a6f85d45f8a"
+      },
+      "candidate_hash": "6a6eefcf3bf6ecfb23c21b1336e417c3fa3a8211178b69dd3cfd27b0015878ac",
+      "old_result": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\resume-selected-6-8-v1-2026-10-13\\cases\\resume68_selected7_dynamic_342e068cd7aa3a6f85d45f8a\\result.json",
+      "old_result_sha256": "cb160973536fc518ddb08d42174986322952885b1d8ea20b87aa2cdf9c5ebc62",
+      "runtime_s": 7200,
+      "maximum_attempts": 1
+    },
+    {
+      "id": "completion68_selected7_dynamic_942a7b291ddb052b3477db8b",
+      "job": {
+        "id": "selected7_dynamic_942a7b291ddb052b3477db8b",
+        "stories": 7,
+        "kind": "dynamic",
+        "building_id": "B-69d8baeb898da258",
+        "pair_id": "CMS-T2.0-P02",
+        "role": "IO",
+        "im_g": 0.15709805651765504,
+        "variant": "reference_mesh",
+        "reference_job": "selected7_reference_942a7b291ddb052b3477db8b"
+      },
+      "candidate_hash": "6a6eefcf3bf6ecfb23c21b1336e417c3fa3a8211178b69dd3cfd27b0015878ac",
+      "old_result": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\resume-selected-6-8-v1-2026-10-13\\cases\\resume68_selected7_dynamic_942a7b291ddb052b3477db8b\\result.json",
+      "old_result_sha256": "b77554c2261f445de102014f3397d74110d399f833ebe89caf145f40a62d2f70",
+      "runtime_s": 7200,
+      "maximum_attempts": 1
+    }
+  ],
+  "source_hashes": {
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\resume68_runtime_completion_v1.py": "183c695009354e7405741e2ef38bf31439180d30fabdd364ecc03c22de5ab137",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\resume_selected_6_8_v1.py": "0afa887225f41e2151ca4c003dcabc8fa8408a30c732adfc3a4bebeab8c63f6b",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\resume-selected-6-8-v1-2026-10-13\\amendment.json": "67a28b8a52456719c0a19aa42963fbb103bad55a7970a157202bf5132c799411",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\resume-selected-6-8-v1-2026-10-13\\cases\\resume68_selected7_dynamic_342e068cd7aa3a6f85d45f8a\\result.json": "cb160973536fc518ddb08d42174986322952885b1d8ea20b87aa2cdf9c5ebc62",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\resume-selected-6-8-v1-2026-10-13\\cases\\resume68_selected7_dynamic_942a7b291ddb052b3477db8b\\result.json": "b77554c2261f445de102014f3397d74110d399f833ebe89caf145f40a62d2f70",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\resume-selected-6-8-v1-2026-10-13\\runs\\7storey\\fishbone_v5\\blind_holdout\\6a6eefcf3bf6ecfb23c21b1336e417c3fa3a8211178b69dd3cfd27b0015878ac\\dense_ida\\B-69d8baeb898da258\\CMS-T2.0-P01\\points\\im_0p33383337\\case.npz": "9e2f18faa7700288e2eb2fcfb11e8af1dcaf555d8a33313258b340d57184d885",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\resume-selected-6-8-v1-2026-10-13\\runs\\7storey\\fishbone_v5\\blind_holdout\\6a6eefcf3bf6ecfb23c21b1336e417c3fa3a8211178b69dd3cfd27b0015878ac\\dense_ida\\B-69d8baeb898da258\\CMS-T2.0-P02\\points\\im_0p15709806\\case.npz": "e5e9ef134647d0e26e52106ab65e33ab0a95d39bbf06e11d9fa805515184dba3"
+  },
+  "evidence": [
+    {
+      "job": {
+        "id": "selected7_dynamic_342e068cd7aa3a6f85d45f8a",
+        "stories": 7,
+        "kind": "dynamic",
+        "building_id": "B-69d8baeb898da258",
+        "pair_id": "CMS-T2.0-P01",
+        "role": "CP",
+        "im_g": 0.33383337010001696,
+        "variant": "reference_mesh",
+        "reference_job": "selected7_reference_342e068cd7aa3a6f85d45f8a"
+      },
+      "peak": 0.0211223704611964,
+      "cp_proof": null,
+      "history_sha256": "9e2f18faa7700288e2eb2fcfb11e8af1dcaf555d8a33313258b340d57184d885",
+      "finite_chronological": true,
+      "directions": {
+        "X": {
+          "direction": "X",
+          "status": "numerical_failure",
+          "physical_collapse": false,
+          "numerical_failure": true,
+          "collapse_basis": [
+            "runtime_guard"
+          ],
+          "completed_fraction": 0.3176976836451307,
+          "record_duration_s": 327.669999999702,
+          "termination_time_s": 104.0999999999053,
+          "runtime_s": 1201.5355127000003,
+          "gravity_equilibrium_relative_error": 7.249575192130632e-16,
+          "damping": {
+            "method": "modal",
+            "damping_ratio": 0.05,
+            "mode_count": 7,
+            "reported_directional_modes": [
+              {
+                "global_mode_index": 1,
+                "period_s": 1.6439019793371823,
+                "effective_mass_ratio": 0.7845694437364881,
+                "mode_shape": [
+                  0.08970897073328546,
+                  0.2700820797936513,
+                  0.46963171708128676,
+                  0.6548893390347363,
+                  0.8087180706063005,
+                  0.9234430408016462,
+                  1.0
+                ]
+              },
+              {
+                "global_mode_index": 2,
+                "period_s": 0.48870589665486586,
+                "effective_mass_ratio": 0.10943601003166419,
+                "mode_shape": [
+                  -0.3015427979061275,
+                  -0.7606392714372232,
+                  -0.9698885528757666,
+                  -0.7754911930146078,
+                  -0.24126861387522333,
+                  0.4233674870638745,
+                  1.0
+                ]
+              },
+              {
+                "global_mode_index": 3,
+                "period_s": 0.24689003463466727,
+                "effective_mass_ratio": 0.048382458803928316,
+                "mode_shape": [
+                  0.5658599060760764,
+                  1.0,
+                  0.466789093785331,
+                  -0.539528913022348,
+                  -0.9509685792082422,
+                  -0.30761632365436725,
+                  0.8663996079632685
+                ]
+              }
+            ]
+          },
+          "audit": {
+            "physical_frame_line_count": 5,
+            "reduced_frame_group_count": 2,
+            "reduced_column_element_count": 70,
+            "reduced_beam_element_count": 56
+          },
+          "recovery_attempt_count": 0,
+          "recovery_failure_count": 0,
+          "solver_policy": "batched-10-recorder-reconfigure-on-failure-v1",
+          "chunk_steps": 10
+        },
+        "Y": {
+          "direction": "Y",
+          "status": "numerical_failure",
+          "physical_collapse": false,
+          "numerical_failure": true,
+          "collapse_basis": [
+            "runtime_guard"
+          ],
+          "completed_fraction": 0.3280739768669697,
+          "record_duration_s": 327.669999999702,
+          "termination_time_s": 107.4999999999022,
+          "runtime_s": 1200.2893852999987,
+          "gravity_equilibrium_relative_error": 0.0,
+          "damping": {
+            "method": "modal",
+            "damping_ratio": 0.05,
+            "mode_count": 7,
+            "reported_directional_modes": [
+              {
+                "global_mode_index": 1,
+                "period_s": 1.6438668950470925,
+                "effective_mass_ratio": 0.7845674140718333,
+                "mode_shape": [
+                  0.08970607501947576,
+                  0.27007834684459914,
+                  0.4696290452826581,
+                  0.6548883025106527,
+                  0.8087177066156119,
+                  0.9234396205747538,
+                  1.0
+                ]
+              },
+              {
+                "global_mode_index": 2,
+                "period_s": 0.4886873507877047,
+                "effective_mass_ratio": 0.10943717745440625,
+                "mode_shape": [
+                  -0.3015442611272156,
+                  -0.7606556172570212,
+                  -0.9699132622062916,
+                  -0.7755077759234005,
+                  -0.24126489321032193,
+                  0.4233872539636242,
+                  1.0
+                ]
+              },
+              {
+                "global_mode_index": 3,
+                "period_s": 0.24687133495404615,
+                "effective_mass_ratio": 0.048386006271950235,
+                "mode_shape": [
+                  0.5658623534814258,
+                  1.0,
+                  0.466744327249269,
+                  -0.5395888184134773,
+                  -0.9509415245658627,
+                  -0.30742424626442794,
+                  0.8662650531690206
+                ]
+              }
+            ]
+          },
+          "audit": {
+            "physical_frame_line_count": 5,
+            "reduced_frame_group_count": 2,
+            "reduced_column_element_count": 70,
+            "reduced_beam_element_count": 56
+          },
+          "recovery_attempt_count": 0,
+          "recovery_failure_count": 0,
+          "solver_policy": "batched-10-recorder-reconfigure-on-failure-v1",
+          "chunk_steps": 10
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "selected7_dynamic_942a7b291ddb052b3477db8b",
+        "stories": 7,
+        "kind": "dynamic",
+        "building_id": "B-69d8baeb898da258",
+        "pair_id": "CMS-T2.0-P02",
+        "role": "IO",
+        "im_g": 0.15709805651765504,
+        "variant": "reference_mesh",
+        "reference_job": "selected7_reference_942a7b291ddb052b3477db8b"
+      },
+      "peak": 0.009239058492297754,
+      "cp_proof": null,
+      "history_sha256": "e5e9ef134647d0e26e52106ab65e33ab0a95d39bbf06e11d9fa805515184dba3",
+      "finite_chronological": true,
+      "directions": {
+        "X": {
+          "direction": "X",
+          "status": "numerical_failure",
+          "physical_collapse": false,
+          "numerical_failure": true,
+          "collapse_basis": [
+            "runtime_guard"
+          ],
+          "completed_fraction": 0.3814813684499649,
+          "record_duration_s": 327.669999999702,
+          "termination_time_s": 124.9999999998863,
+          "runtime_s": 1200.4562719999994,
+          "gravity_equilibrium_relative_error": 7.249575192130632e-16,
+          "damping": {
+            "method": "modal",
+            "damping_ratio": 0.05,
+            "mode_count": 7,
+            "reported_directional_modes": [
+              {
+                "global_mode_index": 1,
+                "period_s": 1.6439019793371823,
+                "effective_mass_ratio": 0.7845694437364881,
+                "mode_shape": [
+                  0.08970897073328546,
+                  0.2700820797936513,
+                  0.46963171708128676,
+                  0.6548893390347363,
+                  0.8087180706063005,
+                  0.9234430408016462,
+                  1.0
+                ]
+              },
+              {
+                "global_mode_index": 2,
+                "period_s": 0.48870589665486586,
+                "effective_mass_ratio": 0.10943601003166419,
+                "mode_shape": [
+                  -0.3015427979061275,
+                  -0.7606392714372232,
+                  -0.9698885528757666,
+                  -0.7754911930146078,
+                  -0.24126861387522333,
+                  0.4233674870638745,
+                  1.0
+                ]
+              },
+              {
+                "global_mode_index": 3,
+                "period_s": 0.24689003463466727,
+                "effective_mass_ratio": 0.048382458803928316,
+                "mode_shape": [
+                  0.5658599060760764,
+                  1.0,
+                  0.466789093785331,
+                  -0.539528913022348,
+                  -0.9509685792082422,
+                  -0.30761632365436725,
+                  0.8663996079632685
+                ]
+              }
+            ]
+          },
+          "audit": {
+            "physical_frame_line_count": 5,
+            "reduced_frame_group_count": 2,
+            "reduced_column_element_count": 70,
+            "reduced_beam_element_count": 56
+          },
+          "recovery_attempt_count": 0,
+          "recovery_failure_count": 0,
+          "solver_policy": "batched-10-recorder-reconfigure-on-failure-v1",
+          "chunk_steps": 10
+        },
+        "Y": {
+          "direction": "Y",
+          "status": "numerical_failure",
+          "physical_collapse": false,
+          "numerical_failure": true,
+          "collapse_basis": [
+            "runtime_guard"
+          ],
+          "completed_fraction": 0.38789025543992434,
+          "record_duration_s": 327.669999999702,
+          "termination_time_s": 127.0999999998844,
+          "runtime_s": 1200.3168323999998,
+          "gravity_equilibrium_relative_error": 0.0,
+          "damping": {
+            "method": "modal",
+            "damping_ratio": 0.05,
+            "mode_count": 7,
+            "reported_directional_modes": [
+              {
+                "global_mode_index": 1,
+                "period_s": 1.6438668950470925,
+                "effective_mass_ratio": 0.7845674140718333,
+                "mode_shape": [
+                  0.08970607501947576,
+                  0.27007834684459914,
+                  0.4696290452826581,
+                  0.6548883025106527,
+                  0.8087177066156119,
+                  0.9234396205747538,
+                  1.0
+                ]
+              },
+              {
+                "global_mode_index": 2,
+                "period_s": 0.4886873507877047,
+                "effective_mass_ratio": 0.10943717745440625,
+                "mode_shape": [
+                  -0.3015442611272156,
+                  -0.7606556172570212,
+                  -0.9699132622062916,
+                  -0.7755077759234005,
+                  -0.24126489321032193,
+                  0.4233872539636242,
+                  1.0
+                ]
+              },
+              {
+                "global_mode_index": 3,
+                "period_s": 0.24687133495404615,
+                "effective_mass_ratio": 0.048386006271950235,
+                "mode_shape": [
+                  0.5658623534814258,
+                  1.0,
+                  0.466744327249269,
+                  -0.5395888184134773,
+                  -0.9509415245658627,
+                  -0.30742424626442794,
+                  0.8662650531690206
+                ]
+              }
+            ]
+          },
+          "audit": {
+            "physical_frame_line_count": 5,
+            "reduced_frame_group_count": 2,
+            "reduced_column_element_count": 70,
+            "reduced_beam_element_count": 56
+          },
+          "recovery_attempt_count": 0,
+          "recovery_failure_count": 0,
+          "solver_policy": "batched-10-recorder-reconfigure-on-failure-v1",
+          "chunk_steps": 10
+        }
+      }
+    }
+  ],
+  "reason": "Two Development7B69 resumption cases reached31.8–38.8percent of327.67s at1200s without recovery failures; finite signed histories support bounded7200s completion based on observed rate with margin, not guarantee. Separate namespace and single attempt; preserve1200failures. No physics/IM/candidate/threshold/recovery changes or negative crossing promotion.",
+  "physics_changed": false,
+  "thresholds_changed": false,
+  "original_failure_preserved": true,
+  "population_analysis": false,
+  "holdout_used": false,
+  "no_automatic_budget_escalation": true
+}

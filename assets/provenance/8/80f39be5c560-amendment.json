@@ -1,0 +1,249 @@
+{
+  "declared_at": "2026-10-12T16:58:03.422994+07:00",
+  "entries": [
+    {
+      "id": "runtime_completion_v9_dev10_dynamic_237f11f4533eb5fc1bd9885785e6b0038a82c56c9ab50d1e0092c44075f8a378",
+      "job": {
+        "id": "dev10_dynamic_237f11f4533eb5fc1bd9885785e6b0038a82c56c9ab50d1e0092c44075f8a378",
+        "stories": 10,
+        "kind": "development_dynamic",
+        "building_id": "B-5438bf006393cafe",
+        "pair_id": "CMS-T2.0-P01",
+        "im_g": 0.3914755725864377,
+        "role": "CP",
+        "variant": "reference_mesh",
+        "reference_job": "dev10_reference_237f11f4533eb5fc1bd9885785e6b0038a82c56c9ab50d1e0092c44075f8a378"
+      },
+      "old_result": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\next-stage-v1\\cases\\dev10_dynamic_237f11f4533eb5fc1bd9885785e6b0038a82c56c9ab50d1e0092c44075f8a378\\result.json",
+      "old_sha256": "ddb7c2032d47965ad1558934d2d0e25e17d2ce1e5d4cebe0fe7fbc8b74f114e3",
+      "candidate_hash": "d30e5ffe89abf1d99f5394d9ba97b85ab579c3a7a2e38d3138e8897e4ad86659",
+      "runtime_s": 7200,
+      "additional_attempts_authorized": 1
+    }
+  ],
+  "source_hashes": {
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\runtime_completion_v9.py": "bd8d23783f11ef11f1a62789e8a35a8763dd56646138ee38c4945e1099a18f01",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\runtime_completion_v1.py": "2d4e63d5f5d2918d7303c596bfaaeb27746a1ab25b8182589ebe538bd9063642",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\runtime_completion_v2.py": "6233633a20e8d105771fb63857b5870cc919ebe6e5ea31d525418e989db875c3",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\runtime_completion_v3.py": "a1238a69ddfd84e4e36df53997a52ca77a49f9074ed86111572aa552e61951a6",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\runtime_completion_v4.py": "df8440fd19d065b5e47b572dbaa41b643271d8cac6937df332f479ca04c2735c",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\runtime_completion_v5.py": "9e3fda17332087a32d3fd7963ab8c6436916afb03729d9549c0f0fb80969303f",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\runtime_completion_v6.py": "7d471022cbf5238d81f14d6569906e4dc4e5b4ab51a6c67be260300b8fe34e04",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\runtime_completion_v7.py": "2fd11b7962545f7fc116c7d157235c4afae2abbe6eb7b5f954006f7368b72f7c",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\runtime_completion_v8.py": "3fdc8367c265e49dba921b2ffa9eaf200ec3236751279dec484217dff15839ad",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\runtime-completion-v1\\amendment.json": "4f86c66b2bee434fc878d01d082cd2fbd9b0da3ad23aced1cbd2257f2c1ba994",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\runtime-completion-v2\\amendment.json": "ba346182c78f617aa32b77afc8091bad00a72f0593f5482b8522deb6ce03b2b8",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\runtime-completion-v3\\amendment.json": "3368f5e0e344b956ad2278f275f9b8a4a014e85fb50fb08b83c52169e4a8797e",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\runtime-completion-v4\\amendment.json": "406b8f9df959051e3fe1bac1cae7e54913b28dfae6d690bfd0d57171cc40b8b4",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\runtime-completion-v5\\amendment.json": "48b2f51e41fb986d066ca21d34e19cf4703df0972e2be9b4adc91a0d37f3efd4",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\runtime-completion-v6\\amendment.json": "18d3285932ee71f023dc1992312d4d65f01aebbae23b76d65d44bbeea34f9b9a",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\runtime-completion-v7\\amendment.json": "87ea243a2e1555e743c27dda5479ce67d1c8cc4fa26e0fdacf2cc6eb6701955d",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\runtime-completion-v8\\amendment.json": "a7df82d8ee9aff632f0de7e19a1aaacbefb65461d4093d72c073a47508caaca0",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\next-stage-v1\\cases\\dev10_dynamic_237f11f4533eb5fc1bd9885785e6b0038a82c56c9ab50d1e0092c44075f8a378\\result.json": "ddb7c2032d47965ad1558934d2d0e25e17d2ce1e5d4cebe0fe7fbc8b74f114e3",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\next-stage-v1\\runs\\10storey\\fishbone_v5\\blind_holdout\\d30e5ffe89abf1d99f5394d9ba97b85ab579c3a7a2e38d3138e8897e4ad86659\\dense_ida\\B-5438bf006393cafe\\CMS-T2.0-P01\\points\\im_0p39147557\\case.npz": "acaab80a4dc6fccfbb9fa671dea0baa4335c512cf64eb2ed549c5ee7a57cf7c4"
+  },
+  "prior_amendments": [
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\runtime-completion-v1\\amendment.json",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\runtime-completion-v2\\amendment.json",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\runtime-completion-v3\\amendment.json",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\runtime-completion-v4\\amendment.json",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\runtime-completion-v5\\amendment.json",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\runtime-completion-v6\\amendment.json",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\runtime-completion-v7\\amendment.json",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\runtime-completion-v8\\amendment.json"
+  ],
+  "physics_changed": false,
+  "thresholds_changed": false,
+  "original_failures_preserved": true,
+  "maximum_attempts": 1,
+  "holdout_used": false,
+  "population_analysis": false,
+  "reason": "One new B543P01CP original1200s guard reachedX33.05/Y33.11percent record with0recovery; samecandidate prior327.67s completions support7200s boundedruntime attempt, differentDevelopmentbuilding no guarantee. Oldfinitecommittedpeak.025690045 remainsunusable noCP.04proof; no promotion of incomplete negativecrossing.",
+  "evidence": [
+    {
+      "job": {
+        "id": "dev10_dynamic_237f11f4533eb5fc1bd9885785e6b0038a82c56c9ab50d1e0092c44075f8a378",
+        "stories": 10,
+        "kind": "development_dynamic",
+        "building_id": "B-5438bf006393cafe",
+        "pair_id": "CMS-T2.0-P01",
+        "im_g": 0.3914755725864377,
+        "role": "CP",
+        "variant": "reference_mesh",
+        "reference_job": "dev10_reference_237f11f4533eb5fc1bd9885785e6b0038a82c56c9ab50d1e0092c44075f8a378"
+      },
+      "history": {
+        "history_sha256": "acaab80a4dc6fccfbb9fa671dea0baa4335c512cf64eb2ed549c5ee7a57cf7c4",
+        "peak": 0.025690045339509027,
+        "cp_proof": null,
+        "usable": false
+      },
+      "directions": {
+        "X": {
+          "direction": "X",
+          "status": "numerical_failure",
+          "physical_collapse": false,
+          "numerical_failure": true,
+          "collapse_basis": [
+            "runtime_guard"
+          ],
+          "completed_fraction": 0.3305154576250496,
+          "record_duration_s": 327.669999999702,
+          "termination_time_s": 108.2999999999015,
+          "runtime_s": 1200.7932187000406,
+          "gravity_equilibrium_relative_error": 0.0,
+          "damping": {
+            "method": "modal",
+            "damping_ratio": 0.05,
+            "mode_count": 10,
+            "reported_directional_modes": [
+              {
+                "global_mode_index": 1,
+                "period_s": 1.570583883017371,
+                "effective_mass_ratio": 0.7719744541757259,
+                "mode_shape": [
+                  0.05144786614599615,
+                  0.1643858385908018,
+                  0.30167905910596055,
+                  0.44370017402081097,
+                  0.5792701007240311,
+                  0.701437185950874,
+                  0.8057845008969236,
+                  0.8899384094359901,
+                  0.953840228751653,
+                  1.0
+                ]
+              },
+              {
+                "global_mode_index": 2,
+                "period_s": 0.47289808543111145,
+                "effective_mass_ratio": 0.10614120375298097,
+                "mode_shape": [
+                  -0.16753883706300865,
+                  -0.48722283151900975,
+                  -0.7725131678158759,
+                  -0.9120171719859019,
+                  -0.8553948499115008,
+                  -0.6076621074387969,
+                  -0.22001729450012747,
+                  0.22776173678751152,
+                  0.6528969126629487,
+                  1.0
+                ]
+              },
+              {
+                "global_mode_index": 3,
+                "period_s": 0.24210927235886615,
+                "effective_mass_ratio": 0.04657017188814906,
+                "mode_shape": [
+                  0.3445283198666893,
+                  0.8443693581135477,
+                  0.9768812743605283,
+                  0.5875187289630305,
+                  -0.12462126035959217,
+                  -0.7574747859484017,
+                  -0.9478049695369902,
+                  -0.5771065101171989,
+                  0.17708600807768918,
+                  1.0
+                ]
+              }
+            ]
+          },
+          "audit": {
+            "physical_frame_line_count": 4,
+            "reduced_frame_group_count": 2,
+            "reduced_column_element_count": 80,
+            "reduced_beam_element_count": 60
+          },
+          "recovery_attempt_count": 0,
+          "recovery_failure_count": 0,
+          "solver_policy": "batched-10-recorder-reconfigure-on-failure-v1",
+          "chunk_steps": 10
+        },
+        "Y": {
+          "direction": "Y",
+          "status": "numerical_failure",
+          "physical_collapse": false,
+          "numerical_failure": true,
+          "collapse_basis": [
+            "runtime_guard"
+          ],
+          "completed_fraction": 0.3311258278145695,
+          "record_duration_s": 327.669999999702,
+          "termination_time_s": 108.4999999999013,
+          "runtime_s": 1200.2975922999904,
+          "gravity_equilibrium_relative_error": 4.296554713590931e-16,
+          "damping": {
+            "method": "modal",
+            "damping_ratio": 0.05,
+            "mode_count": 10,
+            "reported_directional_modes": [
+              {
+                "global_mode_index": 1,
+                "period_s": 1.5705699812228766,
+                "effective_mass_ratio": 0.7719721008099495,
+                "mode_shape": [
+                  0.05144597520192339,
+                  0.1643817497567871,
+                  0.3016732692404752,
+                  0.44369322655963656,
+                  0.5792623980311471,
+                  0.7014289566834114,
+                  0.8057757548897023,
+                  0.8899288603186969,
+                  0.9538288281184153,
+                  1.0
+                ]
+              },
+              {
+                "global_mode_index": 2,
+                "period_s": 0.47289435453670997,
+                "effective_mass_ratio": 0.10614109686471798,
+                "mode_shape": [
+                  -0.16752766309290695,
+                  -0.4871966763227878,
+                  -0.7724774181928706,
+                  -0.9119810803872777,
+                  -0.8553680729747671,
+                  -0.6076519780077867,
+                  -0.22002697917284272,
+                  0.2277339782072605,
+                  0.6528562397373037,
+                  1.0
+                ]
+              },
+              {
+                "global_mode_index": 3,
+                "period_s": 0.24210539320471106,
+                "effective_mass_ratio": 0.046572270066548946,
+                "mode_shape": [
+                  0.3445462070128045,
+                  0.8444255976205041,
+                  0.9769570643569729,
+                  0.5875770710325827,
+                  -0.12461050579421984,
+                  -0.7575157549280093,
+                  -0.9478704029759559,
+                  -0.5771467657504975,
+                  0.17713529214379597,
+                  1.0
+                ]
+              }
+            ]
+          },
+          "audit": {
+            "physical_frame_line_count": 4,
+            "reduced_frame_group_count": 2,
+            "reduced_column_element_count": 80,
+            "reduced_beam_element_count": 60
+          },
+          "recovery_attempt_count": 0,
+          "recovery_failure_count": 0,
+          "solver_policy": "batched-10-recorder-reconfigure-on-failure-v1",
+          "chunk_steps": 10
+        }
+      }
+    }
+  ]
+}

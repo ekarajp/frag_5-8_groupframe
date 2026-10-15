@@ -1,0 +1,23 @@
+{
+  "candidate_hash": "c270e092a4cda7aed2eeffc3f4b03b177df75ecf47a1a5711f38e00ceb9609da",
+  "scope": "Construction-only delivery; no analysis is launched by loader. Effective Development protocol overrides generic archived ida_config defaults.",
+  "damping": {
+    "method": "modal",
+    "ratio": 0.05
+  },
+  "chunk_steps": 10,
+  "minimum_substep_factor": 64,
+  "maximum_runtime_s_per_direction": 7200,
+  "thresholds": {
+    "IO": 0.01,
+    "LS": 0.02,
+    "CP": 0.04
+  },
+  "axes": "X/Y separate processes and original common-end pair combiner",
+  "numerical_source_hashes": {
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor5_operational_v2.py": "f90a18bf6a993151178d2f2d9f7f38e0437b9caf877dea3616440390f09001f8",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\phD\\Research\\Demo Program 5\\src\\fragility_poc\\fishbone_v5_batched_dynamic.py": "b1549263b4560b7332039d020c20d017cd4e9b22a18ecab056ce85ede59752fb"
+  },
+  "physical_collapse_claim": false,
+  "population_analysis": false
+}

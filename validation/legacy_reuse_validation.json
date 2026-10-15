@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "accepted_example": 3,
+  "raw_hashes_and_flags_preserved": true,
+  "component_IM_verified": true,
+  "idempotent": true,
+  "cross_height_import_rejected": true,
+  "signed_failure_retry_rejected": true,
+  "native_analyses": 0
+}

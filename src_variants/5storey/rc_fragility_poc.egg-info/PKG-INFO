@@ -1,0 +1,426 @@
+Metadata-Version: 2.4
+Name: rc-fragility-poc
+Version: 0.1.0
+Summary: Five-storey multi-bay RC SPO-to-fragility demonstration pipeline
+Requires-Python: <3.11,>=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: joblib<2,>=1.3
+Requires-Dist: matplotlib<4,>=3.7
+Requires-Dist: numpy<2,>=1.24
+Requires-Dist: openseespy==3.5.1.3
+Requires-Dist: pandas<3,>=2.0
+Requires-Dist: scikit-learn<2,>=1.3
+Requires-Dist: scipy<2,>=1.10
+Provides-Extra: test
+Requires-Dist: pytest<9,>=8; extra == "test"
+Requires-Dist: pytest-cov<7,>=5; extra == "test"
+
+# RC 5-Storey Multi-Bay Fragility ANN Research Pipeline
+
+โปรแกรม Proof of Concept แบบ end-to-end สำหรับอาคารคอนกรีตเสริมเหล็ก
+3D moment frame สูง 5 ชั้น แปลนสมมาตร 1×1 ถึง 5×5 bay ตามขอบเขต
+Proposal Draft 5:
+
+```text
+catalog + optimum member design
+→ Phase 1: gravity / modal / SPO / bidirectional NLTHA-based IDA / fragility
+→ Phase 2: development / validation / test partition
+→ Phase 3: ANN and comparison-model training
+→ Phase 4: independent predictive-accuracy evaluation
+```
+
+## Current four-phase execution protocol
+
+1. **Phase 1 — structural-response data generation (active now):** create the
+   balanced 375-building queue and compute/store SPO, Full IDA, and fragility
+   results in restartable batches of 50.
+2. **Phase 2 — data partitioning (deferred):** after all 375 data records are
+   complete and quality-controlled, assign development, validation, and test
+   roles.
+3. **Phase 3 — model training (deferred):** train ANN and comparison models.
+4. **Phase 4 — independent evaluation (deferred):** assess predictive
+   accuracy using the frozen Phase-2 partition.
+
+Phase 1 does not create or consult an ML split, does not select an ANN model,
+and does not use any fragility result to assign a future data role. The ML
+commands remain installed for Phases 2–4 but are not called by the Batch-001
+data runner.
+
+## ขอบเขตที่ล็อกไว้
+
+- หน่วยวิเคราะห์ `kN-m-s`, fixed base, rigid diaphragm, P-Delta และ modal
+  damping คงที่ 5% ทุกอาคาร/ทุก production analysis (ไม่ทำ damping sensitivity)
+- gravity design combination ใช้ `1.4D + 1.7L`
+- พื้นประกอบด้วย panel สี่เหลี่ยมแบบ two-way ที่ถ่ายน้ำหนักให้คานทั้งสี่ด้าน:
+  คานขอบรับ `tributary width = L/4` และคานภายในรับ `L/2`
+  ทั้งใน preliminary design และ OpenSees
+- nonlinear seismic model ใช้ service seismic weight `1.0D + 0.25L`
+- Draft 5 มี raw base cases สูงสุด 1,500 กรณีจาก `number of bays`,
+  bay width, concrete strength, SDL และ LL; ใช้ beam/column target strength
+  4 tiers (`100, 120, 140, 160%`) และอนุญาต 10 คู่ที่
+  `column target >= beam target`
+- Firefly แบบ multi-start ใช้ค้นหาแบบไม่ต่อเนื่อง และ exact enumeration
+  ตรวจรับรอง optimum ภายใน candidate library ที่ก่อสร้างได้
+- เกณฑ์ฐานข้อมูลวิจัยใช้ minimum non-roof-joint
+  `sum(Mnc_column)/sum(Mnb_beam) > 1.00` โดยไม่อ้างว่าเป็นการตรวจ
+  ACI SCWB code compliance
+- column P-M design ใช้ factored axial load ร่วมกับโมเมนต์สมดุลที่ปลายเสา
+  เท่ากับครึ่งหนึ่งของผลรวม design moment ของคานใน directional joint;
+  ไม่ใช้ proxy เดิม `0.10Pu × storey height`
+- แบ่งอาคารที่ยอมรับแล้วเป็น `research-low-margin` (1.00<R<1.50),
+  `research-medium-margin` (1.50≤R<3.00) และ `research-high-margin`
+  (≥3.00) เพื่อ balanced sampling และตรวจความแม่นยำ ANN เท่านั้น
+- balanced sampling บังคับให้ครอบคลุม geometry ที่ feasible และกระจายคู่
+  beam/column target-strength ทั้ง 10 คู่เท่า ๆ กัน (ต่างกันไม่เกิน 1 หลัง)
+  พร้อมใช้ capacity-constrained allocation กับ SCWB class โดยไม่ทำซ้ำโมเดล
+- ANN หลักใช้ 7 inputs เท่านั้น:
+  `[Vy, Dy, Vc, Dc, Vu, Du, T1]`
+- Run End และ mechanism history เก็บเป็นข้อมูลตรวจสอบ ไม่ป้อนเข้า ANN หลัก
+- Phase 1 ของ Demo ล็อกเป้าหมายไว้ที่ 375 อาคาร รันทีละ batch 50 อาคารและ
+  resume ต่อได้ โดยต้องสร้าง SPO, Full IDA และ fragility ครบทั้ง 375 อาคาร
+  ก่อนเข้าสู่ Phase 2
+
+## Structural model รุ่นปัจจุบัน
+
+Model schema:
+
+```text
+rc3d-hinge-midpoint-hognestad-mander-hysteretic-
+firefly-multistart-adaptive-aci-spacing-
+capacity-shear-clear-span-multibay-equal-edge-gravity-
+strain-compatible-column-pm-research-rgt1-
+priestley-contraflexure-lp-mesh24-effective-modal-mass-
+column-joint-equilibrium-no-storyheight-proxy-v32
+```
+
+- สมาชิกใช้ `forceBeamColumn` และ `HingeMidpoint`
+- คานใช้หน้าตัดสี่เหลี่ยมโดยไม่รวม T-beam effective flange เป็นสมมติฐาน
+  conservative ที่ล็อกไว้
+- plastic hinges อยู่ที่ปลายทั้งสองด้านของคานและเสาในทุกทิศทาง
+- production plastic-hinge length ใช้สมการ Priestley
+  `Lp=max(0.08Ls+0.022fye·db, 0.044fye·db)` โดย `fye=1.25fy` และ
+  `Ls=abs(M/V)` จาก elastic reference frame แบบ rigid diaphragm ภายใต้
+  inverted-triangular lateral load; `Ls` คือระยะจาก critical section
+  ถึง point of contraflexure ไม่ใช่ bay width หรือ storey height เต็มช่วง;
+  ค่าแบบ `0.5h` ไม่ได้ใช้ใน production หรือ sensitivity ชุดปัจจุบัน
+- production fiber mesh ใช้ core 24×24; convergence checks ใช้ 16×16 และ
+  32×32 กับตัวแทน low/medium/high margin โดย 16×16→24×24 เปลี่ยนผล SPO
+  สูงสุด 12.14% แต่ 24×24→32×32 เปลี่ยนสูงสุดเพียง 0.902% จึงผ่าน
+  numerical-convergence tolerance 10%
+- โปรแกรมตรวจ actual integration points/weights จาก OpenSees ทุก model;
+  weights ต้องเป็นบวก อยู่ภายในสมาชิก และรวมเท่ากับความยาวสมาชิก
+- cover concrete ใช้ Hognestad-type law, confined core ใช้ Mander-type law
+  และ `eps_cu` คือ concrete failure limit
+- เหล็กใช้ cyclic post-peak-capable hysteretic law
+- คานและเสาต้องผ่าน capacity-design shear screen ก่อนเข้าฐานข้อมูล
+  เพื่อคงสมมติฐานว่า nonlinear response ถูกควบคุมด้วย flexure; ตัว fiber
+  section ไม่ได้จำลอง shear degradation หรือ brittle shear failure
+- กำลังดัดเสาและ research column/beam ratio ใช้ strain-compatible P–M capacity จากตำแหน่งเหล็ก
+  จริงที่ค่าแรงอัดตามแต่ละชั้น; ไม่ใช้ linear interaction approximation
+- การระบุ mode X/Y ใช้ directional effective modal mass ซึ่งรวม generalized
+  mass ของ UX, UY และ RZ, บังคับให้ X/Y เป็นคนละ mode และต้องเก็บ cumulative
+  translational mass ได้อย่างน้อย 90%; ไม่ใช้ผลรวม eigenvector
+- หากขอบเขต 5 ชั้นหลาย bay ไม่มีบาง research margin band โปรแกรมจะรายงานตามจริง
+  และเลือก sensitivity cases ให้ครอบคลุมช่วง column/beam ratio ที่มีอยู่
+  โดยไม่สร้างหรือทำซ้ำอาคารเพื่อให้ครบ class
+- SPO ดันต่อไปจนถึง flexural-model endpoint/nonconvergence ที่ผ่าน retry protocol
+  ไม่หยุดเพราะ drift cap หรือกำลังลดถึง 75%
+- trilinear fit ใช้ elastic branch + post-yield/pre-capping branch,
+  `Vc=max(V)` และ ultimate เป็นจุด post-peak ใกล้ `0.80Vc`
+- QC: total energy ≤5%, pre-capping energy ≤10%,
+  post-capping energy ≤10%, NRMSE ≤10%
+
+## Ground motions และ IDA
+
+- CMS Zone 5 จำนวน 23 catalog pairs และ PWSA ปี 2568 จำนวน 1 pair
+- CMS X-Y pairing ตรวจจาก source manifest/ReadMe พร้อม path และ checksum
+- raw component files ไม่ถูกแก้; response spectrum และ NLTHA ใช้ analysis
+  copies ที่ผ่าน deterministic linear least-squares detrend พร้อมตรวจ residual
+  velocity/displacement และเก็บ checksum แยก
+- physical-pair hash ป้องกัน record X-Y เดียวกันถูกเลือกซ้ำให้อาคารเดียว
+- เลือก CMS family ที่ conditioning period ใกล้ `T1`; ถ้า `T1`
+  อยู่ในช่วงกึ่งกลาง ใช้ทั้งสอง family ข้างเคียง
+- X และ Y ใช้ scale factor เดียวกัน; IM คือ geometric-mean `Sa(T1,5%)`
+- IDA hunt ไม่หยุดที่ 4.0g: ค่านี้เป็น soft warning เท่านั้น
+- hunt ต่อจนพบ first crossing ของ CP แล้วจึง fill bracket
+- generic numerical failure is never converted to a CP label. A repeatable
+  multi-algorithm instability may close an upper bracket only when it passes
+  the frozen certified-instability criteria and has a converged lower point.
+- scale-factor safety guard ถูกตรวจทั้งใน `run_nltha` และ internal
+  `_single_nltha_attempt` ก่อนเรียก solver จึงข้าม guard ผ่าน direct call,
+  sensitivity, hunt หรือ fill ไม่ได้
+- Production Demo uses `hybrid_active_v1`: a checksum-frozen random-forest
+  surrogate blended with an SPO yield-Sa heuristic proposes only the first IM
+  points. It never creates IO/LS/CP labels.
+- Every uncensored capacity still requires an actual below-threshold NLTHA and
+  a certified above-threshold NLTHA. The controller expands up/down when its
+  prediction is wrong and refines every IO/LS/CP bracket to a maximum 5%
+  relative IM width. There is no hard point-count cap. Eighteen points is only
+  a soft Codex-review threshold and never stops accuracy-driven refinement.
+- Controller predictions, point phases, final bracket widths, worst-case
+  capacity-localization error bounds, review flags, artifact hash and point
+  counts are retained in `ida_curve_diagnostics`. The frozen 5% hunt-and-fill
+  implementation is archived separately as the reference method.
+- The production decision policy is Codex-reviewed but self-contained: the
+  frozen RF/SPO model places the first points, measured failure/crossing logic
+  expands the curve, and minimax log-bisection closes each mandatory bracket.
+  Retrospective tests rejected response-guided secant refinement because it
+  required more NLTHA points despite estimating the crossing closely.
+- No live Codex/API connection is required inside OpenSees. This is deliberate:
+  a multi-day batch remains deterministic, auditable, restartable, and able to
+  continue through an internet or Codex-session interruption. Codex supervises
+  diagnostics/outliers and changes a frozen policy only between declared
+  batches.
+- `add-ida-points` runs only the IM values explicitly requested by Codex or
+  the user. It signature-checks and reuses every existing fixed-IM checkpoint,
+  then rebuilds only the affected curve and building fragility. Requests are
+  retained in `ida_manual_point_requests`; no other curve is rerun.
+- Every fixed-IM NLTHA records compressed min/max/absolute-max envelopes at
+  every beam and column end: section curvature/strain, plastic and chord
+  rotation, local forces, residual drift, and floor acceleration. FEMA 356
+  Tables 6-7/6-8 flexural IO/LS/CP diagnostics use the member-specific
+  post-gravity axial force and fixed capacity-design shear/detailing
+  parameters. These diagnostics are additional research outputs; the primary
+  fragility targets remain the declared 1%, 2%, and 4% MIDR crossings.
+- Component first crossings preserve measured, left-censored, and
+  right-censored states in `ida_component_capacities`. A complete-record
+  dynamic-instability point may supply a measured component upper bracket;
+  a partial numerical-failure envelope may not.
+- Detailed component artifacts are checkpointed atomically as
+  `*_component_envelopes.json.gz`. An old MIDR-only fixed-IM checkpoint is
+  selectively rerun once to backfill these responses; SPO, catalog, and
+  already component-complete NLTHA checkpoints remain reusable.
+- จำนวน GM ต่อ CMS family มีเพียง 3–4 คู่ เป็นข้อจำกัดข้อมูลที่ประกาศไว้
+- The former exposure-based rule that forced early Batch-001 buildings into a
+  development set is retired. No building receives a development,
+  validation, or test role during Phase 1.
+
+## Bidirectional nonlinear MDOF (Demo Program 5)
+
+Demo Program 5 keeps the Full 3D catalogue, design, gravity, modal, SPO,
+NLTHA/IDA, and checkpoint behavior unchanged. It adds an optional reduced
+model with two translational DOFs per floor (`ux`, `uy`) and independent
+`IMKPeakOriented` story springs in X and Y. Both components of each physical
+ground-motion pair act simultaneously. The geometric-mean `Sa(T1,5%)` is the
+scalar IDA intensity measure; it is not a replacement for either acceleration
+component.
+
+The v1 reduced model deliberately excludes torsional DOFs, X-Y strength
+interaction, axial-load-dependent biaxial backbones, and shear failure.
+Buildings outside that scope must use Full 3D. Floor masses and gravity loads
+come directly from the unchanged Full 3D model. Elastic properties use
+multi-pattern static probes and the first three translational modal targets in
+each direction. Monotonic story backbones use story-cut forces with equalized
+drift-bin weighting. A nonlinear-elastic pre-yield cracking branch reproduces
+the gradual stiffness loss seen in the condensed Full 3D curves without
+adding artificial hysteretic energy; IMK still supplies yielding, capping,
+residual strength, and cyclic deterioration. The auxiliary cracking branch
+is fitted independently for each story. An empirical height-regularization
+option exists, but it is disabled by default because its former coefficients
+were identified from only one five-story smoke case. It may be enabled only
+in a separately versioned study after cross-building development/holdout
+validation. If a higher-mode
+story-shear/deformation curve is
+incompatible with a single local shear spring (for example because a modal
+node or frame/chord deformation makes story shear non-unique at the same
+drift), its backbone weight is reduced adaptively and reported rather than
+allowed to create a false story capacity. Cyclic deterioration is fitted
+only on the eight development buildings before being predicted for four blind
+holdouts.
+
+`run-mdof-spo` runs modes 1, 2, and 3 in both X and Y by default. It writes
+six diagnostic MDOF modal SPO files. Because a pure shear chain does not
+reproduce the Full 3D Mode-2/Mode-3 paths reliably, canonical
+`ml_features.json` is extracted from the six Full 3D modal static curves
+already generated and cached during MDOF calibration. This adds no extra
+Full 3D structural analysis. The corresponding Full 3D curves are exported
+under `full3d_reference/`; MDOF-only features are retained separately in
+`ml_features_mdof_diagnostic.json` and are never substituted silently for
+canonical ML input. Both sources use the same mass-projected modal coordinate
+`abs(phi.T M u)/(phi.T M phi)`. The canonical ML profile contains
+36 explainable inputs: period ratio, effective mass ratio, normalized peak
+modal strength, normalized displacement at peak, normalized terminal
+displacement, and terminal-to-peak strength ratio for every mode/direction.
+Extended yield/capping idealization and calibration-quality values are stored
+separately as diagnostics. A partial
+direction/mode request writes `ml_features_partial.json` and cannot overwrite
+a complete six-curve feature file.
+
+MDOF IDA is fail-closed. `ida.analysis_engine` defaults to `full3d`.
+Uncertified artifacts can run only with the explicit diagnostic flag.
+Production MDOF is enabled only after the locked 12-building/4-pair validation
+certificate passes all static, history, MIDR, drift-profile, critical-story,
+collapse/fragility, and speed gates. Missing evidence is a failed gate; the
+program does not relax thresholds or convert generic nonconvergence into a
+collapse label.
+
+The modal validation uses an effective-mass-weighted error across modes 1--3,
+plus an individual MAC gate for every retained mode. Individual T2/T3 period
+errors are still reported as diagnostics because a one-DOF-per-floor shear
+chain cannot generally reproduce all flexural-frame periods exactly. Strict
+paired history, drift-profile, MIDR, collapse, and fragility gates remain the
+final acceptance tests.
+
+MDOF and Full 3D use different JSON/NPZ checkpoint directories, analysis
+signatures, and SQLite tables (`mdof_ida_*`, `mdof_fragility_targets`).
+Every MDOF history stores float64 time, X/Y floor displacement, story
+deformation and IDR, spring/material force, base shear, roof displacement,
+story stability index, minimum tangent eigenvalue, dissipated energy, and
+reversal-based strength/unloading-stiffness retention observations.
+Diagnostic artifacts or curves must never be mixed with Full 3D training
+labels.
+
+## Engineering-screening scope
+
+โปรแกรมตรวจ strength, serviceability/deflection, reinforcement limits,
+axial-flexural interaction, shear, research column/beam margin band, confinement geometry,
+gravity equilibrium และ constructability ที่จำเป็นต่อ research archetype
+แต่ไม่อ้างว่าเป็นโปรแกรมออกแบบก่อสร้างฉบับสมบูรณ์ รายการต่อไปนี้อยู่นอก
+ขอบเขตที่ตกลงไว้: detailed slab flexural design, nonlinear member shear
+failure/degradation, joint shear, development length/splice, bond-slip,
+bar buckling และ detailed torsional design/failure.
+โมเดลยังคงมี elastic Saint-Venant torsional stiffness ที่จำเป็นต่อสมาชิก 3D.
+คำว่า model endpoint/dynamic instability ในผลลัพธ์จึงไม่ใช่คำกล่าวอ้างว่า
+จำลอง physical collapse ซึ่งรวม failure modes ที่อยู่นอกขอบเขตได้ครบแล้ว
+
+## ติดตั้ง
+
+```powershell
+py -3.10 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements-lock.txt
+.\.venv\Scripts\python.exe -m pip install . --no-deps --force-reinstall
+```
+
+The operational project path is
+`D:\QCE-NAS\Ekaraj Private Data\Civil Engineering\phD\Research\Demo Program 5`.
+`phD` is an ASCII junction to the existing jSync-managed directory because
+the sync reparse point cannot be renamed safely from Windows Explorer or
+PowerShell. Do not use `pip install -e` in Python 3.10 at the underlying Thai
+path; its raw editable `.pth` can be decoded with the legacy Windows code page
+before Python enables UTF-8. The locked non-editable installation above is
+the reproducible production setup.
+
+เมื่อต้องการสร้าง Excel consolidated นอก Codex runtime ให้กำหนด
+`FRAGILITY_POC_NODE_EXE` และ `FRAGILITY_POC_NODE_MODULES`
+ไปยัง Node และ directory ที่มี `@oai/artifact-tool`.
+
+## CLI
+
+```powershell
+fragility-poc --config config/poc.json validate-records
+fragility-poc --config config/poc.json build-catalog
+fragility-poc --config config/poc.json run-modal-spo
+fragility-poc --config config/poc.json plastic-hinge-sensitivity
+fragility-poc --config config/poc.json modeling-sensitivity
+fragility-poc --config config/poc.json select-records
+fragility-poc --config config/poc.json benchmark-ida
+fragility-poc --config config/poc.json run-ida
+fragility-poc --config config/poc.json build-mdof
+fragility-poc --config config/poc.json run-mdof-spo
+# Explicit equivalent and one diagnostic subset:
+fragility-poc --config config/poc.json run-mdof-spo --direction both --mode all
+fragility-poc --config config/poc.json run-mdof-spo --direction x --mode 3
+# Evaluate current evidence only (fails closed until every gate passes):
+fragility-poc --config config/poc.json validate-mdof
+# Costly 12-artifact/cyclic calibration, 240 paired comparisons, and
+# 3-building x 4-pair dense Full-3D/MDOF IDA plus validation fragilities:
+fragility-poc --config config/poc.json validate-mdof --execute
+# Diagnostic use before certification:
+fragility-poc --config config/poc.json run-ida --engine mdof --allow-uncertified-mdof
+# Production use; rejected unless the artifact has a passing certificate:
+fragility-poc --config config/poc.json run-ida --engine mdof
+fragility-poc --config config/poc.json add-ida-points --building-id B-ID --pair-id CMS-T1.0-P01 --target-im-g 0.75 --reason "Codex review"
+fragility-poc --config config/poc.json fit-fragility
+fragility-poc --config config/poc.json train-ann
+fragility-poc --config config/poc.json evaluate
+fragility-poc --config config/poc.json make-workbook
+fragility-poc --config config/poc.json make-demo
+```
+
+Production runs in deterministic batches of 50:
+
+```powershell
+# Read-only gate before the first production batch. It verifies the database,
+# 375-building queue, GM catalogue, structural audit, current sensitivity
+# reports, dependency/config freeze, backup integrity, and available disk.
+.\.venv\Scripts\python.exe scripts/preflight_batch50.py `
+  --config config/poc.json `
+  --backup backups/5storey/poc_ready_hybrid_batch50_YYYYMMDD_HHMM.sqlite
+
+# For Batch 001 only, migrate the safely paused pre-IDA manifest after the
+# readiness report is READY. The command refuses to run if any production IDA
+# or fragility label already exists.
+.\.venv\Scripts\python.exe scripts/migrate_batch01_to_hybrid.py
+.\.venv\Scripts\python.exe scripts/migrate_batch01_to_hybrid.py --apply
+
+# Restartable Batch 001 runner. Each building is released to GM selection and
+# Full IDA immediately after its own SPO is valid; it never waits for all 50
+# SPOs. As soon as that building's Full IDA is complete, its fragility curve is
+# fitted without waiting for the other buildings. One SPO producer can overlap
+# the six-worker IDA pool. Every persisted SPO/IDA/fragility checkpoint is
+# reused after Pause, power loss, or restart.
+.\.venv\Scripts\python.exe scripts/run_batch01_full50.py --start
+
+# Live, restart-safe status for the user/Codex supervisor. It is refreshed
+# every 30 seconds and raises codex_review_required for a fallback predictor,
+# an excessive bracket, or an unusually point-heavy curve.
+Get-Content runs/5storey/batches/batch_001/progress.json
+
+# All program-owned temporary files and caches are written below
+# Demo Program\runtime_storage. Preflight blocks the batch if a writable
+# runtime path points to Drive C or leaves the project directory.
+
+# Phase 1 only: Batch 001 processes queue ranks 1-50 end-to-end and resumes
+# every completed SPO/IDA/fragility checkpoint. Later 50-building manifests are
+# prepared only after the preceding data batch is quality-controlled.
+.\.venv\Scripts\python.exe scripts/run_batch01_full50.py --start
+
+# Do not run create-ml-split, train-ann, or evaluate during Phase 1.
+# Partitioning begins only after the complete 375-building data population has
+# passed SPO, IDA, fragility, provenance, and outlier review.
+```
+
+Reproducible bounded-pilot helpers:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/audit_selected_models.py
+.\.venv\Scripts\python.exe scripts/warm_catalog_cache.py --config config/poc.json --workers 5
+.\.venv\Scripts\python.exe scripts/select_balanced_spo_pilot.py --size 36 --ida-size 12
+.\.venv\Scripts\python.exe scripts/freeze_pilot_version.py
+.\.venv\Scripts\python.exe scripts/audit_pilot_results.py
+```
+
+`build-catalog` checkpoints every expensive exact/FFA base-design result in
+the same SQLite database table `catalog_design_cache`. The cache key includes
+the complete model/design/price/optimizer configuration. Repeating the command
+after interruption therefore computes only missing searches. The optional
+cache warmer partitions the independent concrete-strength groups across
+workers; the final `build-catalog` remains the sole deterministic queue
+assembly step.
+
+Fragility IO/LS/CP สำหรับชุดข้อมูลวิจัยใช้ first-crossing IM capacity ที่
+วิเคราะห์ได้ครบทุก GM เท่านั้น โดย `theta` คือ geometric mean และ
+`beta_RTR` คือ Bessel-corrected sample standard deviation ของ
+`ln(first-crossing IM capacity)` (`ddof=1`). หากมี censored capacity
+โปรแกรมจะไม่สร้าง label สำหรับ ML และรายงานให้นำ IDA curve นั้นกลับไปรัน
+จนได้ first crossing ที่สมบูรณ์.
+An unusually small or large positive finite `beta_RTR` is retained as a
+nonfatal QC warning. It does not discard an otherwise complete building;
+ordering, censoring, nonfinite values, and zero dispersion remain hard
+validity failures.
+
+`run-ida` แยกทุก curve ด้วย worker process, บันทึก atomic checkpoint ต่อ
+target IM และใช้ rolling scheduler ที่ให้หนึ่ง curve ต่อ fresh native
+process เสมอ. Curve ต้นทุนสูงจาก record ยาว/โมเดลหลาย bay ถูกจัดก่อนด้วย
+ข้อมูล duration, dt และจำนวน bay เท่านั้น โดยไม่ใช้ response label; เมื่อ
+worker หนึ่งเสร็จ งานถัดไปเริ่มทันทีจึงไม่ต้องรอ PWSA ที่ขอบ chunk. หาก native
+OpenSees worker จบกะทันหัน โปรแกรมจะ resume เฉพาะ curve นั้นด้วย fresh
+isolated process สูงสุด 2 ครั้ง โดยไม่ทำให้ curve อื่นสูญผลที่สำเร็จแล้ว.
+สำหรับการซ่อมหรือตรวจเฉพาะคู่ที่เลือกไว้แล้ว ใช้
+`--pair-id CMS-T1.0-P01`; completion signature guard จะข้าม curve ที่มี
+IO/LS/CP ปัจจุบันครบแล้วโดยไม่สร้าง OpenSees worker ซ้ำ.
+
+ผลลัพธ์หลักถูกรวมไว้ที่
+`outputs/5storey/RC_Fragility_PoC_Summary.xlsx`.
+รายงานจะนับเฉพาะผลที่ analysis/model/source signatures ตรงกับ schema
+และ configuration ปัจจุบัน จึงไม่ผสมผลจากโมเดลรุ่นเก่าโดยเงียบ ๆ

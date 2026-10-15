@@ -1,0 +1,108 @@
+{
+  "declared_at": "2026-10-13T01:54:27.896078+07:00",
+  "scope": [
+    6,
+    7,
+    8
+  ],
+  "models_per_height": 500,
+  "target_models": 1500,
+  "solver_limit": 7,
+  "interrupted": [
+    {
+      "id": "resume68_selected7_dynamic_342e068cd7aa3a6f85d45f8a",
+      "job": {
+        "id": "selected7_dynamic_342e068cd7aa3a6f85d45f8a",
+        "stories": 7,
+        "kind": "dynamic",
+        "building_id": "B-69d8baeb898da258",
+        "pair_id": "CMS-T2.0-P01",
+        "role": "CP",
+        "im_g": 0.33383337010001696,
+        "variant": "reference_mesh",
+        "reference_job": "selected7_reference_342e068cd7aa3a6f85d45f8a"
+      },
+      "old_status": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\consistent-selected-v1\\cases\\selected7_dynamic_342e068cd7aa3a6f85d45f8a\\status.json",
+      "old_status_sha256": "3912be5f369986c5f866b9b681e1baff59b3434bce7d5fbb483d5260c900a082",
+      "reason": "Explicit user human stop; not signed numerical failure"
+    },
+    {
+      "id": "resume68_selected7_dynamic_942a7b291ddb052b3477db8b",
+      "job": {
+        "id": "selected7_dynamic_942a7b291ddb052b3477db8b",
+        "stories": 7,
+        "kind": "dynamic",
+        "building_id": "B-69d8baeb898da258",
+        "pair_id": "CMS-T2.0-P02",
+        "role": "IO",
+        "im_g": 0.15709805651765504,
+        "variant": "reference_mesh",
+        "reference_job": "selected7_reference_942a7b291ddb052b3477db8b"
+      },
+      "old_status": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\consistent-selected-v1\\cases\\selected7_dynamic_942a7b291ddb052b3477db8b\\status.json",
+      "old_status_sha256": "18a3f37f4581b49093984e366b8fdf314c32fbfaa128b58d9b1270b44769552d",
+      "reason": "Explicit user human stop; not signed numerical failure"
+    },
+    {
+      "id": "resume68_selected8_dynamic_8ddcbc746bf28473e8239348",
+      "job": {
+        "id": "selected8_dynamic_8ddcbc746bf28473e8239348",
+        "stories": 8,
+        "kind": "dynamic",
+        "building_id": "B-df46f7a008aea6f6",
+        "pair_id": "CMS-T2.0-P02",
+        "role": "IO",
+        "im_g": 0.14409070143469127,
+        "variant": "mesh_spatial_elastic",
+        "reference_job": "selected8_reference_8ddcbc746bf28473e8239348"
+      },
+      "old_status": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\consistent-selected-v1\\cases\\selected8_dynamic_8ddcbc746bf28473e8239348\\status.json",
+      "old_status_sha256": "80981ee0be63f0b6bf05179d27065098d6157af87d6b7f327d6eee32f7a00842",
+      "reason": "Explicit user human stop; not signed numerical failure"
+    },
+    {
+      "id": "resume68_selected8_dynamic_681836650e2c26ff1e5d7f28",
+      "job": {
+        "id": "selected8_dynamic_681836650e2c26ff1e5d7f28",
+        "stories": 8,
+        "kind": "dynamic",
+        "building_id": "B-df46f7a008aea6f6",
+        "pair_id": "CMS-T2.0-P02",
+        "role": "LS",
+        "im_g": 0.18731791186509866,
+        "variant": "mesh_spatial_elastic",
+        "reference_job": "selected8_reference_681836650e2c26ff1e5d7f28"
+      },
+      "old_status": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\consistent-selected-v1\\cases\\selected8_dynamic_681836650e2c26ff1e5d7f28\\status.json",
+      "old_status_sha256": "f8d21381035b37e5119b2aa3500e5862dd925f565f0350b62fca90ee4e8e6065",
+      "reason": "Explicit user human stop; not signed numerical failure"
+    }
+  ],
+  "source_hashes": {
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\resume_selected_6_8_v1.py": "0afa887225f41e2151ca4c003dcabc8fa8408a30c732adfc3a4bebeab8c63f6b",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\prepare_only_bundle_pipeline_6_8_v1.py": "17a16e403072b44ee9a2cc111a026d1d7f45af061569bcbfb0b714e756b30783",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\portable_development_evidence_6_8_v1.py": "694e7b58e526f13b7d34f2787074e0b337dd3b984ddbf1871e0886636771d2e0",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\five_worker_no_full3d.py": "71eb96b6733abf21503aa78ce0e64001bf3e6ab247965c92e81aff825dcb7041",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\isolated_worker.py": "3cd5f3ff96985f7552aa7f256a9640c6e9ef909cfb51ba6168ba1ceb83c66ab4",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\consistent_selected_development_v1.py": "f2f717c6e72767afc89fc4cfc23be5f2de3c43df3e587b007f38bbbed99bdd68",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\floor8_dynamic_direction_isolation_v1.py": "11f63a5fb8f2b6ba8398bf07adace36a742cc2e88d237e0bddc066f63e9c6713",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\prepare_only_bundle_pipeline.py": "f18d70cd1a9c5ebd9aa5fa204e88862d0b9a78aa5f23371df66d0e2536ec26f7",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\portable_development_evidence_v1.py": "07eac1c615889428d6cc963848bd9b46f586b193676d38b10f6d7787e04d28cc",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\consistent-selected-v1\\preregistration.json": "485b046186a851e4b0e1119226f1c3cd58b6b4df6a4c5a67db214ef47cc6d9b2",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\floor8-direction-isolation-v1\\amendment.json": "0c7dfc85980cd759fda78403f3d05342daa22fe98707c31df3a0cf625bb29025",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\consistent-selected-v1\\cases\\selected7_dynamic_342e068cd7aa3a6f85d45f8a\\status.json": "3912be5f369986c5f866b9b681e1baff59b3434bce7d5fbb483d5260c900a082",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\consistent-selected-v1\\cases\\selected7_dynamic_942a7b291ddb052b3477db8b\\status.json": "18a3f37f4581b49093984e366b8fdf314c32fbfaa128b58d9b1270b44769552d",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\consistent-selected-v1\\cases\\selected8_dynamic_8ddcbc746bf28473e8239348\\status.json": "80981ee0be63f0b6bf05179d27065098d6157af87d6b7f327d6eee32f7a00842",
+    "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\ป.เอก\\Research\\Programs\\.build\\development-tuning-2026-10-11\\consistent-selected-v1\\cases\\selected8_dynamic_681836650e2c26ff1e5d7f28\\status.json": "f8d21381035b37e5119b2aa3500e5862dd925f565f0350b62fca90ee4e8e6065"
+  },
+  "same_candidate": true,
+  "physics_changed": false,
+  "thresholds_changed": false,
+  "original_statuses_preserved": true,
+  "original_failures_not_retried": true,
+  "population_analysis": false,
+  "holdout_used": false,
+  "new_namespace_for_interrupted": true,
+  "maximum_resumption_attempts": 1,
+  "reason": "User resumes only heights6–8 with7workers; 9–12 deferred. Four user-interrupted tasks get fresh declared caches preserving pre-stop status and raw records. Same effective runtime and scientific gate; no prefix reuse. Completed isolated8pair reused. Scoped copies of IO export/evidence limit to1500 definitions."
+}

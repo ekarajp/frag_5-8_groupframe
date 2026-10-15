@@ -1,0 +1,62 @@
+{
+  "QA_only": true,
+  "production_results": false,
+  "relocated_root": "D:\\QCE-NAS\\Ekaraj Private Data\\Civil Engineering\\\u0e1b.\u0e40\u0e2d\u0e01\\Research\\Programs\\5-8 floor\\fragility-component-runner-6-8\\validation\\component relocation \u0e44\u0e17\u0e22 1792046290246429300",
+  "duration_s": 0.2,
+  "results": [
+    {
+      "stories": 6,
+      "axis": "X",
+      "scale_factor": 1.0,
+      "unscaled_component_sa_g": 1.6400324610981757e-05,
+      "raw_global_arrays_bit_exact": true,
+      "no_other_component_run": true,
+      "exit_code": 0
+    },
+    {
+      "stories": 6,
+      "axis": "Y",
+      "scale_factor": 0.5,
+      "unscaled_component_sa_g": 3.2800993297388695e-05,
+      "raw_global_arrays_bit_exact": true,
+      "no_other_component_run": true,
+      "exit_code": 0
+    },
+    {
+      "stories": 7,
+      "axis": "X",
+      "scale_factor": 1.0,
+      "unscaled_component_sa_g": 2.8266811052720983e-05,
+      "raw_global_arrays_bit_exact": true,
+      "no_other_component_run": true,
+      "exit_code": 0
+    },
+    {
+      "stories": 7,
+      "axis": "Y",
+      "scale_factor": 0.5,
+      "unscaled_component_sa_g": 5.65346184096239e-05,
+      "raw_global_arrays_bit_exact": true,
+      "no_other_component_run": true,
+      "exit_code": 0
+    },
+    {
+      "stories": 8,
+      "axis": "X",
+      "scale_factor": 1.0,
+      "unscaled_component_sa_g": 1.8653797447705694e-05,
+      "raw_global_arrays_bit_exact": true,
+      "no_other_component_run": true,
+      "exit_code": 0
+    },
+    {
+      "stories": 8,
+      "axis": "Y",
+      "scale_factor": 0.5,
+      "unscaled_component_sa_g": 3.7308890367210145e-05,
+      "raw_global_arrays_bit_exact": true,
+      "no_other_component_run": true,
+      "exit_code": 0
+    }
+  ]
+}

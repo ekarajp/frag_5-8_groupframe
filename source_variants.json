@@ -1,0 +1,36 @@
+{
+  "routing": {
+    "5": "src_variants/5storey",
+    "6": "src",
+    "7": "src",
+    "8": "src"
+  },
+  "different_scientific_files": [
+    {
+      "path": "fragility_poc/catalog.py",
+      "floor5_sha256": "207273a0837c30d7e3ae0455c9014f7b4a255e4ac841267d1b54404a3585e776",
+      "floor6_8_sha256": "6b9d09df302bf85211c15b557cab3a837012e5d839ce15f8632726e9e8c8cc26"
+    },
+    {
+      "path": "fragility_poc/config.py",
+      "floor5_sha256": "ac1079f1e3d1fa101b1b63ad7c346408e05c1cad6bb043e9a53f677ada7e07d5",
+      "floor6_8_sha256": "4c634d194d544c024ed98430fca13ec9ede6ae22da82cd695c6e9984890eef1e"
+    },
+    {
+      "path": "fragility_poc/io_utils.py",
+      "floor5_sha256": "a419d3d5385623efeae048cf181db3ef8d548c5187b1365b845bcd6ac9d320ed",
+      "floor6_8_sha256": "24d72f11caccd588287e81a0fd983dcbe48439ff5dd5cbba20f88ad13bc0dc06"
+    },
+    {
+      "path": "fragility_poc/runtime_storage.py",
+      "floor5_sha256": "7f44c114a53f7c08663a7475151c0fc48d5590a7ced2763a8b664a56a08f0de9",
+      "floor6_8_sha256": "a73eb23fdad170a8e8e972c11d8920c07c97a6307ac8703c4c86c53be1f21ec7"
+    },
+    {
+      "path": "fragility_poc/structural.py",
+      "floor5_sha256": "9301314c87717612f04ce09d9bd25cc5807b45be38aed578c7d9395efa96140d",
+      "floor6_8_sha256": "d7c0563ba8cedfa0ae052d4c38c60338ba934c5b110bb2e91a9188665b1bcf65"
+    }
+  ],
+  "source_files_edited": 0
+}

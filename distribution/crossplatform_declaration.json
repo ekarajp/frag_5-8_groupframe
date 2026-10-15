@@ -1,0 +1,47 @@
+{
+  "schema": "source-portability-amendment-v1",
+  "original_windows_bundle_manifest_sha256": "7a19ba7166e4dd50a1bb8c47a0be5591b0ca52fae196991aafcc24439a470a83",
+  "scientific_source_files_unchanged": 107,
+  "changes": [
+    {
+      "path": "START_FRAGILITY.bat",
+      "original_sha256": "36f35c97093fff489b83703168b7315c5039fc1a6f639887cbbc2be20afb0a55",
+      "new_sha256": "adfe527e7c80c15a14217ac0f0f90fe55663032f98f361c7271b8735fc308e69"
+    },
+    {
+      "path": "VERIFY_PACKAGE.bat",
+      "original_sha256": "5a7c26c365b82ad60d8c38da5a719325cc0ea5560b022c6097a0da32784b9d41",
+      "new_sha256": "7f29d08629745e015caa24ad6a6834d13d92f5e654bce8e75c010dcf9c6a52d1"
+    },
+    {
+      "path": "VERIFY_RESULTS.bat",
+      "original_sha256": "64544370fd8f0d5b0dcf384b1b051fb373ce9220d2b61a3f2488edb803225e39",
+      "new_sha256": "5b7f1c430e4aa4453674a21dfce834dce0fa02b792f3b22c415bb3d8e3d2ca70"
+    },
+    {
+      "path": "app/common.py",
+      "original_sha256": "5a85914dbe0a5bc9089a4a54106dba25086002267f5e538887cf14496bf4c215",
+      "new_sha256": "2eadc8a929273b968d96ef95c65b39edbd753324bf49090f22050a5208986a7d"
+    },
+    {
+      "path": "app/dashboard.html",
+      "original_sha256": "930389645db729e040dd410bb3872525ac8ea197dad897b0bb7f75b656d3954b",
+      "new_sha256": "901fd6d8b971fd9aab5719e5a8cb0686f2ba75445ec70961e43d879f82a5b035"
+    },
+    {
+      "path": "app/server.py",
+      "original_sha256": "4a45ac19ee32916aae20c31e2dc880ee3cf35f5c1fe9ac8a45b64118301d54a8",
+      "new_sha256": "c8040906762335e0337eae2712ad22bdf8730885da4fab74cd2bd964aca33e7c"
+    },
+    {
+      "path": "tests/portability_no_analysis.py",
+      "original_sha256": "7841d0f824f5bc85343d776bfa78b624c039baa182fdc2de38edb6b55ed4f51f",
+      "new_sha256": "1d93e63e3b4f09d52332dd0c29eae8c1dbacc8ade202adfd49cbb5513dd2581a"
+    }
+  ],
+  "population_analyses_run": 0,
+  "original_package_modified": false,
+  "distribution_scope": "Source, all 2000 original model definitions and CMS inputs in Git; 192 original floor-5 observations via immutable release asset. Large historical comparison reports and Windows runtime stay in original local package.",
+  "supported_native": "Python 3.10 x64 Windows/Linux with OpenSeesPy/native package 3.5.1.3",
+  "macos": "Docker linux/amd64; not a native macOS solver claim"
+}
