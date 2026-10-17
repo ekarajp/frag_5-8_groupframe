@@ -45,9 +45,25 @@ must match an entry in `FRAGILITY_ALLOWED_HOSTS` exactly (Host-header check).
 |---|---|---|
 | `FRAGILITY_BIND` | `127.0.0.1` | Host interface the port is published on. Use `0.0.0.0` (all interfaces) or a specific IP. **Empty falls back to loopback.** |
 | `FRAGILITY_ALLOWED_HOSTS` | *(empty)* | Comma-separated exact `Host:port` values the dashboard accepts, e.g. `192.168.1.6:8788` or `192.168.1.6:8788,100.92.162.38:8788`. `127.0.0.1:<port>` is always allowed. IPv6 literals use bracket form: `[2001:db8::5]:8788`. |
+| `FRAGILITY_CPUS` | `10` | Hard CPU quota for the container (all worker processes + controller share it). Set below the host core count to leave room for other work; recreate with `docker compose up -d` after changing. |
 
 The same list can be set in-process with `run.py --allowed-host HOST:PORT` (repeatable,
 comma-splittable) for non-Docker use.
+
+## Resource limits & log rotation
+
+- **CPU**: the container is capped by `FRAGILITY_CPUS` (default 10) via the Docker CFS
+  quota — analyses cannot starve the host's other services no matter how many workers run.
+  Each worker is single-threaded (BLAS/OpenMP pinned to 1) and the controller ≈ 1 core, so
+  set the dashboard **Workers ≈ quota − 1** when Starting (more workers than quota just
+  time-share it, finishing nothing faster).
+- **Memory is not capped** — size the worker count against what the host can spare and
+  watch `docker stats` during the first hours of a campaign.
+- **Container logs** (`docker compose logs`) use the json-file driver rotated at
+  **3 × 10 MB** — bounded disk use with recent history preserved.
+- Files under `state/run-*/` (`events.jsonl`, per-job `native-*.log`, points, reports) are
+  **campaign audit data, not logs** — they are intentionally not rotated or deleted; the
+  engine's 10 GiB disk reserve covers them.
 
 ## Daily operation
 

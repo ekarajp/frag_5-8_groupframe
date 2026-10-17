@@ -3,6 +3,12 @@ services:
     platform: linux/amd64
     build: .
     init: true
+    cpus: "${FRAGILITY_CPUS:-10}"
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
     ports:
       - "${FRAGILITY_BIND:-127.0.0.1}:8788:8788"
     environment:
