@@ -30,14 +30,15 @@ ssh -L 8788:127.0.0.1:8788 user@your-server
 
 ## macOS / Docker Desktop / Linux Docker
 
-ติดตั้ง Docker และ Python 3.10+ สำหรับดาวน์โหลดข้อมูล (ใช้ Python นี้ดาวน์โหลดเท่านั้น ไม่ใช่ native solver):
+ใช้ Docker Engine 23+ กับ Compose v2 (BuildKit) — build ดาวน์โหลดข้อมูลชั้น 5 (~643 MB) จาก GitHub Release เอง ตรวจ SHA-256 ทุกไฟล์ ไม่ต้องมี Python บนเครื่อง host อีกต่อไป:
 
 ```bash
-python3 tools/prepare_data.py
 docker compose up --build
 ```
 
 เปิด http://127.0.0.1:8788 ผลอยู่ใน `state/` บนเครื่อง host และ cache ใน `runtime_storage/` เปิดเฉพาะ loopback ไม่ต้องเปิดพอร์ต dashboard สู่ Internet ก่อน `docker compose down` ให้กด Stop แล้วรอ active=0 เพื่อเก็บจุดปัจจุบันครบ ห้ามเปิดสอง controller ต่อ state เดียวกัน
+
+เครื่อง Linux server ไม่มีจอ หรือเข้าถึงผ่าน LAN: ดู [docs/DEPLOY_UBUNTU.md](docs/DEPLOY_UBUNTU.md) — ตั้ง `FRAGILITY_BIND`/`FRAGILITY_ALLOWED_HOSTS` ใน `.env` สร้างโฟลเดอร์ `state/` `runtime_storage/` ให้เป็นของ UID 1000 ก่อน `up` ครั้งแรก แล้วเปิด `http://<server-ip>:8788`
 
 ## ไฟล์และข้อมูลที่ได้รับ
 

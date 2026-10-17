@@ -68,8 +68,8 @@
     },
     {
       "path": "app/server.py",
-      "bytes": 7028,
-      "sha256": "c8040906762335e0337eae2712ad22bdf8730885da4fab74cd2bd964aca33e7c"
+      "bytes": 7815,
+      "sha256": "ca3b9bc6fc65d06500410c4e4266d8eee6bdfd67113a7b9122ab0a5acbe55356"
     },
     {
       "path": "app/verify.py",

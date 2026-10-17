@@ -23,9 +23,14 @@ def main():
     parser.add_argument('--state')
     parser.add_argument('--bind',choices=('127.0.0.1','0.0.0.0'),default='127.0.0.1',
                         help='0.0.0.0 only for a container mapped to host loopback')
+    parser.add_argument('--allowed-host',action='append',default=[],metavar='HOST:PORT',
+                        help='extra exact Host header allowed for LAN/VLAN access; repeat or comma-separate; env FRAGILITY_ALLOWED_HOSTS adds more')
     args = parser.parse_args()
     state = Path(args.state or ROOT/'state').resolve()
     state.mkdir(parents=True,exist_ok=True)
+    extra=[v.strip().lower() for a in args.allowed_host for v in a.split(',')]+[v.strip().lower() for v in os.environ.get('FRAGILITY_ALLOWED_HOSTS','').split(',')]
+    allowed={h for h in extra if h}|{f'127.0.0.1:{args.port}'}
+    origins={f'http://{h}' for h in allowed}
     # OS lock released on crash, unlike a stale heartbeat lock file.
     lock = (state/'server.lock').open('a+b')
     if lock.tell() == 0:
@@ -73,7 +78,7 @@ def main():
             self.end_headers()
             self.wfile.write(data)
         def safe_host(self):
-            return self.headers.get('Host') == f'127.0.0.1:{args.port}'
+            return (self.headers.get('Host') or '').lower() in allowed
         def do_GET(self):
             if not self.safe_host():
                 return self.send(403,{'error':'Local dashboard Host required'})
@@ -103,7 +108,7 @@ def main():
             if not self.safe_host() or self.headers.get('X-Runner-Token') != token:
                 return self.send(403,{'error':'Invalid local request token'})
             origin = self.headers.get('Origin')
-            if origin and origin != f'http://127.0.0.1:{args.port}':
+            if origin and origin.lower() not in origins:
                 return self.send(403,{'error':'Cross-origin request refused'})
             try:
                 length = int(self.headers.get('Content-Length','0'))
@@ -131,10 +136,15 @@ def main():
                 self.send(500,{'error':str(e)})
     httpd = ThreadingHTTPServer((args.bind,args.port),Handler)
     write(state/'dashboard.json',{'url':f'http://127.0.0.1:{args.port}','pid':os.getpid(),
-                                'production_autostart':False})
+                                'allowed_hosts':sorted(allowed),'production_autostart':False})
     if not args.no_browser:
         webbrowser.open(f'http://127.0.0.1:{args.port}')
     print(f'Dashboard ready: http://127.0.0.1:{args.port} — waiting for Start',flush=True)
+    extras=sorted(allowed-{f'127.0.0.1:{args.port}'})
+    if extras:
+        print(f'Additional allowed Host values: {", ".join(extras)}',flush=True)
+    def _sigterm(signum,frame):raise KeyboardInterrupt
+    signal.signal(signal.SIGTERM,_sigterm)
     try:
         httpd.serve_forever(poll_interval=.3)
     except KeyboardInterrupt:

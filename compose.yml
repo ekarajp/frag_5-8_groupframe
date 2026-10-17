@@ -2,8 +2,11 @@ services:
   fragility:
     platform: linux/amd64
     build: .
+    init: true
     ports:
-      - "127.0.0.1:8788:8788"
+      - "${FRAGILITY_BIND:-127.0.0.1}:8788:8788"
+    environment:
+      - FRAGILITY_ALLOWED_HOSTS=${FRAGILITY_ALLOWED_HOSTS:-}
     volumes:
       - ./state:/app/state
       - ./runtime_storage:/app/runtime_storage
